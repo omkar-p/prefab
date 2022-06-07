@@ -149,17 +149,96 @@
             </div>
 
             <div class="bg-slider-options">
-                <div id="page-head-bg-img-1" class="bg-slider-img" onclick="changeHeadBg(0)">
-                    <img src="./static/images/Shore_CB.jpg" alt="">
+                <div id="page-head-bg-img-1" class="bg-slider-img-container" onclick="changeHeadBg(0)">
+                    <div class="bg-slider-img">
+                        <img src="./static/images/Shore_CB.jpg" alt="">
+                    </div>
+                    <div class="active-ln"></div>
                 </div>
-                <div id="page-head-bg-img-2" class="bg-slider-img" onclick="changeHeadBg(1)">
-                    <img src="./static/images/Desert.jpg" alt="">
+                <div id="page-head-bg-img-2" class="bg-slider-img-container" onclick="changeHeadBg(1)">
+                    <div class="bg-slider-img">
+                        <img src="./static/images/Desert.jpg" alt="">
+                    </div>
+                    <div class="active-ln"></div>
                 </div>
-                <div id="page-head-bg-img-3" class="bg-slider-img" onclick="changeHeadBg(2)">
-                    <img src="./static/images/Desert_cliff.jpg" alt="">
+                <div id="page-head-bg-img-3" class="bg-slider-img-container" onclick="changeHeadBg(2)">
+                    <div class="bg-slider-img">
+                        <img src="./static/images/Desert_cliff.jpg" alt="">
+                    </div>
+                    <div class="active-ln"></div>
                 </div>
-                <div id="page-head-bg-img-4" class="bg-slider-img" onclick="changeHeadBg(3)">
-                    <img src="./static/images/Forest_2k.jpg" alt="">
+                <div id="page-head-bg-img-4" class="bg-slider-img-container" onclick="changeHeadBg(3)">
+                    <div class="bg-slider-img">
+                        <img src="./static/images/Forest_2k.jpg" alt="">
+                    </div>
+                    <div class="active-ln"></div>
+                </div>
+            </div>
+        </div>
+        <div class="models-carosul-container">
+            <div class="models-carosul-content">
+                <h3>TO UNTAPPED <font>DESTINATIONS</font></h3>
+                <p class="content-line-2">Stay wherever you go</p>
+                <p>Lorem ipsum 3% dolor sit amet, consectetur adipiscing elit. Praesent tempus, ante vitae aliquet laoreet, nibh lectus blandit sem.</p>
+                <div class="next-prev-button-container">
+                    <div class="next-prev-button prev-button" onclick="slidePrevModelCarosulItem()">
+                        <div class="next-prev-button-prefix prev-button-prefix"></div>
+                        <div>PREV</div>
+                    </div>
+                    <div class="next-prev-button next-button" onclick="slideNextModelCarosulItem()">
+                        <div>NEXT</div>
+                        <div class="next-prev-button-prefix next-button-prefix"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="model-carosul-outer-container">
+                <div class="model-carosul">
+                    <div id="model-carosul-item-active" class="model-carosul-item active">
+                        <img class="img-responsive" src="./static/images/Cabin_Desert_4to3.jpg" alt="">
+                        <div class="model-carosul-item-detail-container">
+                            <div class="model-carosul-nxt-prev-btn model-carosul-prev-btn">
+                                <div class="next-prev-button-prefix prev-button-prefix"  onclick="slidePrevModelCarosulItem()"></div>
+                            </div>
+                            <div class="model-carosul-item-detail">
+                                <div class="carosul-slider">
+                                    <div id="model-carosul-item-slider-1"></div>
+                                    <div id="model-carosul-item-slider-2"></div>
+                                    <div id="model-carosul-item-slider-3"></div>
+                                    <div id="model-carosul-item-slider-4"></div>
+                                    <div id="model-carosul-item-slider-5"></div>
+                                </div>
+                                <p>AlAmmareyyah Edition</p>
+                                <p class="price-start-from-label">Start from</p>
+                                <p class="price-start-from">XXX,XXX SR</p>
+                            </div>
+                            <div class="model-carosul-nxt-prev-btn model-carosul-nxt-btn">
+                                <div class="next-prev-button-prefix next-button-prefix" onclick="slideNextModelCarosulItem()"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="model-carosul-item-hidden" class="model-carosul-item">
+                        <img class="img-responsive" src="./static/images/Cabin_Desert_4to3.jpg" alt="">
+                        <div class="model-carosul-item-detail-container">
+                            <div class="model-carosul-nxt-prev-btn model-carosul-prev-btn">
+                                <div class="next-prev-button-prefix prev-button-prefix" onclick="slidePrevModelCarosulItem()"></div>
+                            </div>
+                            <div class="model-carosul-item-detail">
+                                <div class="carosul-slider">
+                                    <div id="model-carosul-item-slider-1"></div>
+                                    <div id="model-carosul-item-slider-2"></div>
+                                    <div id="model-carosul-item-slider-3"></div>
+                                    <div id="model-carosul-item-slider-4"></div>
+                                    <div id="model-carosul-item-slider-5"></div>
+                                </div>
+                                <p>AlAmmareyyah Edition</p>
+                                <p class="price-start-from-label">Start from</p>
+                                <p class="price-start-from">XXX,XXX SR</p>
+                            </div>
+                            <div class="model-carosul-nxt-prev-btn model-carosul-nxt-btn">
+                                <div class="next-prev-button-prefix next-button-prefix" onclick="slideNextModelCarosulItem()"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -438,6 +517,32 @@
             var changeHeadBgTimeout;
             var images=new Array('','','','');
 
+
+            var currentModelCarosulItem=-1;
+            var modelCarosulItems = [
+                {
+                    "id": "model-carosul-item-1",
+                    "imgPath": "./static/images/Cabin_Desert_4to3.jpg"
+                },
+                {
+                    "id": "model-carosul-item-2",
+                    "imgPath": "./static/images/Shore_CB_4to3.jpg"
+                },
+                {
+                    "id": "model-carosul-item-3",
+                    "imgPath": "./static/images/Desert_cliff_4to3.jpg"
+                },
+                {
+                    "id": "model-carosul-item-4",
+                    "imgPath": "./static/images/Forest_2k_4to3.jpg"
+                },
+                {
+                    "id": "model-carosul-item-5",
+                    "imgPath": "./static/images/Forest_4to3.jpg"
+                }
+            ];
+
+
             $(document).click(function (e) {
                 if ($(e.target).parents(".alerts").length === 0 && document.getElementById('alerts')!=null) {
                     // $("#alerts").fadeOut();
@@ -446,7 +551,8 @@
                 }
             });
 
-            doSlideshow();
+            // doSlideshow();
+            changeHeadBg(0);
 
             function doSlideshow(){
                 if(nextimage>=pageHeadBgImages.length){nextimage=0;}
@@ -458,9 +564,8 @@
                     changeHeadBgTimeout = setTimeout(doSlideshow,3000);
                 });
 
-                $('.bg-slider-img').removeClass("active");
+                $('.bg-slider-img-container').removeClass("active");
                 $('#'+nextBgImageObj.id).addClass("active");
-                console.log($('#'+nextBgImageObj.id))
             }
 
             function changeHeadBg(pageHeadBgIdx) {
@@ -469,11 +574,11 @@
                 $('.page-head-part')
                 .css('background-image','url("'+nextBgImageObj.imgPath+'")')
                 .fadeIn(500,function(){
-                    clearTimeout(changeHeadBgTimeout);
-                    changeHeadBgTimeout = setTimeout(doSlideshow,3000);
+                    // clearTimeout(changeHeadBgTimeout);
+                    // changeHeadBgTimeout = setTimeout(doSlideshow,3000);
                 });
 
-                $('.bg-slider-img').removeClass("active");
+                $('.bg-slider-img-container').removeClass("active");
                 $('#'+nextBgImageObj.id).addClass("active");
             }
 
@@ -487,6 +592,69 @@
                 $('.model-closup-tab').removeClass("active");
                 $('#'+nextBgImageObj.id).addClass("active");
             }
+
+            slideNextModelCarosulItem();
+
+            function slideNextModelCarosulItem(){
+                if(currentModelCarosulItem<modelCarosulItems.length-1){
+                    console.log(currentModelCarosulItem);
+                    var nextItemObj = modelCarosulItems[++currentModelCarosulItem];
+                    $("#model-carosul-item-active img")
+                    .attr("src", nextItemObj.imgPath)
+                    .fadeIn(500);
+
+                    $('.carosul-slider div').removeClass("active");
+                    $('#model-carosul-item-slider-'+(currentModelCarosulItem+1)).addClass("active");
+
+                    console.log(currentModelCarosulItem);
+                    if(currentModelCarosulItem<modelCarosulItems.length-1) {
+                        $("#model-carosul-item-hidden").css("display", "block");
+
+                        var hiddenCarosulItemIdx = currentModelCarosulItem+1;
+                        console.log(hiddenCarosulItemIdx);
+                        var hiddenItemObj = modelCarosulItems[hiddenCarosulItemIdx];
+                        console.log(hiddenItemObj);
+                        $("#model-carosul-item-hidden img")
+                        .attr("src", hiddenItemObj.imgPath)
+                        .fadeIn(500);
+                    }
+                    else {
+                        $("#model-carosul-item-hidden img")
+                        .attr("src", "");
+                        $("#model-carosul-item-hidden").css("display", "none");
+                    }
+                }
+            }
+
+
+            function slidePrevModelCarosulItem(){
+                if(currentModelCarosulItem>0){
+                    var nextItemObj = modelCarosulItems[--currentModelCarosulItem];
+                    $("#model-carosul-item-active img")
+                    .attr("src", nextItemObj.imgPath)
+                    .fadeIn(500);
+
+                    $('.carosul-slider div').removeClass("active");
+                    $('#model-carosul-item-slider-'+(currentModelCarosulItem+1)).addClass("active");
+
+                    if(currentModelCarosulItem<modelCarosulItems.length-1) {
+                        $("#model-carosul-item-hidden").css("display", "block");
+
+                        var hiddenCarosulItemIdx = currentModelCarosulItem+1;
+                        var hiddenItemObj = modelCarosulItems[hiddenCarosulItemIdx];
+                        $("#model-carosul-item-hidden img")
+                        .attr("src", hiddenItemObj.imgPath)
+                        .fadeIn(500);
+                    }
+                    else {
+                        $("#model-carosul-item-hidden img")
+                        .attr("src", "");
+                        $("#model-carosul-item-hidden").css("display", "none");
+                    }
+                }
+            }
+
+
 
             function myMap() {
                 var mapProp = {
