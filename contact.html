@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>home</title>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+        
+        <link rel="stylesheet" href="./static/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+        
+        <!-- <link href="http://fonts.cdnfonts.com/css/adobe-clean" rel="stylesheet"> -->
+
+
+        <script src="static/scripts/sidebar.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="static/stylesheets/sidebar.css">
+    </head>
+
+    <body>
+        <!-- <?php 
+            if(!empty($_REQUEST['alert']) && $_REQUEST['alert']==1){
+        ?>
+        <div id="alerts" class="alerts">
+            <?php 
+                if(!empty($_REQUEST['mail_success']) && $_REQUEST['mail_success']==1){
+            ?>
+            <div id="success-alert-model" class="model-box success-alert">
+                <div class="model-icon">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </div>
+                <div class="model-header">
+                    <h3> Thank you for your response </h3>
+                </div>
+                <div class="model-content">
+                    <p>Message sent successfully! We will be in touch with you soon!!</p>    
+                </div>
+                <div class="model-footer">
+                    <button class="btn btn-success" onclick="hideModel()">Okay</button>
+                </div>
+            </div>
+            <?php
+                }
+            ?>
+            <?php 
+                if(!empty($_REQUEST['mail_failure']) && $_REQUEST['mail_failure']==1){
+            ?>
+            <div id="error-alert-model" class="model-box error-alert">
+                <div class="model-icon">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+                <div class="model-header">
+                    <h3> Failed </h3>
+                </div>
+                <div class="model-content">
+                    <p>Failed to send message! Please reach us on support@prefab.com for any query</p>    
+                </div>
+                <div class="model-footer">
+                    <button class="btn btn-danger" onclick="hideModel()">Okay</button>
+                </div>
+            </div>
+            <?php
+                }
+            ?>
+        </div>
+        <?php
+            }
+        ?> -->
+        <div id="sidebar-container" class="sidebar-container" onClick="toggleSidebar()">
+            <div class="sidebar">
+                <div class="close-btn-container">
+                    <div class="close-btn slide-button slide_diagonal">
+                        <i class="fa fa-times"></i>
+                    </div>
+                </div>
+                <div class="menu-bars">
+                    <div id="left-menu-bar" class="left-menu-bar">
+                        <a href="index.html" class="menu">
+                            HOME
+                        </a>
+                        <a href="modals.html" class="menu">
+                            OUR MODALS
+                        </a>
+                        <a href="about-us.html" class="menu">
+                            ABOUT US
+                        </a>
+                        <a href="#" class="menu">
+                            BLOGS
+                        </a>
+                        <a href="contact.html" class="menu">
+                            CONTACTS
+                        </a>
+                    </div>
+                    <div class="right-menu-bar">
+                        <button class="track-order-button slide-button slide_right"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Track Order</button>
+                        <div class="get-in-touch">
+                            <div class="menu title">
+                                GET IN TOUCH
+                            </div>
+                            <div class="menu detail">
+                                Support@nozal.sa
+                            </div>
+                            <div class="menu detail">
+                                +966 5000 0000
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-head-part">
+            <header>
+                <!-- <div class="logo">
+                    <div>P</div>
+                    <div>R</div>
+                    <div>E</div>
+                    <div class="font-weight-bold">F</div>
+                    <div class="font-weight-bold">A</div>
+                    <div class="font-weight-bold">B</div>
+                </div> -->
+                <div class="logo">
+                    <img src="./static/images/logo_2.png" alt="" class="logoimg">
+                </div>
+                <div class="header-right">
+                    <div class="lang-bx">AR</div>
+                    <div class="sidebar-btn"  onClick="toggleSidebar()">
+                        <div class="sidbar-ln sidbar-ln-top"></div>
+                        <div class="sidbar-ln sidbar-ln-middle"></div>
+                        <div class="sidbar-ln sidbar-ln-bottom"></div>
+                    </div>
+                </div>
+            </header>
+            <div class="ui-pattern-1"></div>
+
+            <div class="slogan-with-order-btn">
+                <p>
+                    CUSTOMIZED CONTAINERS
+                </p>
+                <h1>WE CREATE <br> <font>DREAM PREFAB CABINS</font></h1>
+                <a href="modals.html"><button class="slide-button slide_right">ORDER NOW</button></a>
+            </div>
+
+            <div class="bg-slider-options">
+                <div id="page-head-bg-img-1" class="bg-slider-img" onclick="changeHeadBg(0)">
+                    <img src="./static/images/Shore_CB.jpg" alt="">
+                </div>
+                <div id="page-head-bg-img-2" class="bg-slider-img" onclick="changeHeadBg(1)">
+                    <img src="./static/images/Desert.jpg" alt="">
+                </div>
+                <div id="page-head-bg-img-3" class="bg-slider-img" onclick="changeHeadBg(2)">
+                    <img src="./static/images/Desert_cliff.jpg" alt="">
+                </div>
+                <div id="page-head-bg-img-4" class="bg-slider-img" onclick="changeHeadBg(3)">
+                    <img src="./static/images/Forest_2k.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="modal-categories-container">
+            <div class="row row1">
+                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 col1 modal-categories-detail">
+                    <div class="headrow">
+                        MODAL CATEGORIES
+                    </div>
+                    <div class="datarow">
+                        check the best type of our modal which prefer your business.and If you have question about this container, please feel free to ask by our engineers.
+                    </div>
+                    <div class="contactus">
+                        <button type="button" class="contactusbtn" onclick="goToContactUs()">contact us</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 col2 modal-categories">
+                    <div class="row col2row1">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 modal-category facility">
+                            <i class="fa fa-cog" aria-hidden="true"></i>
+                            <p>Facilities</p>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 modal-category office">
+                            <i class="fa fa-building" aria-hidden="true"></i>
+                            <p>office</p>
+                        </div>
+                    </div>
+                    <div class="row col2row2">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 modal-category commercial">
+                            <i class="fa fa-building" aria-hidden="true"></i>
+                            <p>commercial</p>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 modal-category residence">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                            <p>residence</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-closup-container">
+            <div class="modal-closup-head">
+                <h3>MODEL CLOSE-UP</h3>
+            </div>
+            <div class="modal-closup-box">
+                <div class="modal-closup-box-bg-1"></div>
+                <div class="modal-closup-box-bg-2"></div>
+                <div class="modal-closup">
+                    <div class="model-closup-tabs">
+                        <div id="model-closup-preview" class="model-closup-tab active"  onclick="changeModelClosup(0)">
+                            MODAL PREVIEW
+                        </div>
+                        <div id="model-closup-plan" class="model-closup-tab"  onclick="changeModelClosup(1)">
+                            FLOOR PLAN
+                        </div>
+                        <div id="model-closup-interior" class="model-closup-tab"  onclick="changeModelClosup(2)">
+                            INTERIOR
+                        </div>
+                        <div id="model-closup-exterior" class="model-closup-tab"  onclick="changeModelClosup(3)">
+                            EXTERIOR
+                        </div>
+                    </div>
+                    <div class="model-closup-detail">
+                        <h3>Omnia Hotel Nozol 1 Bed</h3>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+                        <a href="modals.html"><button class="slide-button slide_right">ORDER NOW</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="designed-experience-external-container">
+            <div class="designed-experience-container">
+                <div class="designed-exerinence-content">
+                    <p class="top-head" style="color: #CC9B55;padding-bottom: 10px;margin-bottom: 0;">Welcome To Nozol</font></p>
+                    <h3>We Can Creat More Than You Expect</h3>
+                    <P class="designed-exerinence-content-body">The founders of Nozol are dedicated to producing quality products that meet and exceed client expectations. Each Pod has been designed with passion and to the highest international standards. It is understood that every project is unique and requires that special extra touch.</P>
+                    <hr>
+                </div>
+                <div class="back-imgs">
+                    <div class="gray-bitmap"></div>
+                    <img class="bathroom" src="./static/images/Desert_Wide_croped_vertical.jpg" alt="">
+                    <img class="bedroom" style="width: 250px;" src="./static/images/Shore_CB_croped_vertical.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="designed-experience-external-container-2">
+            <!-- <div class="designed-experience-container">
+                <div class="designed-exerinence-content">
+                    <p class="top-head">Welcome To <font>PREFAB</font></p>
+                    <h3>A DESIGNED EXPERIENCE</h3>
+                    <P class="designed-exerinence-content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula nulla ac leo pretium sollicitudin. Mauris at porta nulla, nec tristique sem. Nam molestie auctor lectus ac congue. In et tristique urna. Duis eget elit scelerisque, vehicula quam non, posuere.</P>
+                    <hr>
+                </div>
+                <div class="back-imgs">
+                    <div class="gray-bitmap"></div>
+                    <img class="bathroom" src="./static/images/BATHROOM.jpg" alt="">
+                    <img class="bedroom" src="./static/images/BEDROOM.jpg" alt="">
+                </div>
+            </div> -->
+            <div class="designed-experience-bg-1"></div>
+            <div class="designed-experience-bg-2"></div>
+            <div class="designed-experience-container-2">
+                <div class="back-imgs">
+                    <!-- <div class="gray-bitmap"></div> -->
+                    <img class="bathroom" src="./static/images/Desert_Wide_croped_vertical.jpg" alt="">
+                    <img class="bedroom" style="width: 400px;" src="./static/images/Cabin_Desert_2k.jpg" alt="">
+                </div>
+                <div class="designed-exerinence-content">
+                    <p class="top-head">Welcome To <font>Nozol</font></p>
+                    <h3>We Can Creat More Than You <br> Expect</h3>
+                    <P class="designed-exerinence-content-body">The founders of Nozol are dedicated to producing quality products that meet and exceed client expectations. Each Pod has been designed with passion and to the highest international standards. It is understood that every project is unique and require.</P>
+                    <a href="modals.html"><button class="slide-button slide_right">ORDER NOW</button></a>
+                </div>
+            </div>
+        </div>
+        <div id="contact-us-form" class="page-contact-us-part">
+            <div class = "contact-us-container">
+                <p class="contact-us-title">Contact us</p>
+                <p class="write-us-title">You Can Write Us</p>
+                <form method="POST" action="contact-us.php">
+                    <div class="form-container">
+                        <div class="form-fields">
+                            <select class="form-input" style="width:100%;" name="issue" id="">
+                                <option value="" hidden>Please choose your issue below</option>
+                                <option value="1">Issue 1</option>
+                                <option value="2">Issue 2</option>
+                            </select>
+                            <div class="form-fields-row">
+                                <input class="form-input" style="margin-right: 10px;" type="text" name="name" id="" placeholder="Name">
+                                <input class="form-input" type="text" name="email" id="" placeholder="Email">
+                            </div>
+                            <textarea class="form-input form-input-textarea" name="description" id="" placeholder="Description"></textarea>
+                        </div>
+                        <div class="location-map-container">
+                            <!-- <div id="googleMap" style="width:100%;height:100%;"></div> -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927755.0518381862!2d46.26204078024357!3d24.725398108760096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1653410078325!5m2!1sen!2sin"
+                    width="330" height="300" style="width:100%;height:100%;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <button type="submit" name="sendMessage">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+        <div class="page-foot-part">
+            <footer>
+                <div class="footer-left">
+                    <div class="footer-left-top">
+                        <div class="footer-left-top-contianer footer-details-container">
+                            <div class="logo">
+                                <div>P</div>
+                                <div>R</div>
+                                <div>E</div>
+                                <div class="font-weight-bold">F</div>
+                                <div class="font-weight-bold">A</div>
+                                <div class="font-weight-bold">B</div>
+                            </div>
+                            <div class="footer-app-short">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                            </div>
+                            <a href="modals.html"><button class="slide-button slide_right">ORDER NOW</button></a>
+                        </div>
+                        <div class="footer-left-top-contianer footer-contact-container">
+                            <p class="head">
+                                CONTACT
+                            </p>
+                            <div class="content">
+                                <p class="head">PHONE</p>
+                                <p class="value">+966 666 444 0000</p>
+                            </div>
+                            <div class="content">
+                                <p class="head">ADDRESS</p>
+                                <p class="value">22 Road, borklyn street Riyadh, Saudi Arabia</p>
+                            </div>
+                            <div class="content">
+                                <p class="head">EMAIL</p>
+                                <p class="value">customers@nozol.sa</p>
+                            </div>
+                        </div>
+                        <div class="footer-left-top-contianer footer-nozol-container">
+                            <p class="head">
+                                NOZOL
+                            </p>
+                            <p class="link">Our Models</p>
+                            <p class="link">About Us</p>
+                            <p class="link">Pricing</p>
+                            <p class="link">How it works</p>
+                            <p class="link">Account</p>
+                            <p class="link">ENG</p>
+                        </div>
+                        <div class="footer-left-top-contianer footer-support-container">
+                            <p class="head">
+                                SUPPORT
+                            </p>
+                            <p class="link">FAQs</p>
+                            <p class="link">Contact Us</p>
+                            <p class="link">Terms of Service</p>
+                            <p class="link">Privacy</p>
+                            <p class="link">Careers</p>
+                            <p class="link">Blogs</p>
+                        </div>
+                    </div>
+                    <div class="footer-left-bottom">
+                        <div class="back-to-top-btn" onclick="gotoTop()"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> BACK TO TOP</div>
+                        <div> © 2021 PREFAB, All copyright reserve</div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                   <p class="head">FOLLOW US</p>
+                   <div class="social-handle-container">
+                        <div class="social-handle">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-handle">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-handle">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-handle">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </div>
+                   </div>
+                   <div class="news-letter-input">
+                        <p class="news-letter-input-label mb-3">Sign to our newsletter for updates</p>
+                        <input type="text" placeholder="Email...">
+                   </div>
+                </div>
+            </footer>
+        </div>
+
+        <script>
+            var nextimage=0;
+            var pageHeadBgImages = [
+                {
+                    "id": "page-head-bg-img-1",
+                    "imgPath": "./static/images/Shore_CB.jpg"
+                },
+                {
+                    "id": "page-head-bg-img-2",
+                    "imgPath": "./static/images/Desert.jpg"
+                },
+                {
+                    "id": "page-head-bg-img-3",
+                    "imgPath": "./static/images/Desert_cliff.jpg"
+                },
+                {
+                    "id": "page-head-bg-img-4",
+                    "imgPath": "./static/images/Forest_2k.jpg"
+                }
+            ];
+
+            var nextModelClosup = 0;
+            var modelClosupImages = [
+                {
+                    "id": "model-closup-preview",
+                    "imgPath": "./static/images/omino_hotel_nozal.jpg"
+                },
+                {
+                    "id": "model-closup-plan",
+                    "imgPath": "./static/images/Desert.jpg"
+                },
+                {
+                    "id": "model-closup-interior",
+                    "imgPath": "./static/images/Shore_CB.jpg"
+                },
+                {
+                    "id": "model-closup-exterior",
+                    "imgPath": "./static/images/Cabin_Desert_2k.jpg"
+                }
+            ];
+            var changeHeadBgTimeout;
+            var images=new Array('','','','');
+
+            $(document).click(function (e) {
+                if ($(e.target).parents(".alerts").length === 0 && document.getElementById('alerts')!=null) {
+                    // $("#alerts").fadeOut();
+                    removeFadeOut(document.getElementById('alerts'), 500);
+                    window.location.href = window.location.origin+window.location.pathname;
+                }
+            });
+
+            doSlideshow();
+
+            function doSlideshow(){
+                if(nextimage>=pageHeadBgImages.length){nextimage=0;}
+                var nextBgImageObj = pageHeadBgImages[nextimage++];
+                $('.page-head-part')
+                .css('background-image','url("'+nextBgImageObj.imgPath+'")')
+                .fadeIn(500,function(){
+                    clearTimeout(changeHeadBgTimeout);
+                    changeHeadBgTimeout = setTimeout(doSlideshow,3000);
+                });
+
+                $('.bg-slider-img').removeClass("active");
+                $('#'+nextBgImageObj.id).addClass("active");
+            }
+
+            function changeHeadBg(pageHeadBgIdx) {
+                nextimage=pageHeadBgIdx;
+                var nextBgImageObj = pageHeadBgImages[nextimage++];
+                $('.page-head-part')
+                .css('background-image','url("'+nextBgImageObj.imgPath+'")')
+                .fadeIn(500,function(){
+                    clearTimeout(changeHeadBgTimeout);
+                    changeHeadBgTimeout = setTimeout(doSlideshow,3000);
+                });
+
+                $('.bg-slider-img').removeClass("active");
+                $('#'+nextBgImageObj.id).addClass("active");
+            }
+
+            function changeModelClosup(modelClosupIdx) {
+                nextModelClosup=modelClosupIdx;
+                var nextBgImageObj = modelClosupImages[nextModelClosup++];
+                $('.modal-closup')
+                .css('background-image','url("'+nextBgImageObj.imgPath+'")')
+                .fadeIn(500);
+
+                $('.model-closup-tab').removeClass("active");
+                $('#'+nextBgImageObj.id).addClass("active");
+            }
+
+            function myMap() {
+                var mapProp = {
+                    center:new google.maps.LatLng(51.508742,-0.120850),
+                    zoom:5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+
+            function gotoTop() {
+                var scrollStep = -window.scrollY / (150 / 15);
+                var scrollInterval = setInterval(function () {
+                if (window.scrollY != 0) {
+                    window.scrollBy(0, scrollStep);
+                }
+                else clearInterval(scrollInterval);
+                }, 15);
+
+            }
+
+            function goToContactUs() {
+                $('html,body').animate({
+                    scrollTop: $('#contact-us-form').offset().top
+                }, 1000);
+            }
+
+            function hideModel() {
+                // $("#alerts").fadeOut();
+                removeFadeOut(document.getElementById('alerts'), 500);
+                window.location.href = window.location.origin+window.location.pathname;
+            }
+
+            function removeFadeOut( el, speed ) {
+                var seconds = speed/1000;
+                el.style.transition = "opacity "+seconds+"s ease";
+
+                el.style.opacity = 0;
+                setTimeout(function() {
+                    el.parentNode.removeChild(el);
+                }, speed);
+            }
+
+            
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    </body>
+</html>

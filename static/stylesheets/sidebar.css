@@ -1,0 +1,138 @@
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: .8;
+    width: 100vw;
+    height: 100vh;
+    background: #262723;
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 980 !important;
+    transition: .5s;
+    /* display: none; */
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.sidebar {
+    width: 100%;
+    height: 100%;
+    /* border-right: 1px solid #333; */
+    /* margin-top: 65px; */
+}
+
+.sidebar .close-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sidebar .close-btn {
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+}
+
+.sidebar .menu-bars {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar .left-menu-bar {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar .right-menu-bar {
+    width: 30%;
+}
+
+.sidebar .left-menu-bar .menu {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.sidebar .left-menu-bar .menu + .active {
+    border-left: 1px solid #fff;
+}
+
+.sidebar .track-order-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+    /* UI Properties */
+    background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    /* box-shadow: 10px 10px 20px #221F2033; */
+    opacity: 1;
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.sidebar .track-order-button i {
+    font-size: 18px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.sidebar .get-in-touch {
+    font-size: 11px;
+}
+
+.sidebar .get-in-touch .title {
+    color: #ACACAC;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-left: 1px solid #fff;
+}
+
+.sidebar .get-in-touch .detail {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.sidebar-container{
+    z-index: 1800;
+    height: 100vh;
+    transition: .5s;
+    /* position: absolute; */
+    left: 0px;
+    /* right: -265px; */
+    left: 100%;
+}
+
+.show {
+    left: 0;
+}
