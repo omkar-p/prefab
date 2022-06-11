@@ -1,0 +1,229 @@
+header {
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /* width: 119px; */
+    /* width: 100px;
+    height: 19px; */
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.logo .logoimg {
+    height: 36px;
+    width: 153px;
+}
+
+.logo-font-1 {
+    top: 60px;
+    left: 160px;
+    width: 18px;
+    height: 24px;
+    background: var(--ma-262723) 0% 0% no-repeat padding-box;
+    background: #262723 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.lang-bx {
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--ma-262723);
+    box-shadow: 10px 10px 20px #221F2033;
+    border: 1px solid #262723;
+    opacity: 1;
+    text-align: center;
+    /* font-family: Montserrat-Arabic; */
+    /* font: Montserrat-Arabic; */
+    letter-spacing: 0px;
+    color: #262723;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #262723;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.lang-bx :hover {
+    box-shadow: inset 0 0 0 50px #262723;
+    color: #FFFFFF;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-btn {
+    width: 25px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    cursor: pointer;
+}
+
+.sidbar-ln {
+    height: 3px;
+    background-color: #262723;
+}
+
+.sidbar-ln-top,
+.sidbar-ln-bottom {
+    width: 50%;
+}
+
+.sidbar-ln-middle {
+    width: 100%;
+}
+
+.sidbar-ln-bottom {
+    align-self: flex-end;
+}
+
+
+
+
+@media only screen and (min-width:1500px) and (max-width:2500px) {
+    header {
+        padding: 40px 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo {
+        /* width: 119px; */
+        /* width: 100px;
+        height: 19px; */
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+    }
+    .logo img {
+        width: 160px;
+        height: 34px;
+    }
+    .logo-font-1 {
+        top: 60px;
+        left: 160px;
+        width: 18px;
+        height: 24px;
+        background: var(--ma-262723) 0% 0% no-repeat padding-box;
+        background: #262723 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    .lang-bx {
+        width: 25px;
+        height: 25px;
+        border: 1px solid var(--ma-262723);
+        box-shadow: 10px 10px 20px #221F2033;
+        border: 1px solid #262723;
+        opacity: 1;
+        text-align: center;
+        /* font-family: Montserrat-Arabic; */
+        /* font: Montserrat-Arabic; */
+        letter-spacing: 0px;
+        color: #262723;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #262723;
+        -webkit-transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
+    }
+    .lang-bx :hover {
+        box-shadow: inset 0 0 0 50px #262723;
+        color: #FFFFFF;
+    }
+    .header-right {
+        display: flex;
+        align-items: center;
+    }
+    .sidebar-btn {
+        width: 25px;
+        height: 15px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 3px;
+        cursor: pointer;
+    }
+    .sidbar-ln {
+        height: 3px;
+        background-color: #262723;
+    }
+    .sidbar-ln-top,
+    .sidbar-ln-bottom {
+        width: 50%;
+    }
+    .sidbar-ln-middle {
+        width: 100%;
+    }
+    .sidbar-ln-bottom {
+        align-self: flex-end;
+    }
+}
+
+
+@media (min-width:1600px) {
+    header {
+        padding: 55px 160px;
+    }
+
+    .logo .logoimg {
+        height: 50px;
+        width: 220px;
+    }
+
+    .lang-bx {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-right: 50px;
+    }
+
+    .sidebar-btn {
+        width: 40px;
+        height: 30px;
+        row-gap: 8px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    header {
+        padding: 30px 40px;
+    }
+
+    .logo .logoimg {
+        height: 30px;
+        width: 140px;
+    }
+}
+
+
+@media (max-width: 500px) { 
+    header {
+        padding: 20px 20px;
+    }
+
+    .logo .logoimg {
+        height: 25px;
+        width: 120px;
+    }
+}

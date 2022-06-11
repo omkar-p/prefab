@@ -136,3 +136,41 @@
 .show {
     left: 0;
 }
+
+
+
+
+@media (min-width:1600px) {
+    .sidebar .left-menu-bar .menu {
+        font-size: 16px !important;
+        margin-top: 25px !important;
+        margin-bottom: 25px !important;
+    }
+
+    .sidebar .track-order-button {
+        width: 236px !important;
+        height: 60px !important;
+        font-size: 19px !important;
+        font-weight: normal !important;
+    }
+
+    .sidebar .track-order-button i {
+        font-size: 25px !important;
+        margin-right: 18px !important;
+        font-weight: 600;
+    }
+
+    .sidebar .get-in-touch .title {
+        font-size: 13px;
+    }
+
+    .sidebar .get-in-touch {
+        font-size: 15px !important;
+    }
+
+    .sidebar .close-btn {
+        /* width: 91px !important;
+        height: 91px !important;
+        font-size: 50px !important; */
+    }
+}
