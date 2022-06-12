@@ -622,6 +622,7 @@ body {
     height: 400px;
     display: flex;
     flex-direction: column;
+    z-index: 1;
 }
 
 .designed-experience-container .designed-exerinence-content .top-head {
@@ -1771,7 +1772,7 @@ body {
     }
     .designed-experience-external-container-2 {
         position: relative;
-        height: 1100px;
+        height: 1200px;
         width: 100%;
         padding-bottom: 150px;
     }
@@ -1857,7 +1858,7 @@ body {
         position: absolute;
         /* right: 300px; */
         left: 400px;
-        /* top: 500px; */
+        top: 500px;
     }
     .designed-experience-container-2 .back-imgs .bathroom {
         width: 645px;
