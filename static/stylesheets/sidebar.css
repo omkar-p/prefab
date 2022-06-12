@@ -174,3 +174,51 @@
         font-size: 50px !important; */
     }
 }
+
+
+@media (max-width: 900px){
+    .sidebar-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .sidebar .left-menu-bar .menu {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+
+    .sidebar .track-order-button {
+        width: 140px;
+        height: 35px;
+        font-size: 11px;
+    }
+
+    .sidebar .track-order-button i {
+        font-size: 18px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px){ 
+    .sidebar .right-menu-bar {
+        width: auto;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .sidebar .menu-bars {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar .track-order-button {
+        margin-bottom: 40px;
+    }
+
+    .sidebar-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
