@@ -144,7 +144,29 @@
                     else {
                         $("#model-carosul-item-hidden img")
                         .attr("src", "");
-                        $("#model-carosul-item-hidden").css("display", "none");
+                        $("#model-carosul-item-hidden img").css("display", "none");
+                        $("#model-carosul-item-hidden .model-carosul-item-detail-container").css("display", "none");
+                    }
+
+                    if(currentModelCarosulItem>=1) {
+                        $("#model-carosul-item-hidden").css("display", "block");
+
+                        var hiddenCarosulItemIdx = currentModelCarosulItem-1;
+                        console.log(hiddenCarosulItemIdx);
+                        var hiddenItemObj = modelCarosulItems[hiddenCarosulItemIdx];
+                        console.log(hiddenItemObj);
+                        $("#model-carosul-item-hidden-left img")
+                        .attr("src", hiddenItemObj.imgPath)
+                        .fadeIn(500);
+                    }
+                    else {
+                        // $("#model-carosul-item-hidden-left img")
+                        // .attr("src", "");
+                        // $("#model-carosul-item-hidden-left").css("display", "none");
+                        $("#model-carosul-item-hidden-left img")
+                        .attr("src", "");
+                        $("#model-carosul-item-hidden-left img").css("display", "none");
+                        $("#model-carosul-item-hidden-left .model-carosul-item-detail-container").css("display", "none");
                     }
                 }
             }
@@ -172,7 +194,26 @@
                     else {
                         $("#model-carosul-item-hidden img")
                         .attr("src", "");
-                        $("#model-carosul-item-hidden").css("display", "none");
+                        $("#model-carosul-item-hidden img").css("display", "none");
+                        $("#model-carosul-item-hidden .model-carosul-item-detail-container").css("display", "none");
+                    }
+
+                    if(currentModelCarosulItem>=1) {
+                        $("#model-carosul-item-hidden").css("display", "block");
+
+                        var hiddenCarosulItemIdx = currentModelCarosulItem-1;
+                        console.log(hiddenCarosulItemIdx);
+                        var hiddenItemObj = modelCarosulItems[hiddenCarosulItemIdx];
+                        console.log(hiddenItemObj);
+                        $("#model-carosul-item-hidden-left img")
+                        .attr("src", hiddenItemObj.imgPath)
+                        .fadeIn(500);
+                    }
+                    else {
+                        $("#model-carosul-item-hidden-left img")
+                        .attr("src", "");
+                        $("#model-carosul-item-hidden-left img").css("display", "none");
+                        $("#model-carosul-item-hidden-left .model-carosul-item-detail-container").css("display", "none");
                     }
                 }
             }

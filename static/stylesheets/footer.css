@@ -202,7 +202,7 @@
         color: #FFFFFF;
         margin-bottom: 10px;
     }
-    .footer-left-top {
+    .page-foot-part .footer-top .footer-left .footer-left-top {
         display: flex;
         justify-content: space-between;
     }

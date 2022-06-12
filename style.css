@@ -403,6 +403,10 @@ body {
     font-weight: 600;
 }
 
+#model-carosul-item-hidden-left {
+    display: none;
+}
+
 
 
 
@@ -2721,7 +2725,7 @@ body {
 
 }
 
-@media (min-width: 1500px) and (max-width: 1740px) {
+@media (min-width: 1500px) and (max-width: 2500px) {
     .designed-experience-container-2 .back-imgs .bathroom {
         width: 530px;
         height: 729px;
@@ -2734,7 +2738,7 @@ body {
     } 
 }
 
-@media (min-width: 1741px) and (max-width: 1770px) {
+@media (min-width: 1741px) and (max-width: 2500px) {
     .designed-experience-container-2 .back-imgs .bathroom {
         width: 600px;
         height: 799px;
@@ -2920,6 +2924,10 @@ body {
         /* min-width: auto;
         flex-grow: 1; */
         min-width: 31%;
+    }
+
+    #model-carosul-item-hidden-left {
+        display: block;
     }
 
     body {
