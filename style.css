@@ -407,6 +407,27 @@ body {
     font-weight: 600;
 }
 
+.share-button-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.share-button {
+    background: #fff;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.share-button svg {
+    height: 10px;
+}
+
 #model-carosul-item-hidden-left {
     display: none;
 }
@@ -2502,6 +2523,16 @@ body {
         font-size: 13px;
     }
 
+    .share-button {
+        height: 38px;
+        width: 38px;
+    }
+
+    .share-button svg {
+        width: 11px;
+        height: 12px;
+    }
+
 
 
 
@@ -3324,6 +3355,15 @@ body {
 
     .model-carosul-item {
         min-width: 40%;
+    }
+
+    .share-button {
+        height: 22px;
+        width: 22px;
+    }
+
+    .share-button svg {
+        height: 8px;
     }
 
 

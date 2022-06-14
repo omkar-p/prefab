@@ -146,6 +146,7 @@
                         .attr("src", "");
                         $("#model-carosul-item-hidden img").css("display", "none");
                         $("#model-carosul-item-hidden .model-carosul-item-detail-container").css("display", "none");
+                        $("#model-carosul-item-hidden .share-button-container").css("display", "none");
                     }
 
                     if(currentModelCarosulItem>=1) {
@@ -167,6 +168,7 @@
                         .attr("src", "");
                         $("#model-carosul-item-hidden-left img").css("display", "none");
                         $("#model-carosul-item-hidden-left .model-carosul-item-detail-container").css("display", "none");
+                        $("#model-carosul-item-hidden-left .share-button-container").css("display", "none");
                     }
                 }
             }
