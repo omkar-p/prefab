@@ -75,20 +75,24 @@ body {
 .page-head-part {
     background: url('./static/images/Desert_Wide.jpg');
     opacity: 1;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .ui-pattern-1 {
     /* Layout Properties */
     top: 192px;
     left: 0px;
-    width: 595px;
-    height: 531px;
+    /* width: 595px;
+    height: 531px; */
+    width: 500px;
+    height: 220px;
     /* UI Properties */
     background: transparent url('./static/images/Bitmap.png') 0% 0% no-repeat padding-box;
     mix-blend-mode: screen;
     opacity: 0.5;
-    display: none;
+    /* display: none; */
 }
 
 
@@ -544,6 +548,9 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 }
 
 .model-closup-tabs {
@@ -1391,11 +1398,11 @@ body {
         font-family: 'Adobe Clean Serif', sans-serif;
         font-family: 'Adobe Clean UX', sans-serif; */
     }
-    .page-head-part {
+    /* .page-head-part {
         background: url('./static/images/Desert_Wide.jpg');
         opacity: 1;
         background-size: cover;
-    }
+    } */
     .ui-pattern-1 {
         /* Layout Properties */
         top: 192px;
@@ -3389,6 +3396,29 @@ body {
 
     .form-fields-row .form-input {
         margin-right: 0px !important;
+    }
+}
+
+
+@media (max-width: 420px) {
+    .model-carosul-item {
+        min-width: 39.7%;
+    }
+}
+
+@media (max-width: 365px) { 
+    .model-carosul-outer-container {
+        left: -77%;
+    }
+}
+
+@media (max-width: 330px) {
+    .model-carosul-item {
+        margin: 0px 5px;
+    }
+
+    .model-carosul-outer-container {
+        left: -73.6%;
     }
 }
 
