@@ -66,10 +66,8 @@ body {
     /* background-attachment: fixed; */
     /* background-position: center; */
     /* font-variant: sans-serif; */
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Adobe Clean', sans-serif;
-    font-family: 'Adobe Clean Serif', sans-serif;
-    font-family: 'Adobe Clean UX', sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .page-head-part {
@@ -135,13 +133,15 @@ body {
 
 .slogan-with-order-btn p {
     font-size: 12px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .slogan-with-order-btn h1 {
     margin-top: 0px;
     line-height: 45px;
     margin-bottom: 25px;
-    font-weight: 700;
+    font-weight: 900;
+    font-family: 'Adobe Clean', sans-serif;
 }
 
 .slogan-with-order-btn button {
@@ -157,6 +157,12 @@ body {
     opacity: 1;
     font-size: 12px;
     color: #000;
+    font-family: 'Montserrat-Arabic', sans-serif;
+}
+
+.slogan-with-order-btn font {
+    font-family: 'Montserrat-Arabic', sans-serif;
+    font-weight: 800;
 }
 
 .slide-button {
@@ -617,6 +623,7 @@ body {
 .model-closup-detail h3 {
     margin: 0px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .model-closup-detail {
@@ -637,6 +644,9 @@ body {
     font-size: 12px;
     color: #000;
     margin-top: 20px;
+}
+
+.model-closup-detail p {
 }
 
 .designed-experience-external-container {
@@ -832,6 +842,7 @@ body {
     color: #000;
     align-self: flex-end;
     margin-top: 50px;
+    font-weight: 700;
 }
 
 .slide-button {
@@ -899,6 +910,7 @@ body {
     margin-left: 60px;
     font-size: 14px;
     word-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .been-there-team-members {
@@ -1083,6 +1095,7 @@ body {
     font-size: 14px;
     line-height: 25px;
     font-style: italic;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contactus {
@@ -1115,6 +1128,7 @@ body {
     color: white;
     text-transform: uppercase;
     /* opacity: 1; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fa-building {
@@ -1138,6 +1152,7 @@ body {
     color: white;
     text-transform: uppercase;
     /* opacity: 1; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .col2row2 .commercial {
@@ -1153,6 +1168,7 @@ body {
     color: white;
     text-transform: uppercase;
     /* opacity: 1; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fa-home {
@@ -1173,6 +1189,7 @@ body {
     color: white;
     text-transform: uppercase;
     /* opacity: 1; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .row2 {
@@ -1415,9 +1432,6 @@ body {
         /* background-position: center; */
         /* font-variant: sans-serif; */
         font-family: Arial, Helvetica, sans-serif;
-        /* font-family: 'Adobe Clean', sans-serif;
-        font-family: 'Adobe Clean Serif', sans-serif;
-        font-family: 'Adobe Clean UX', sans-serif; */
     }
     /* .page-head-part {
         background: url('./static/images/Desert_Wide.jpg');
@@ -1469,14 +1483,12 @@ body {
     }
     .slogan-with-order-btn font {
         font-size: 18px;
-        font-family: 'Adobe Clean', sans-serif;
     }
     .slogan-with-order-btn h1 {
         margin-top: 0px;
         margin-bottom: 32px;
         font-weight: 700;
         font-size: 60px;
-        font-family: 'Adobe Clean', sans-serif;
     }
     .slogan-with-order-btn button {
         border: none;
@@ -1491,7 +1503,7 @@ body {
         opacity: 1;
         font-size: 17px;
         color: #262723;
-        font-family: 'Adobe Clean', sans-serif;
+        font-family: 'Montserrat-Arabic', sans-serif;
     }
     .slide-button {
         box-shadow: inset 0 0 0 0 #262723;
@@ -1594,7 +1606,6 @@ body {
         font-size: 45px;
         font-weight: bold;
         padding-bottom: 35.36px;
-        font-family: 'Adobe Clean', sans-serif;
         padding-top: 68.59px;
         padding-left: 94px;
     }
@@ -1609,7 +1620,6 @@ body {
         opacity: 1;
         opacity: 1;
         font-size: 18px;
-        font-family: 'Adobe Clean', sans-serif;
         text-transform: uppercase;
         box-shadow: inset 0 0 0 0 #E9E9E9;
         -webkit-transition: ease-out 0.4s;
@@ -1631,7 +1641,6 @@ body {
         font-weight: bold;
         color: #fff;
         font-size: 45px;
-        font-family: 'Adobe Clean', sans-serif;
     }
     .modal-closup-box {
         height: 914px;
@@ -1681,7 +1690,6 @@ body {
         justify-content: center;
         align-items: center;
         margin-right: 1px;
-        font-family: 'Adobe Clean', sans-serif;
     }
     .model-closup-tab+.active {
         background: #262723;
@@ -1699,14 +1707,12 @@ body {
     }
     .model-closup-detail h3 {
         font-weight: bold;
-        font-family: 'Adobe Clean', sans-serif;
         margin: 0px;
         margin-bottom: 10px;
     }
     .model-closup-detail p {
         font-size: 15px;
         font-weight: 300;
-        font-family: 'Adobe Clean', sans-serif;
         margin-bottom: 14.64px;
     }
     .model-closup-detail button {
@@ -1722,7 +1728,6 @@ body {
         opacity: 1;
         font-size: 18px;
         font-weight: bold;
-        font-family: 'Adobe Clean', sans-serif;
         color: #000;
         margin-bottom: 66.36px;
     }
@@ -1743,7 +1748,6 @@ body {
     .designed-experience-container .designed-exerinence-content .top-head {
         font-size: 18px;
         font-weight: 600px;
-        font-family: 'Adobe Clean', sans-serif;
         color: #DDD;
         padding-bottom: 35.45px;
     }
@@ -1751,13 +1755,11 @@ body {
         letter-spacing: 2px;
         font-size: 20px;
         font-weight: 600px;
-        font-family: 'Adobe Clean', sans-serif;
     }
     .designed-experience-container .designed-exerinence-content h3 {
         color: #262723;
         font-weight: bold;
         font-size: 45px;
-        font-family: 'Adobe Clean', sans-serif;
         padding-bottom: 59px;
     }
     .designed-experience-container .designed-exerinence-content .designed-exerinence-content-body {
@@ -1765,7 +1767,6 @@ body {
         font-size: 20px;
         line-height: 25px;
         font-weight: 300px;
-        font-family: 'Adobe Clean', sans-serif;
         width: 75%;
     }
     .designed-experience-container .designed-exerinence-content hr {
@@ -1840,7 +1841,6 @@ body {
         padding-bottom: 10px;
         font-size: 18px;
         font-weight: 600;
-        font-family: 'Adobe Clean', sans-serif;
         padding-top: 18.5px;
         padding-bottom: 35.45px;
     }
@@ -1850,7 +1850,6 @@ body {
     .designed-experience-container-2 .designed-exerinence-content h3 {
         color: #262723;
         font-size: 45px;
-        font-family: 'Adobe Clean', sans-serif;
         font-weight: bold;
         line-height: 40px;
         padding-bottom: 100.9px;
@@ -1861,7 +1860,6 @@ body {
         line-height: 25px;
         width: 100%;
         font-weight: 300;
-        font-family: 'Adobe Clean', sans-serif;
         padding-left: 100px;
         padding-bottom: 100px;
     }
@@ -1912,7 +1910,6 @@ body {
         opacity: 1;
         font-size: 18px;
         font-weight: bold;
-        font-family: 'Adobe Clean', sans-serif;
         color: #000;
         align-self: flex-end;
         margin-top: 50px;
@@ -1965,13 +1962,11 @@ body {
         padding-bottom: 32.36px;
         font-size: 39px;
         font-weight: bold;
-        font-family: 'Adobe Clean', sans-serif;
     }
     .been-there-content p {
         margin: 0;
         width: 44%;
         font-weight: normal;
-        font-family: 'Adobe Clean', sans-serif;
         font-style: italic;
         margin-left: 60px;
         font-size: 22px;
@@ -2022,12 +2017,10 @@ body {
     .been-there-team-member-detail {
         font-size: 20px;
         font-weight: normal;
-        font-family: 'Adobe Clean', sans-serif;
         word-spacing: 2px;
     }
     .been-there-team-member-detail .team-member-post {
         font-size: 17px;
-        font-family: 'Adobe Clean', sans-serif;
         color: #777777;
     }
     .page-contact-us-part {
@@ -2137,7 +2130,6 @@ body {
         padding-left: 94px;
         font-size: 22px;
         line-height: 25px;
-        font-family: 'Adobe Clean', sans-serif;
     }
     .contactus {
         padding-left: 94px;
@@ -2168,7 +2160,6 @@ body {
         text-transform: uppercase;
         font-size: 22px;
         font-weight: normal;
-        font-family: 'Adobe Clean', sans-serif;
         /* opacity: 1; */
     }
     .fa-building {
@@ -2191,7 +2182,6 @@ body {
         text-transform: uppercase;
         font-size: 22px;
         font-weight: normal;
-        font-family: 'Adobe Clean', sans-serif;
         /* opacity: 1; */
     }
     .col2row2 .commercial {
@@ -2209,7 +2199,6 @@ body {
         text-transform: uppercase;
         font-size: 22px;
         font-weight: normal;
-        font-family: 'Adobe Clean', sans-serif;
         /* opacity: 1; */
     }
     .fa-home {
@@ -2232,7 +2221,6 @@ body {
         text-transform: uppercase;
         font-size: 22px;
         font-weight: normal;
-        font-family: 'Adobe Clean', sans-serif;
         /* opacity: 1; */
     }
     .row2 {
