@@ -93,9 +93,6 @@ body {
     /* display: none; */
 }
 
-
-
-
 .font-weight-bold {
     font-weight: bold;
 }
@@ -103,9 +100,6 @@ body {
 .font-weight-bolder {
     font-weight: bolder;
 }
-
-
-
 
 .slogan-with-order-btn {
     /* Layout Properties */
@@ -231,6 +225,7 @@ body {
     width: 50px !important;
 }
 
+
 /* .bg-slider-options .active {
     border: 2px solid #FFFFFF !important;
     padding: 2px !important;
@@ -243,15 +238,12 @@ body {
     width: 90%; */
 }
 
-.bg-slider-options .bg-slider-img-container.active .active-ln{
+.bg-slider-options .bg-slider-img-container.active .active-ln {
     width: 16px;
     height: 2px;
     background: #fff;
     margin-top: auto;
 }
-
-
-
 
 .models-carosul-container {
     padding: 80px 0px 80px 100px;
@@ -437,11 +429,6 @@ body {
 #model-carosul-item-hidden-left {
     display: none;
 }
-
-
-
-
-
 
 .modal-categories-container {
     padding: 40px 100px 80px 100px;
@@ -646,8 +633,7 @@ body {
     margin-top: 20px;
 }
 
-.model-closup-detail p {
-}
+.model-closup-detail p {}
 
 .designed-experience-external-container {
     background: #FFFFFF;
@@ -1065,9 +1051,6 @@ body {
     color: #565953 !important;
 }
 
-
-
-
 .row1 {
     /* margin-left: 160px;
     margin-right: 160px; */
@@ -1094,7 +1077,6 @@ body {
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 25px;
-    font-style: italic;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -1431,7 +1413,6 @@ body {
         /* background-attachment: fixed; */
         /* background-position: center; */
         /* font-variant: sans-serif; */
-        font-family: Arial, Helvetica, sans-serif;
     }
     /* .page-head-part {
         background: url('./static/images/Desert_Wide.jpg');
@@ -1449,7 +1430,6 @@ body {
         mix-blend-mode: screen;
         opacity: 0.5;
     }
-    
     .font-weight-bold {
         font-weight: bold;
     }
@@ -2104,7 +2084,6 @@ body {
         box-shadow: inset 400px 0 0 0 #FFFFFF !important;
         color: #565953 !important;
     }
-    
     .row1 {
         /* margin-left: 160px;
         margin-right: 160px; */
@@ -2376,19 +2355,14 @@ body {
     }
 }
 
-
-
-
 @media (min-width:1600px) {
     header {
         padding: 55px 160px;
     }
-
     .logo .logoimg {
         height: 50px;
         width: 220px;
     }
-
     .lang-bx {
         width: 35px;
         height: 35px;
@@ -2396,359 +2370,271 @@ body {
         font-weight: 600;
         margin-right: 50px;
     }
-
     .sidebar-btn {
         width: 40px;
         height: 30px;
         row-gap: 8px;
     }
-
-
-
     .slogan-with-order-btn p {
         font-size: 18px;
     }
-
     .slogan-with-order-btn h1 {
         font-size: 60px;
         font-weight: 900;
     }
-
     .slogan-with-order-btn button {
         width: 236px;
         height: 60px;
         font-size: 18px;
         margin-top: 30px;
     }
-
     .bg-slider-options .bg-slider-img-container {
         height: 100px;
     }
-
     .bg-slider-options .bg-slider-img {
         height: 80px;
         width: 80px;
     }
-
     .bg-slider-options .bg-slider-img-container.active .bg-slider-img {
         height: 80px !important;
         width: 80px !important;
         padding: 4px !important;
     }
-
     .bg-slider-options .bg-slider-img-container.active .active-ln {
         height: 3.489px;
         width: 28.21px;
     }
-
     .slogan-with-order-btn {
         padding: 70px 0px 80px 160px;
     }
-
-
-
-
     .models-carosul-container {
         padding: 70px 0px 80px 160px;
     }
-
     .models-carosul-content {
         display: flex;
         flex-direction: column;
     }
-
     .models-carosul-content h3 {
         font-size: 40px;
         line-height: 50px;
         margin-top: 0px;
     }
-
     .models-carosul-content p {
         font-size: 25px;
         line-height: 50px;
     }
-
     .models-carosul-content .content-line-2 {
         font-size: 27px;
         line-height: 50px;
         margin-bottom: 45px;
     }
-
     .models-carosul-container {
         height: 735px;
     }
-
     .next-prev-button-container {
         margin-top: 80px;
     }
-    
-
     .models-carosul-content .next-prev-button {
         font-size: 15px;
     }
-
     .model-carosul-item {
         position: relative;
         height: 548px;
         min-width: 66.3%;
     }
-
     .carosul-slider {
         margin-bottom: 20px;
     }
-
     .carosul-slider div {
         height: 9px;
         width: 9px;
     }
-
     .model-carosul-item-detail {
         font-size: 23px;
         padding-bottom: 20px;
     }
-
     .price-start-from-label {
         font-size: 13px;
     }
-
     .share-button {
         height: 38px;
         width: 38px;
     }
-
     .share-button svg {
         width: 11px;
         height: 12px;
     }
-
-
-
-
-
     .modal-categories-container {
         padding: 40px 160px 213px 160px;
     }
-
     .modal-categories-detail {
         padding: 140px 94px 60px 94px;
     }
-
-    .row1 .col1 .headrow, .row1 .col1 .datarow, .contactus {
+    .row1 .col1 .headrow,
+    .row1 .col1 .datarow,
+    .contactus {
         padding-left: 0;
     }
-
     .row1 .col1 .headrow {
         font-size: 39px;
         font-weight: 900;
     }
-
     .contactusbtn {
         width: 236px;
         height: 60px;
         font-size: 18px;
     }
-
     .modal-closup {
         margin: 0px 160px;
     }
-
     .modal-closup-container .modal-closup-head {
         padding-left: 160px;
     }
-
     .designed-experience-external-container {
         padding: 150px 160px 150px 160px;
     }
-
     .designed-experience-container-2 {
         padding: 50px 160px 80px 160px;
     }
-
     .col2row1 .facility p {
         font-size: 22px;
     }
-
-
-
     .modal-closup-head h3 {
         font-size: 40px;
     }
-
     .modal-closup-box {
         height: 913px;
     }
-
     .model-closup-tab {
         width: 253px;
         height: 83px;
         font-size: 18px;
     }
-
     .model-closup-detail {
         height: 344px;
         width: 770px;
         padding: 65px 80px 65px 60.162px;
     }
-
     .model-closup-detail h3 {
         font-size: 40px;
         font-weight: 900;
         margin-bottom: 20px;
     }
-
     .model-closup-detail p {
         font-size: 15px;
     }
-
     .designed-experience-container .back-imgs .bathroom {
         height: 844px;
         width: 645px;
     }
-
     .designed-experience-container .back-imgs .bedroom {
         width: 745px;
         height: 600px;
         right: 420px;
     }
-
-
-
     .designed-experience-container .designed-exerinence-content .top-head {
         font-size: 18px;
         padding-bottom: 0px;
         margin-bottom: 0px;
     }
-
     .designed-experience-container .designed-exerinence-content h3 {
         font-size: 45px;
         line-height: 55px;
         padding-bottom: 0px;
         margin-bottom: 80px;
     }
-
     .designed-experience-container .designed-exerinence-content hr {
         border-top: 4px solid #141416;
         margin-top: 220px;
     }
-
     .designed-experience-container .designed-exerinence-content .designed-exerinence-content-body {
         font-size: 20px;
         line-height: 40px;
     }
-
     .designed-experience-container-2 .designed-exerinence-content .top-head {
         font-size: 18px;
         padding-bottom: 0px;
         margin-bottom: 50px;
     }
-
     .designed-experience-container-2 .designed-exerinence-content h3 {
         font-size: 45px;
         line-height: 55px;
         padding-bottom: 0px;
         margin-bottom: 83px;
     }
-
     .designed-experience-container-2 .designed-exerinence-content .designed-exerinence-content-body {
         font-size: 20px;
         line-height: 40px;
         padding-bottom: 0px;
         margin-bottom: 97PX;
     }
-
     .designed-experience-container-2 button {
         margin-top: 0px;
     }
-
     .designed-experience-container-2 .back-imgs .bathroom {
         width: 645px;
         height: 844px;
     }
-
     .designed-experience-container-2 .back-imgs .bedroom {
         width: 856px;
         height: 439px;
         left: 340px;
     }
-
     .designed-experience-container-2 button {
         width: 236px;
         height: 60px;
     }
-
     .designed-experience-container-2 .designed-exerinence-content .designed-exerinence-content-body {
         margin-top: 30px;
     }
-
     .been-there-container {
         height: 651px;
     }
-
     .been-there-bg-2 {
         width: 54.574%;
         height: 100%;
     }
-
-
-
-
-
     .been-there-container {
         height: 651px !important;
     }
-
     .been-there-content {
         padding: 80px 60px 40px 160px;
     }
-
     .been-there-content h3 {
         font-size: 39px;
         line-height: 56px;
         padding-bottom: 40px;
     }
-
     .been-there-content p {
         font-size: 22px;
         line-height: 45px;
     }
-
     .been-there-team-members .been-there-team-member-img {
         width: 60px;
         height: 60px;
     }
-
     .been-there-team-members .active {
         border: 2px solid #FFFFFF !important;
         width: 60px !important;
         height: 60px !important;
     }
-
     .been-there-team-member-detail {
         font-size: 20px;
         line-height: 27.600000381469727px;
     }
-
-
-
-
-
-    
-
-
-
     .bg-slider-options {
         margin-bottom: -2px;
         margin-top: -2px;
     }
-
-    .modal-categories-container, .modal-closup-container .modal-closup-head, .modal-closup-box-bg-1, .been-there-container {
+    .modal-categories-container,
+    .modal-closup-container .modal-closup-head,
+    .modal-closup-box-bg-1,
+    .been-there-container {
         margin-top: -2px;
     }
-
     .been-there-bg-2-gradient {
         margin-left: -2px
     }
-
 }
 
 @media (min-width: 1500px) and (max-width: 2500px) {
@@ -2756,12 +2642,11 @@ body {
         width: 530px;
         height: 729px;
     }
-
     .designed-experience-container-2 .back-imgs .bedroom {
         width: 746px;
         height: 339px;
         left: 250px;
-    } 
+    }
 }
 
 @media (min-width: 1741px) and (max-width: 2500px) {
@@ -2769,27 +2654,23 @@ body {
         width: 600px;
         height: 799px;
     }
-
     .designed-experience-container-2 .back-imgs .bedroom {
         width: 826px;
         height: 409px;
-    } 
+    }
 }
 
 @media (max-width: 1110px) {
     .modal-categories-container {
         padding: 30px 60px 70px 60px;
     }
-
     .modal-categories-detail {
         padding: 50px 50px 60px 50px;
     }
-
     .modal-category svg {
         height: 55px;
     }
 }
-
 
 @media (max-width: 1140px) {
     .designed-experience-container .back-imgs .gray-bitmap {
@@ -2797,21 +2678,17 @@ body {
         height: 230px;
         right: 190px;
     }
-
     .designed-experience-container .back-imgs .bathroom {
         height: 470px;
     }
-
     .designed-experience-container .back-imgs .bedroom {
         width: 300px;
     }
-
     .designed-experience-container-2 .back-imgs .bedroom {
         width: 460px;
         left: 180px;
         top: 295px;
     }
-
     .designed-experience-container-2 .back-imgs .bathroom {
         height: 450px;
     }
@@ -2821,28 +2698,23 @@ body {
     .designed-experience-container {
         height: 530px;
     }
-
     .designed-experience-container .back-imgs .gray-bitmap {
         width: 230px;
         height: 230px;
         right: 100px;
     }
-
     .designed-experience-container .back-imgs .bathroom {
         width: 285px;
     }
-
     .designed-experience-container .back-imgs .bedroom {
         width: 300px;
         right: 240px;
     }
-
     .designed-experience-container-2 .back-imgs .bedroom {
         width: 400px;
         left: 133px;
         top: 285px;
     }
-
     .designed-experience-container-2 .back-imgs .bathroom {
         height: 410px;
     }
@@ -2852,57 +2724,45 @@ body {
     header {
         padding: 30px 40px;
     }
-
     .logo .logoimg {
         height: 30px;
         width: 140px;
     }
-
     .slogan-with-order-btn {
         padding: 70px 0px 80px 40px;
     }
-
     .slogan-with-order-btn p {
         font-size: 11px;
     }
-
     .slogan-with-order-btn h1 {
         font-size: 30px;
     }
-
     .bg-slider-options .bg-slider-img {
         height: 40px;
         width: 40px;
     }
-
     .bg-slider-options .bg-slider-img-container.active .bg-slider-img {
         height: 40px !important;
         width: 40px !important;
     }
-
     .bg-slider-options .bg-slider-img-container {
         height: 50px;
     }
-
     .bg-slider-options .bg-slider-img-container.active .active-ln {
         width: 13px;
     }
-
     .slogan-with-order-btn button {
         width: 140px;
         height: 35px;
         font-size: 11px;
     }
-
     .models-carosul-container {
         padding: 40px 0px 40px 0px;
     }
-
     .models-carosul-container {
         display: flex;
         flex-direction: column;
     }
-
     .models-carosul-content {
         margin-right: 0px;
         width: 100%;
@@ -2913,30 +2773,24 @@ body {
         text-align: center;
         padding: 40px 40px;
     }
-
     .models-carosul-content h3 {
         margin-bottom: 0px;
     }
-
     .models-carosul-content p {
         margin-bottom: 10px;
     }
-
     .next-prev-button-container {
         margin-top: 15px;
         /* margin-bottom: 40px; */
         width: 20%;
         min-width: 160px;
     }
-
     .model-carosul {
         position: static;
     }
-
     .models-carosul-container {
         height: auto;
     }
-
     .model-carosul-outer-container {
         /* width: 200%;
         left: -425px; */
@@ -2944,114 +2798,83 @@ body {
         height: 400px;
         left: -50%;
     }
-
     .model-carosul-item {
         margin: 0px 10px;
         /* min-width: auto;
         flex-grow: 1; */
         min-width: 31%;
     }
-
     #model-carosul-item-hidden-left {
         display: block;
     }
-
     body {
         overflow-x: hidden;
     }
-
-
-
-
     .modal-categories-container .row1 {
         display: flex;
         flex-direction: column;
     }
-
     .modal-categories-container {
         padding: 30px 40px 70px 40px;
     }
-
     .contactusbtn {
         width: 130px;
         height: 35px;
         font-size: 11px;
     }
-
     .modal-categories-detail {
         padding: 35px 35px 35px 35px;
     }
-
     .row1 .col1 .headrow {
         font-size: 21px;
     }
-
     .row1 .col1 .datarow {
         font-size: 12px;
         line-height: 24px;
     }
-
     .modal-category svg {
         height: 50px;
     }
-
     .modal-category p {
         font-size: 12px;
     }
-
-
-
-
     .modal-closup {
         width: 100%;
     }
-
     .modal-closup-container .modal-closup-head {
         padding-left: 40px;
         padding-bottom: 30px;
     }
-
     .modal-closup-head h3 {
         font-size: 21px;
     }
-
     .model-closup-tab {
         font-size: 11px;
         width: 135px;
         height: 45px;
     }
-
     .model-closup-detail {
         padding: 35px 35px 35px 35px;
         width: 70%;
     }
-
     .model-closup-detail h3 {
         font-size: 21px;
     }
-
     .model-closup-detail button {
         width: 140px;
         height: 35px;
         font-size: 11px;
     }
-
-
-
-
     .designed-experience-container {
         height: 1200px;
     }
-
     .designed-experience-external-container {
         padding: 0;
     }
-
     .designed-experience-container {
         display: flex;
         flex-direction: column;
     }
-
     .designed-experience-container .designed-exerinence-content {
         height: auto;
         display: flex;
@@ -3061,74 +2884,58 @@ body {
         text-align: center;
         padding: 40px 40px 40px 40px;
     }
-
     .designed-experience-container .designed-exerinence-content .top-head {
         font-size: 11px;
     }
-
     .designed-experience-container .designed-exerinence-content h3 {
         font-size: 21px;
         margin-top: 0px;
     }
-
     .designed-experience-container .designed-exerinence-content .designed-exerinence-content-body {
         width: 100%;
     }
-
     .designed-experience-container .designed-exerinence-content .top-head {
         padding-bottom: 0px;
         padding-top: 0px;
     }
-
     .designed-experience-container .back-imgs .bedroom {
         left: 0;
         right: auto;
         width: 60% !important;
         border-left: 0px;
     }
-
     .designed-experience-container .back-imgs .bathroom {
         width: 80%;
         height: auto;
     }
-
     .designed-experience-container .back-imgs .gray-bitmap {
         width: 100%;
         height: 420px;
         right: auto;
         left: 135px;
     }
-
-
-
     .designed-experience-external-container-2 {
         height: 1300px;
     }
-
     .designed-experience-container-2 {
         padding: 0px;
         flex-direction: column-reverse;
     }
-
     .designed-experience-container-2 .designed-exerinence-content {
         padding: 60px 40px 40px 40px;
     }
-
     .designed-experience-container-2 .designed-exerinence-content .top-head {
         padding-bottom: 0px;
         font-size: 11px;
     }
-
     .designed-experience-container-2 .designed-exerinence-content h3 {
         margin-top: 0px;
         font-size: 21px;
     }
-
     .designed-experience-container-2 .designed-exerinence-content .designed-exerinence-content-body {
         margin-top: 0px;
         padding-left: 0px;
     }
-
     .designed-experience-container-2 .designed-exerinence-content {
         height: auto;
         display: flex;
@@ -3136,7 +2943,6 @@ body {
         text-align: center;
         align-items: center;
     }
-
     .designed-experience-container-2 button {
         margin-top: 0px;
         background: #262723 0% 0% no-repeat padding-box;
@@ -3145,18 +2951,15 @@ body {
         height: 35px;
         font-size: 11px;
     }
-
     .slide_right:hover {
         box-shadow: inset 400px 0 0 0 #FFFFFF;
         color: #262723;
     }
-
     .designed-experience-container-2 .back-imgs .bathroom {
         width: 70%;
         height: auto;
         border: none;
     }
-
     .designed-experience-container-2 .back-imgs .bedroom {
         width: 80% !important;
         left: auto;
@@ -3167,107 +2970,79 @@ body {
         border: 2px solid #262723;
         border-right: none;
     }
-
-
-
-
     .been-there-container {
         padding-right: 0px;
         padding: 20px;
         height: 450px;
     }
-
     .been-there-bg-1 {
         width: 100%;
         height: 30%;
         top: 0;
     }
-
     .been-there-bg-2 {
         width: 100%;
         height: 70%;
         bottom: 0;
         border: 2px solid #545552;
     }
-
     .been-there-bg-2-gradient {
         background: transparent linear-gradient(180deg, #262723 10%, #26272300 100%) 0% 0% no-repeat padding-box;
     }
-
     .been-there-content {
         padding: 20px 20px 20px 20px;
     }
-
     .been-there-content p {
         width: 90%;
         margin-left: 45px;
         font-size: 12px;
     }
-
     .been-there-content h3 {
         font-size: 21px;
     }
-
     .been-there-team-member-detail {
         font-size: 11px;
     }
-
     .been-there-team-member-detail .team-member-post {
         font-size: 10px;
     }
-
     .been-there-team-members .been-there-team-member-img {
         height: 30px;
         width: 30px;
         margin-right: 10px;
     }
-
     .been-there-team-members .active {
         height: 30px !important;
         width: 30px !important;
-    }   
-
-
-
-
-
-
+    }
     .page-contact-us-part {
         padding: 40px 40px 80px 40px;
     }
-
     .contact-us-container {
         padding: 40px;
     }
-
     .contact-us-title {
         font-size: 11px;
     }
-
     .write-us-title {
         font-size: 21px;
     }
-
     .contact-us-container form .form-container {
         display: flex;
         flex-direction: column;
     }
-
     .contact-us-container form .form-fields {
         width: 100%;
     }
-
     .contact-us-container form .form-fields .form-input {
         font-size: 10px;
         margin-top: 5px;
         margin-bottom: 5px;
     }
-
     .location-map-container {
         width: 100%;
         height: 400px;
     }
-
     .page-contact-us-part button {
         width: 140px;
         height: 40px;
@@ -3275,54 +3050,44 @@ body {
     }
 }
 
-
-@media (max-width: 700px) { 
+@media (max-width: 700px) {
     .designed-experience-container {
         height: 1100px;
     }
-
     .designed-experience-external-container-2 {
         height: 1200px;
     }
 }
 
-@media (max-width: 650px) { 
+@media (max-width: 650px) {
     .designed-experience-container {
         height: 830px;
     }
-
     .designed-experience-container .back-imgs .bathroom {
         width: 60%;
     }
-
     .designed-experience-container .back-imgs .bedroom {
         width: 55%;
     }
-
     .designed-experience-container .back-imgs .gray-bitmap {
         left: 210px;
     }
-
     .designed-experience-external-container-2 {
         height: 960px;
     }
-
     .designed-experience-container-2 .back-imgs .bedroom {
         width: 70%;
     }
 }
 
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
     header {
         padding: 20px 20px;
     }
-
     .logo .logoimg {
         height: 25px;
         width: 120px;
     }
-
-
     .slogan-with-order-btn {
         padding: 80px 30px 80px 30px;
         display: flex;
@@ -3331,102 +3096,73 @@ body {
         justify-content: center;
         text-align: center;
     }
-
     .slogan-with-order-btn h1 {
         font-size: 24px;
         line-height: 35px;
     }
-
     .model-carosul-outer-container {
         left: -76%;
     }
-
     .model-carosul-item {
         min-width: 40%;
     }
-
     .share-button {
         height: 22px;
         width: 22px;
     }
-
     .share-button svg {
         height: 8px;
     }
-
-
-
     .modal-categories-detail {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
-
-
     .model-closup-detail {
         width: 100%;
         text-align: center;
     }
-
-
     .designed-experience-container .back-imgs .gray-bitmap {
         left: 150px;
     }
-
     .designed-experience-container {
         height: 720px;
     }
-
     .designed-experience-container .back-imgs .gray-bitmap {
         height: 300px;
     }
-
     .designed-experience-external-container-2 {
         height: 830px;
     }
-
     .designed-experience-container-2 .back-imgs .bathroom {
         width: 60%;
     }
-
     .designed-experience-container-2 .back-imgs .bedroom {
         width: 70%;
     }
-
     .designed-experience-bg-1 {
         height: 35%;
     }
-
     .designed-experience-bg-2 {
         height: 65%;
     }
-
-
     .been-there-bg-1 {
         height: 42%;
     }
-
     .been-there-bg-2 {
         height: 63%;
     }
-
-
-
     .contact-us-container form .form-fields {
         width: 100%;
     }
-
     .contact-us-container form .form-fields .form-fields-row {
         flex-direction: column;
     }
-
     .form-fields-row .form-input {
         margin-right: 0px !important;
     }
 }
-
 
 @media (max-width: 420px) {
     .model-carosul-item {
@@ -3434,7 +3170,7 @@ body {
     }
 }
 
-@media (max-width: 365px) { 
+@media (max-width: 365px) {
     .model-carosul-outer-container {
         left: -77%;
     }
@@ -3444,30 +3180,18 @@ body {
     .model-carosul-item {
         margin: 0px 5px;
     }
-
     .model-carosul-outer-container {
         left: -73.6%;
     }
 }
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 1110px) {
     .page-foot-part .footer-left {
         width: 70%;
     }
-
     .page-foot-part .footer-right {
         width: 30%;
     }
-
     .page-foot-part .footer-left-top {
         background-color: #262723;
         padding: 60px 0px 60px 60px;

@@ -5,29 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Modals</title>
+
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
     <link rel="stylesheet" href="./static/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="http://fonts.cdnfonts.com/css/adobe-clean" rel="stylesheet">
 
     <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/956e5e3e5d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="static/scripts/sidebar.js"></script>
     <link rel="stylesheet" type="text/css" href="static/stylesheets/sidebar.css">
-
+    <link rel="stylesheet" type="text/css" href="static/stylesheets/footerwhite.css">
     <style>
         .page-head-part {
             /* background: url('./static/images/Desert_Wide.jpg');
@@ -48,8 +47,8 @@
         }
         
         header {
-            padding-left: 150px;
-            padding-right: 160px;
+            padding-left: 80px;
+            padding-right: 80px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -69,6 +68,7 @@
         .logo .logoimg {
             height: 36px;
             width: 153px;
+            cursor: pointer;
         }
         
         .modal-closup-container .logo-font-1 {
@@ -263,478 +263,11 @@
             width: 50px !important;
         }
         /* footer style css */
-        
-        footer {
-            display: flex;
-            border: 1px solid #E9E9E9;
-        }
-        
-        .page-foot-part .footer-left {
-            width: 80%;
-        }
-        
-        .page-foot-part .footer-right {
-            width: 20%;
-        }
-        
-        .page-foot-part .footer-left-top {
-            background-color: hsl(0, 0%, 97%);
-            padding: 70px 0px 70px 80px;
-        }
-        
-        .page-foot-part .footer-left-top .logo {
-            width: 150px;
-        }
-        
-        .footer-left-top {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .footer-left-top-contianer {
-            width: 18%;
-        }
-        
-        .footer-details-container {
-            width: 30%;
-        }
-        
-        .footer-app-short {
-            font-size: 11px;
-            line-height: 20px;
-            color: #7A7C83;
-            margin-bottom: 22px;
-            margin-top: 44px;
-            width: 75%;
-        }
-        
-        .footer-left-top-contianer button {
-            border: none;
-            background: none;
-            cursor: pointer;
-            width: 110px;
-            height: 35px;
-            /* UI Properties */
-            background: #1C1E25 0% 0% no-repeat padding-box;
-            /* box-shadow: 10px 10px 20px #221F2033; */
-            opacity: 1;
-            font-size: 11px;
-            color: white;
-        }
-        
-        .footer-left-top-contianer .head {
-            color: #262723;
-            margin-bottom: 30px;
-            font-size: 12px;
-        }
-        
-        .footer-contact-container {
-            padding-top: 5px;
-        }
-        
-        .footer-contact-container .content {
-            font-size: 11px;
-            margin-bottom: 25px;
-        }
-        
-        .footer-contact-container .content .head {
-            font-size: 11px;
-            margin-bottom: 5px;
-            color: #262723;
-        }
-        
-        .footer-contact-container .content .value {
-            color: #262723;
-        }
-        
-        .footer-left-top-contianer .link {
-            font-size: 11px;
-            color: #262723;
-        }
-        
-        .footer-left-bottom {
-            font-size: 11px;
-            padding: 20px 40px 20px 80px;
-            background: hsl(0, 0%, 99%);
-            color: #262723;
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .back-to-top-btn {
-            display: flex;
-            align-items: baseline;
-            letter-spacing: 3px;
-            cursor: pointer;
-        }
-        
-        .back-to-top-btn i {
-            margin-right: 10px;
-            font-size: 14px;
-        }
-        
-        .footer-right {
-            background: hsl(0, 0%, 90%);
-            padding: 70px 0px 20px 30px;
-            color: #262723;
-        }
-        
-        .footer-right .head {
-            font-size: 12px;
-            margin-bottom: 30px;
-        }
-        
-        .footer-right .social-handle {
-            width: 35px;
-            height: 35px;
-            border: 1px solid var(--wh-ffffff);
-            background: white;
-            border: 1px solid white;
-            opacity: 1;
-            margin-right: 7px;
-            font-size: 19px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-        }
-        
-        .footer-right .social-handle .fa {
-            transition: .5s;
-        }
-        
-        .footer-right .social-handle:hover>.fa {
-            -webkit-transform: rotateX(360deg);
-            -ms-transform: rotateX(360deg);
-            transform: rotateX(360deg);
-        }
-        
-        .social-handle-container {
-            display: flex;
-            margin-bottom: 60px;
-        }
-        
-        .news-letter-input-label {
-            font-size: 10px;
-            margin-bottom: 20px;
-        }
-        
-        .news-letter-input input[type="email"] {
-            width: 80%;
-            height: 40px;
-            background: #E9E9E90D;
-            border: none;
-            outline: none;
-            font-size: 11px;
-            padding-left: 10px;
-        }
-        
-        .row1 {
-            /* margin-left: 160px;
-    margin-right: 160px; */
-            /* background: var(--ma-262723) 0% 0% no-repeat padding-box;
-    background: #262723 0% 0% no-repeat padding-box; */
-            border: 1px solid #E9E9E942;
-            opacity: 1;
-            /* height: 653px; */
-        }
-        
-        .main1 {
-            background: var(--ma-262723) 0% 0% no-repeat padding-box;
-            background: #262723 0% 0% no-repeat padding-box;
-        }
-        
-        .row1 .col1 .datarow {
-            /* color: var(--wh-ffffff);
-    text-align: left;
-    font: italic normal medium 22px/45px Montserrat; */
-            letter-spacing: 0px;
-            color: #FFFFFF;
-            /* opacity: 1;
-    font-size: 18px; */
-            margin-bottom: 30px;
-            font-size: 14px;
-            line-height: 25px;
-            font-style: italic;
-        }
-        
-        .contactus {
-            /* margin-bottom: 194px; */
-        }
-        
-        .col2 .col2row1 {
-            /* height: 326px; */
-        }
-        
-        .col2 .col2row2 {
-            /* height: 326px; */
-        }
-        
-        .col2row1 .facility {
-            border: 1px solid #E9E9E942;
-            text-align: center;
-        }
-        
-        .fa-cog {
-            color: white;
-            /* font-size: 56px;
-    margin-top: 96px;
-    margin-bottom: 56px; */
-        }
-        
-        .col2row1 .facility p {
-            /* font: normal normal 600 22px/45px Montserrat;
-    letter-spacing: 0px; */
-            color: white;
-            text-transform: uppercase;
-            /* opacity: 1; */
-        }
-        
-        .fa-building {
-            color: white;
-            /* font-size: 56px;
-    margin-top: 96px;
-    margin-bottom: 56px; */
-            opacity: 1;
-        }
-        
-        .col2row1 .office {
-            border: 1px solid #E9E9E942;
-            text-align: center;
-            background-color: darkgray;
-            background: rgba(0, 0, 0, 0.2);
-        }
-        
-        .col2row1 .office p {
-            /* font: normal normal 600 22px/45px Montserrat;
-    letter-spacing: 0px; */
-            color: white;
-            text-transform: uppercase;
-            /* opacity: 1; */
-        }
-        
-        .col2row2 .commercial {
-            border: 1px solid #E9E9E942;
-            text-align: center;
-            background-color: darkgray;
-            background: rgba(0, 0, 0, 0.2);
-        }
-        
-        .col2row2 .commercial p {
-            /* font: normal normal 600 22px/45px Montserrat;
-    letter-spacing: 0px; */
-            color: white;
-            text-transform: uppercase;
-            /* opacity: 1; */
-        }
-        
-        .fa-home {
-            color: white;
-            /* font-size: 56px;
-    margin-top: 96px;
-    margin-bottom: 56px; */
-        }
-        
-        .col2row2 .residence {
-            border: 1px solid #E9E9E942;
-            text-align: center;
-        }
-        
-        .col2row2 .residence p {
-            /* font: normal normal 600 22px/45px Montserrat;
-    letter-spacing: 0px; */
-            color: white;
-            text-transform: uppercase;
-            /* opacity: 1; */
-        }
-        
-        .row2 {
-            margin-left: 160px;
-            margin-right: 160px;
-            background: var(--ma-262723) 0% 0% no-repeat padding-box;
-            background: #262723 0% 0% no-repeat padding-box;
-            border: 1px solid #E9E9E942;
-            opacity: 1;
-            height: 653px;
-        }
-        
-        .row2col1 {
-            margin-top: 74px;
-            margin-bottom: 77px;
-        }
-        
-        .row2col2 {
-            margin-top: 74px;
-            margin-bottom: 77px;
-            padding-top: 100px;
-        }
-        
-        .row2col1 div p {
-            color: var(--wh-ffffff);
-            text-align: left;
-            font: normal normal 600 19px/23px Montserrat-Arabic;
-            letter-spacing: 0px;
-            color: #FFFFFF;
-            opacity: 1;
-            margin-bottom: 23px;
-        }
-        
-        .row2col1 div h5 {
-            color: white;
-            color: var(--wh-ffffff);
-            text-align: left;
-            font: normal normal bold 39px/56px Montserrat-Arabic;
-            letter-spacing: 0px;
-            color: #FFFFFF;
-            opacity: 1;
-        }
-        
-        .form-group textarea {
-            text-align: start;
-        }
-        
-        .submit {
-            width: 200px;
-            height: 50px;
-        }
-        
-        .row3 {
-            margin-left: 160px;
-            margin-right: 160px;
-            background: var(--ma-262723) 0% 0% no-repeat padding-box;
-            background: #262723 0% 0% no-repeat padding-box;
-            opacity: 1;
-            height: 953px;
-            box-sizing: border-box;
-        }
-        
-        .row3 .col1 div {
-            height: 152px;
-            padding-top: 50px;
-        }
-        
-        .row3 .col1 div {
-            color: var(--wh-ffffff);
-            text-align: left;
-            font: normal normal 600 40px/55px Montserrat-Arabic;
-            letter-spacing: 0px;
-            color: #FFFFFF;
-            text-transform: uppercase;
-            opacity: 1;
-        }
-        
-        .bg-image {
-            background: url(./1.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 800px;
-        }
-        
-        .row3col2row1 {
-            height: 500px;
-        }
-        
-        .btn-Modal {
-            background: var(--ma-262723) 0% 0% no-repeat padding-box;
-            background: #262723 0% 0% no-repeat padding-box;
-            opacity: 0.4;
-            color: white;
-            text-transform: capitalize;
-        }
-        
-        .btn-Modal:hover {
-            opacity: 1;
-        }
-        
-        .btn-Floor {
-            background: var(--ma-262723) 0% 0% no-repeat padding-box;
-            background: #262723 0% 0% no-repeat padding-box;
-            opacity: 0.4;
-            color: white;
-            text-transform: capitalize;
-        }
-        
-        .btn-Floor:hover {
-            opacity: 1;
-        }
-        
-        .btn-Interior {
-            background: var(--ma-262723) 0% 0% no-repeat padding-box;
-            background: #262723 0% 0% no-repeat padding-box;
-            opacity: 0.4;
-            color: white;
-            text-transform: capitalize;
-        }
-        
-        .btn-Interior:hover {
-            opacity: 1;
-        }
-        
-        .btn-Exterior {
-            background: var(--ma-262723) 0% 0% no-repeat padding-box;
-            background: #262723 0% 0% no-repeat padding-box;
-            opacity: 0.4;
-            color: white;
-            text-transform: capitalize;
-        }
-        
-        .btn-Exterior:hover {
-            opacity: 1;
-        }
-        
-        .row3col2row2 {
-            height: 150px;
-        }
-        
-        .row3col2row2col1 {
-            background: var(--ma-262723) 0% 0% no-repeat padding-box;
-            background: #262723 0% 0% no-repeat padding-box;
-            opacity: 0.43;
-        }
-        
-        .row3col2row2 p {
-            color: var(--wh-ffffff);
-            text-align: left;
-            font: normal normal bold 40px/50px Montserrat-Arabic;
-            letter-spacing: 0px;
-            color: #FFFFFF;
-            opacity: 1;
-            padding-top: 30px;
-        }
-        
-        .row3col2row3 {
-            height: 150px;
-        }
-        
-        .row3col2row3col1 {
-            background: var(--ma-262723) 0% 0% no-repeat padding-box;
-            background: #262723 0% 0% no-repeat padding-box;
-            opacity: 0.43;
-            padding-top: 30px;
-            text-align: center;
-        }
-        
-        .btnorder {
-            background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
-            background: #FFFFFF 0% 0% no-repeat padding-box;
-            box-shadow: 10px 10px 20px #221F2033;
-            padding-left: 30px;
-            padding-right: 30px;
-            padding-top: 15px;
-            padding-bottom: 15px;
-            opacity: 1;
-        }
         /* body style css */
-        
-        .top-modals-container {
-            padding-left: 160px;
-            padding-right: 160px;
-            background-color: hsl(0, 0%, 97%);
-        }
         
         .top-modals-content {
             padding-top: 92px;
-            background-color: hsl(0, 0%, 97%);
+            background-color: #F4F4F4;
         }
         
         .top-modals-header {
@@ -746,19 +279,14 @@
         }
         
         .top-modals-header-div h3 {
-            text-align: left;
             font-size: 35px;
             font-weight: bolder;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             text-transform: uppercase;
-            opacity: 0;
-            animation-delay: 0.1s;
-        }
-        
-        .top-modals-header-div h3.animated {
             opacity: 1;
+            animation-delay: 0.1s;
         }
         
         .top-modals-paragraph {
@@ -771,14 +299,10 @@
         
         .top-modals-paragraph-div p {
             font-size: 20px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Poppins, Regular;
             font-weight: normal;
             letter-spacing: 0px;
             color: #262723;
-            opacity: 0;
-        }
-        
-        .top-modals-paragraph-div p.animated {
             opacity: 1;
         }
         
@@ -798,18 +322,20 @@
             font-weight: normal;
             border: 1px solid #E9E9E9;
             box-sizing: border-box;
-            padding-top: 40px;
+            padding-top: 30px;
             font-size: 20px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             text-transform: capitalize;
             opacity: 1;
         }
         
-        .top-modals-menu1-col1 i {
+        .top-modals-menu1-col1 img {
             color: #262723;
-            padding-right: 10px;
+            margin-right: 10px;
+            width: 39px;
+            height: 39px;
         }
         
         .top-modals-menu1-col2 {
@@ -821,18 +347,20 @@
             font-weight: normal;
             border: 1px solid #E9E9E9;
             box-sizing: border-box;
-            padding-top: 40px;
+            padding-top: 30px;
             font-size: 20px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             text-transform: capitalize;
             opacity: 1;
         }
         
-        .top-modals-menu1-col2 i {
+        .top-modals-menu1-col2 img {
             color: #262723;
-            padding-right: 10px;
+            margin-right: 10px;
+            width: 39px;
+            height: 39px;
         }
         
         .top-modals-menu1-col3 {
@@ -844,9 +372,9 @@
             font-weight: normal;
             border: 1px solid #E9E9E9;
             box-sizing: border-box;
-            padding-top: 40px;
+            padding-top: 30px;
             font-size: 20px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             text-transform: capitalize;
@@ -855,9 +383,11 @@
             color: #F4F4F4;
         }
         
-        .top-modals-menu1-col3 i {
+        .top-modals-menu1-col3 img {
             color: #F4F4F4;
-            padding-right: 10px;
+            margin-right: 10px;
+            width: 39px;
+            height: 39px;
         }
         
         .top-modals-menu1-col4 {
@@ -869,18 +399,20 @@
             font-weight: normal;
             border: 1px solid #E9E9E9;
             box-sizing: border-box;
-            padding-top: 40px;
+            padding-top: 30px;
             font-size: 20px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             text-transform: capitalize;
             opacity: 1;
         }
         
-        .top-modals-menu1-col4 i {
+        .top-modals-menu1-col4 img {
             color: #262723;
-            padding-right: 10px;
+            margin-right: 10px;
+            width: 39px;
+            height: 39px;
         }
         
         .clear {
@@ -888,29 +420,28 @@
         }
         
         .top-modals-menu2-row {
-            padding-top: 30px;
-            padding-bottom: 30px;
-            padding-left: 30px;
-            padding-right: 30px;
-            background-color: white;
-            border-left: 1px solid #E9E9E9;
-            border-right: 1px solid #E9E9E9;
-            border-bottom: 1px solid #E9E9E9;
+            padding-left: 80px;
+            padding-right: 80px;
+            background-color: #F4F4F4;
             /* margin-bottom: 70px; */
         }
         
         .top-modals-menu2 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            overflow: hidden;
             width: 100%;
-            height: 50px;
-            padding: 0%;
             background-color: white;
+            border-left: 1px solid #E9E9E9;
+            border-right: 1px solid #E9E9E9;
+            border-bottom: 1px solid #E9E9E9;
         }
         
         .top-modals-menu2-col1 {
-            width: 20%;
+            width: 15%;
+            margin-right: 2%;
             height: 50px;
             padding-top: 8px;
-            margin-right: 5%;
             float: left;
             font-size: 18px;
             text-align: center;
@@ -918,19 +449,19 @@
             border: 1px solid lightgray;
             box-sizing: border-box;
             font-size: 20px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             text-transform: capitalize;
             opacity: 1;
-            background-color: hsl(0, 0%, 97%);
+            background-color: #F8F8F8;
         }
         
         .top-modals-menu2-col2 {
-            width: 20%;
+            width: 15%;
+            margin-right: 2%;
             height: 50px;
             padding-top: 8px;
-            margin-right: 5%;
             float: left;
             font-size: 18px;
             text-align: center;
@@ -938,19 +469,19 @@
             border: 1px solid lightgray;
             box-sizing: border-box;
             font-size: 20px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             text-transform: capitalize;
             opacity: 1;
-            background-color: hsl(0, 0%, 97%);
+            background-color: #F8F8F8;
         }
         
         .top-modals-menu2-col3 {
-            width: 20%;
+            width: 15%;
+            margin-right: 2%;
             height: 50px;
             padding-top: 8px;
-            margin-right: 5%;
             float: left;
             font-size: 18px;
             text-align: center;
@@ -958,17 +489,17 @@
             border: 1px solid lightgray;
             box-sizing: border-box;
             font-size: 20px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
-            color: #262723;
+            color: white;
             text-transform: capitalize;
             opacity: 1;
             background-color: #262723;
-            background-color: hsl(0, 0%, 97%);
         }
         
         .top-modals-menu2-col4 {
-            width: 20%;
+            width: 15%;
+            margin-right: 2%;
             height: 50px;
             padding-top: 8px;
             float: left;
@@ -978,7 +509,7 @@
             border: 1px solid lightgray;
             box-sizing: border-box;
             font-size: 20px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             text-transform: capitalize;
@@ -986,15 +517,59 @@
             background-color: hsl(0, 0%, 97%);
         }
         
+        .top-modals-menu2-col5 {
+            width: 15%;
+            position: relative;
+            right: -20px;
+            margin-right: 2%;
+            height: 50px;
+            padding-top: 8px;
+            float: left;
+            font-size: 18px;
+            text-align: center;
+            font-weight: normal;
+            border: 1px solid lightgray;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-family: Montserrat-Arabic;
+            letter-spacing: 0px;
+            color: #262723;
+            text-transform: capitalize;
+            opacity: 1;
+            background-color: #F8F8F8;
+        }
+        
+        .top-modals-menu2-col6 {
+            width: 15%;
+            height: 50px;
+            position: relative;
+            right: -40px;
+            padding-top: 8px;
+            float: left;
+            font-size: 18px;
+            text-align: center;
+            font-weight: normal;
+            border: 1px solid lightgray;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-family: Montserrat-Arabic;
+            letter-spacing: 0px;
+            color: #262723;
+            text-transform: capitalize;
+            opacity: 1;
+            background-color: #F8F8F8;
+        }
+        
         .top-modals-list {
-            padding-top: 70px;
+            padding-top: 80px;
             padding-bottom: 170px;
-            background-color: hsl(0, 0%, 97%);
+            padding-left: 80px;
+            padding-right: 80px;
+            background-color: #F4F4F4;
         }
         
         .top-modals-list-col1 {
             margin-bottom: 10px;
-            padding-left: 0%;
         }
         
         .top-modals-list-col2 {
@@ -1003,12 +578,10 @@
         
         .top-modals-list-col3 {
             margin-bottom: 10px;
-            padding-right: 0%;
         }
         
         .top-modals-list-col4 {
             margin-bottom: 10px;
-            padding-left: 0%;
         }
         
         .top-modals-list-col5 {
@@ -1017,12 +590,10 @@
         
         .top-modals-list-col6 {
             margin-bottom: 10px;
-            padding-right: 0%;
         }
         
         .top-modals-list-col7 {
             margin-bottom: 10px;
-            padding-left: 0%;
         }
         
         .top-modals-list-col8 {
@@ -1031,19 +602,19 @@
         
         .top-modals-list-col9 {
             margin-bottom: 10px;
-            padding-right: 0%;
         }
         
         .card-img-div {
-            background-color: hsl(0, 0%, 93%);
+            background-color: #EEEEEE;
+            cursor: pointer;
         }
         
         .card-img-top {
-            height: 350px;
+            height: 250px;
         }
         
         .card i {
-            font-size: 25px;
+            font-size: 20px;
             padding-top: 7px;
             padding-bottom: 7px;
             padding-left: 7px;
@@ -1051,19 +622,20 @@
             border-radius: 20px;
             margin-left: 15px;
             margin-top: 10px;
-            background-color: lightgrey;
+            background-color: #BEBFBD;
             color: white;
         }
         
         .card-footer {
-            background-color: hsl(0, 0%, 90%);
+            background-color: #E9E9E9;
         }
         
         .card-footer h3 {
             color: var(--ma-262723);
             text-align: center;
-            font-size: 25px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-size: 21px;
+            font-weight: bold;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             opacity: 1;
@@ -1073,7 +645,7 @@
             color: var(--ma-262723);
             text-align: center;
             font-size: 18px;
-            font-family: 'Adobe Clean', sans-serif;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             opacity: 1;
@@ -1083,71 +655,1584 @@
         .card-footer h5 {
             color: var(--ma-262723);
             text-align: center;
-            font: normal normal bold 20px/40px Montserrat-Arabic;
+            font-size: 20px;
+            font-weight: normal;
+            font-family: Montserrat-Arabic;
             letter-spacing: 0px;
             color: #262723;
             opacity: 1;
         }
         
-        @media only screen and (min-width:1500px) and (max-width:2500px) {
-            .top-modals-container {
-                padding-left: 160px;
-                padding-right: 160px;
-                background-color: white;
+        @media only screen and (min-width:100px) and (max-width:350px) {
+            header {
+                padding-left: 20px;
+                padding-right: 20px;
             }
             .top-modals-content {
-                padding-left: 160px;
-                padding-right: 160px;
                 padding-top: 92px;
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: #F4F4F4;
+            }
+            .top-modals-header-div h3 {
+                font: normal normal bold 20px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: uppercase;
+                opacity: 1;
+            }
+            .top-modals-paragraph-div p {
+                font: normal normal normal 16px Poppins;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .top-modals-menu1 {
+                width: 100%;
+                height: auto;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                background-color: #ffffff;
+            }
+            .top-modals-menu1-col1 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 40px;
+                font: normal normal normal 18px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+                margin-bottom: 5px;
+            }
+            .top-modals-menu1-col2 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 40px;
+                font: normal normal normal 18px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+                margin-bottom: 5px;
+            }
+            .top-modals-menu1-col3 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 40px;
+                font: normal normal normal 18px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #262723;
+                color: #F4F4F4;
+                z-index: 1;
+                margin-bottom: 5px;
+            }
+            .top-modals-menu1-col4 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 40px;
+                font: normal normal normal 18px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
             }
             .top-modals-menu2-row {
-                padding-left: 160px;
-                padding-right: 160px;
-                padding-top: 0%;
-                background-color: hsl(0, 0%, 97%);
-                border-left: 1px solid #E9E9E9;
-                border-right: 1px solid #E9E9E9;
-                border-bottom: 1px solid #E9E9E9;
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: #F4F4F4;
                 /* margin-bottom: 70px; */
             }
             .top-modals-menu2 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: 100%;
+                height: auto;
+                background-color: white;
+                border-left: 1px solid #E9E9E9;
+                border-right: 1px solid #E9E9E9;
+                border-bottom: 1px solid #E9E9E9;
+            }
+            .top-modals-menu2-col1 {
+                width: 100%;
+                height: 50px;
+                float: none;
+                font-size: 17px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 18px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 97%);
+            }
+            .top-modals-menu2-col2 {
+                width: 100%;
+                height: 50px;
+                float: none;
+                font-size: 17px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 18px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 97%);
+            }
+            .top-modals-menu2-col3 {
+                width: 100%;
+                height: 50px;
+                padding-top: 8px;
+                float: left;
+                font-size: 17px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: white;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: #262723;
+            }
+            .top-modals-menu2-col4 {
+                width: 100%;
+                height: 50px;
+                padding-top: 8px;
+                float: left;
+                font-size: 17px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 97%);
+            }
+            .top-modals-menu2-col5 {
+                width: 100%;
+                height: 50px;
+                position: relative;
+                right: 0px;
+                padding-top: 8px;
+                float: left;
+                font-size: 17px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col6 {
+                width: 100%;
+                height: 50px;
+                position: relative;
+                right: 0px;
+                padding-top: 8px;
+                float: left;
+                font-size: 17px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: #F8F8F8;
+            }
+            .top-modals-list {
+                padding-top: 40px;
+                padding-bottom: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: #F4F4F4;
+            }
+            .top-modals-list-col1 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col2 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col3 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col4 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col5 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col6 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col7 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col8 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col9 {
+                margin-bottom: 15px;
+            }
+            .card-img-div {
+                background-color: #EEEEEE;
+                cursor: pointer;
+            }
+            .card-img-top {
+                height: 150px;
+            }
+            .card i {
+                font-size: 20px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 7px;
+                padding-right: 7px;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-top: 10px;
+                background-color: #BEBFBD;
+                color: white;
+            }
+            .card-footer {
+                background-color: #E9E9E9;
+            }
+            .card-footer h3 {
+                color: var(--ma-262723);
+                text-align: center;
+                font-size: 19px;
+                font-weight: bold;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .card-footer p {
+                color: var(--ma-262723);
+                padding-bottom: 2px;
+                text-align: center;
+                font-size: 16px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                margin-bottom: 0%;
+            }
+            .card-footer h5 {
+                color: var(--ma-262723);
+                text-align: center;
+                font-size: 17px;
+                font-weight: normal;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+        }
+        
+        @media only screen and (min-width:351px) and (max-width:767px) {
+            header {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .top-modals-content {
+                padding-top: 92px;
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: #F4F4F4;
+            }
+            .top-modals-header-div h3 {
+                font: normal normal bold 30px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: uppercase;
+                opacity: 1;
+            }
+            .top-modals-paragraph-div p {
+                font: normal normal normal 18px Poppins;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .top-modals-menu1 {
+                width: 100%;
+                height: auto;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                background-color: #ffffff;
+            }
+            .top-modals-menu1-col1 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 40px;
+                font: normal normal normal 20px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+                margin-bottom: 5px;
+            }
+            .top-modals-menu1-col2 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 40px;
+                font: normal normal normal 20px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+                margin-bottom: 5px;
+            }
+            .top-modals-menu1-col3 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 40px;
+                font: normal normal normal 20px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #262723;
+                color: #F4F4F4;
+                z-index: 1;
+                margin-bottom: 5px;
+            }
+            .top-modals-menu1-col4 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 40px;
+                font: normal normal normal 20px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+            }
+            .top-modals-menu2-row {
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: #F4F4F4;
+                /* margin-bottom: 70px; */
+            }
+            .top-modals-menu2 {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                width: 100%;
+                height: auto;
+                background-color: white;
+                border-left: 1px solid #E9E9E9;
+                border-right: 1px solid #E9E9E9;
+                border-bottom: 1px solid #E9E9E9;
+            }
+            .top-modals-menu2-col1 {
+                width: 100%;
+                height: 50px;
+                float: none;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 20px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 97%);
+            }
+            .top-modals-menu2-col2 {
+                width: 100%;
+                height: 50px;
+                float: none;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 20px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 97%);
+            }
+            .top-modals-menu2-col3 {
+                width: 100%;
+                height: 50px;
+                padding-top: 8px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 20px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: white;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: #262723;
+            }
+            .top-modals-menu2-col4 {
+                width: 100%;
+                height: 50px;
+                padding-top: 8px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 20px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 97%);
+            }
+            .top-modals-menu2-col5 {
+                width: 100%;
+                height: 50px;
+                position: relative;
+                right: 0px;
+                padding-top: 8px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 20px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col6 {
+                width: 100%;
+                height: 50px;
+                position: relative;
+                right: 0px;
+                padding-top: 8px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 20px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: #F8F8F8;
+            }
+            .top-modals-list {
+                padding-top: 40px;
+                padding-bottom: 40px;
+                padding-left: 20px;
+                padding-right: 20px;
+                background-color: #F4F4F4;
+            }
+            .top-modals-list-col1 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col2 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col3 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col4 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col5 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col6 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col7 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col8 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col9 {
+                margin-bottom: 15px;
+            }
+            .card-img-div {
+                background-color: #EEEEEE;
+                cursor: pointer;
+            }
+            .card-img-top {
+                height: 200px;
+            }
+            .card i {
+                font-size: 20px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 7px;
+                padding-right: 7px;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-top: 10px;
+                background-color: #BEBFBD;
+                color: white;
+            }
+            .card-footer {
+                background-color: #E9E9E9;
+            }
+            .card-footer h3 {
+                color: var(--ma-262723);
+                text-align: center;
+                font-size: 19px;
+                font-weight: bold;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .card-footer p {
+                color: var(--ma-262723);
+                text-align: center;
+                font-size: 16px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                margin-bottom: 0%;
+            }
+            .card-footer h5 {
+                color: var(--ma-262723);
+                text-align: center;
+                font-size: 20px;
+                font-weight: normal;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+        }
+        
+        @media only screen and (min-width:768px) and (max-width:991px) {
+            header {
+                padding-left: 80px;
+                padding-right: 80px;
+            }
+            .top-modals-content {
+                padding-top: 92px;
+                padding-left: 80px;
+                padding-right: 80px;
+                background-color: #F4F4F4;
+            }
+            .top-modals-header-div h3 {
+                font: normal normal bold 40px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: uppercase;
+                opacity: 1;
+            }
+            .top-modals-paragraph-div p {
+                font: normal normal normal 23px Poppins;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .top-modals-menu1 {
+                width: 100%;
+                height: auto;
+                padding-top: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                background-color: #ffffff;
+            }
+            .top-modals-menu1-col1 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                font: normal normal normal 30px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+                margin-bottom: 5px;
+            }
+            .top-modals-menu1-col2 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                font: normal normal normal 30px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+                margin-bottom: 5px;
+            }
+            .top-modals-menu1-col3 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                font: normal normal normal 30px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #262723;
+                color: #F4F4F4;
+                z-index: 1;
+                margin-bottom: 5px;
+            }
+            .top-modals-menu1-col4 {
+                width: 100%;
+                height: 100px;
+                float: none;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                font: normal normal normal 30px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+            }
+            .top-modals-menu2 {
+                padding-top: 20px;
+                padding-bottom: 10px;
+                width: 100%;
+                height: auto;
+                background-color: white;
+                border-left: 1px solid #E9E9E9;
+                border-right: 1px solid #E9E9E9;
+                border-bottom: 1px solid #E9E9E9;
+            }
+            .top-modals-menu2-col1 {
+                width: 100%;
+                height: 60px;
+                float: none;
+                padding-top: 10px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font: normal normal normal 25px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 97%);
+            }
+            .top-modals-menu2-col2 {
+                width: 100%;
+                height: 60px;
+                float: none;
+                font-size: 18px;
+                padding-top: 10px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font: normal normal normal 25px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 1;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 97%);
+            }
+            .top-modals-menu2-col3 {
+                width: 100%;
+                height: 60px;
+                float: left;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font: normal normal normal 25px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: white;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                padding-top: 10px;
+                background-color: #262723;
+            }
+            .top-modals-menu2-col4 {
+                width: 100%;
+                height: 60px;
+                padding-top: 10px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font: normal normal normal 25px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: hsl(0, 0%, 97%);
+            }
+            .top-modals-menu2-col5 {
+                width: 100%;
+                height: 60px;
+                position: relative;
+                right: 0px;
+                padding-top: 10px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 20px;
+                font: normal normal normal 25px Montserrat-Arabic;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col6 {
+                width: 100%;
+                height: 60px;
+                position: relative;
+                right: 0px;
+                padding-top: 10px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font: normal normal normal 25px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                z-index: 2;
+                margin-bottom: 10px;
+                background-color: #F8F8F8;
+            }
+            .top-modals-list {
+                padding-top: 40px;
+                padding-bottom: 40px;
+                padding-left: 80px;
+                padding-right: 80px;
+                background-color: #F4F4F4;
+            }
+            .top-modals-list-col1 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col2 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col3 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col4 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col5 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col6 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col7 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col8 {
+                margin-bottom: 15px;
+            }
+            .top-modals-list-col9 {
+                margin-bottom: 15px;
+            }
+            .card-img-top {
+                height: 300px;
+            }
+            .card i {
+                font-size: 20px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 7px;
+                padding-right: 7px;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-top: 10px;
+                background-color: #BEBFBD;
+                color: white;
+            }
+            .card-footer {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                background-color: #E9E9E9;
+            }
+            .card-footer h3 {
+                color: var(--ma-262723);
+                text-align: center;
+                font-size: 27px;
+                font-weight: bold;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .card-footer p {
+                color: var(--ma-262723);
+                text-align: center;
+                font-size: 24px;
+                font-family: Montserrat-Arabicf;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                margin-bottom: 0%;
+            }
+            .card-footer h5 {
+                color: var(--ma-262723);
+                text-align: center;
+                font-size: 30px;
+                font-weight: normal;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+        }
+        
+        @media only screen and (min-width:992px) and (max-width:1499px) {
+            header {
+                padding-left: 82px;
+                padding-right: 82px
+            }
+            .top-modals-content {
+                padding-top: 92px;
+                padding-left: 80px;
+                padding-right: 80px;
+                background-color: #F4F4F4;
+            }
+            .top-modals-header-div h3 {
+                font: normal normal bold 35px Montserrat-Arabic, Bold;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: uppercase;
+                opacity: 1;
+            }
+            .top-modals-paragraph-div p {
+                font: normal normal normal 20px Poppins, Regular;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .top-modals-menu1 {
                 width: 100%;
                 height: 100px;
                 padding: 0%;
-                padding-top: 20px;
+                background-color: #ffffff;
+            }
+            .top-modals-menu1-col1 {
+                width: 25%;
+                height: 100px;
+                float: left;
+                text-align: center;
+                border: 1px solid #E9E9E9;
                 box-sizing: border-box;
-                padding-left: 20px;
+                padding-top: 30px;
+                font: normal normal normal 18px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+            }
+            .top-modals-menu1-col1 img {
+                color: #262723;
+                margin-right: 6px;
+                width: 39px;
+                height: 39px;
+            }
+            .top-modals-menu1-col2 {
+                width: 25%;
+                height: 100px;
+                float: left;
+                font: normal normal normal 18px Montserrat-Arabic;
+                text-align: center;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+            }
+            .top-modals-menu1-col2 img {
+                color: #262723;
+                margin-right: 6px;
+                width: 39px;
+                height: 39px;
+            }
+            .top-modals-menu1-col3 {
+                width: 25%;
+                height: 100px;
+                float: left;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                font: normal normal normal 18px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #262723;
+                color: #F4F4F4;
+            }
+            .top-modals-menu1-col3 img {
+                color: #F4F4F4;
+                margin-right: 6px;
+                width: 39px;
+                height: 39px;
+            }
+            .top-modals-menu1-col4 {
+                width: 25%;
+                height: 100px;
+                float: left;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                font: normal normal normal 18 Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+            }
+            .top-modals-menu1-col4 img {
+                color: #262723;
+                margin-right: 6px;
+                width: 39px;
+                height: 39px;
+            }
+            .clear {
+                clear: both;
+            }
+            .top-modals-menu2-row {
+                padding-left: 80px;
+                padding-right: 80px;
+                background-color: #F4F4F4;
+                /* margin-bottom: 70px; */
+            }
+            .top-modals-menu2 {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                overflow: hidden;
+                width: 100%;
                 background-color: white;
+                border-left: 1px solid #E9E9E9;
+                border-right: 1px solid #E9E9E9;
+                border-bottom: 1px solid #E9E9E9;
+            }
+            .top-modals-menu2-col1 {
+                width: 15%;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                font: normal normal normal 16px Montserrat-Arabic;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col2 {
+                width: 15%;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                font-size: 16px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col3 {
+                width: 15%;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                font-size: 16px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: white;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #262723;
+            }
+            .top-modals-menu2-col4 {
+                width: 15%;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 16px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col5 {
+                width: 15%;
+                position: relative;
+                right: -20px;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                font-size: 16px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col6 {
+                width: 15%;
+                height: 60px;
+                position: relative;
+                right: -40px;
+                padding-top: 15px;
+                float: left;
+                font-size: 16px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
             }
             .top-modals-list {
-                padding-top: 70px;
+                padding-top: 80px;
                 padding-bottom: 170px;
-                padding-left: 160px;
-                padding-right: 160px;
-                background-color: hsl(0, 0%, 97%);
+                padding-left: 80px;
+                padding-right: 80px;
+                background-color: #F4F4F4;
             }
-            .page-foot-part {
-                padding-left: 145px;
-                padding-right: 145px;
+            .card-img-top {
+                height: 250px;
+            }
+            .card i {
+                font-size: 20px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 7px;
+                padding-right: 7px;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-top: 10px;
+                background-color: #BEBFBD;
+                color: white;
+            }
+            .card-footer {
+                background-color: #E9E9E9;
+                padding: 10px 20px 10px 20px;
+            }
+            .card-footer h3 {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal bold 20px/40px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .card-footer p {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal medium 18px/24px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .card-footer h5 {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal 20px/40px Montserrat-Arabic, SemiBold;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+        }
+        
+        @media only screen and (min-width:1500px) {
+            header {
+                padding-left: 80px;
+                padding-right: 80px
+            }
+            .top-modals-content {
+                padding-top: 92px;
+                padding-left: 80px;
+                padding-right: 80px;
+                background-color: #F4F4F4;
+            }
+            .top-modals-header-div h3 {
+                font: normal normal bold 40px Montserrat-Arabic, Bold;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: uppercase;
+                opacity: 1;
+            }
+            .top-modals-paragraph-div p {
+                font: normal normal normal 24px Poppins, Regular;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .top-modals-menu1 {
+                width: 100%;
+                height: 100px;
+                padding: 0%;
+                background-color: #ffffff;
+            }
+            .top-modals-menu1-col1 {
+                width: 25%;
+                height: 100px;
+                float: left;
+                text-align: center;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                font: normal normal normal 20px/27px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+            }
+            .top-modals-menu1-col1 img {
+                color: #262723;
+                margin-right: 25px;
+                width: 39px;
+                height: 39px;
+            }
+            .top-modals-menu1-col2 {
+                width: 25%;
+                height: 100px;
+                float: left;
+                font: normal normal normal 20px/27px Montserrat-Arabic;
+                text-align: center;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+            }
+            .top-modals-menu1-col2 img {
+                color: #262723;
+                margin-right: 25px;
+                width: 39px;
+                height: 39px;
+            }
+            .top-modals-menu1-col3 {
+                width: 25%;
+                height: 100px;
+                float: left;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                font: normal normal normal 20px/27px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #262723;
+                color: #F4F4F4;
+            }
+            .top-modals-menu1-col3 img {
+                color: #F4F4F4;
+                margin-right: 25px;
+                width: 39px;
+                height: 39px;
+            }
+            .top-modals-menu1-col4 {
+                width: 25%;
+                height: 100px;
+                float: left;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid #E9E9E9;
+                box-sizing: border-box;
+                padding-top: 30px;
+                font: normal normal normal 20px/27px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+            }
+            .top-modals-menu1-col4 img {
+                color: #262723;
+                margin-right: 25px;
+                width: 39px;
+                height: 39px;
+            }
+            .clear {
+                clear: both;
+            }
+            .top-modals-menu2-row {
+                padding-left: 80px;
+                padding-right: 80px;
+                background-color: #F4F4F4;
+                /* margin-bottom: 70px; */
+            }
+            .top-modals-menu2 {
+                padding-top: 30px;
+                padding-bottom: 30px;
+                overflow: hidden;
+                width: 100%;
+                background-color: white;
+                border-left: 1px solid #E9E9E9;
+                border-right: 1px solid #E9E9E9;
+                border-bottom: 1px solid #E9E9E9;
+            }
+            .top-modals-menu2-col1 {
+                width: 15%;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                font: normal normal normal 18px Montserrat-Arabic;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col2 {
+                width: 15%;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col3 {
+                width: 15%;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: white;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #262723;
+            }
+            .top-modals-menu2-col4 {
+                width: 15%;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-size: 18px;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col5 {
+                width: 15%;
+                position: relative;
+                right: -20px;
+                margin-right: 2%;
+                height: 60px;
+                padding-top: 15px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
+            }
+            .top-modals-menu2-col6 {
+                width: 15%;
+                height: 60px;
+                position: relative;
+                right: -40px;
+                padding-top: 15px;
+                float: left;
+                font-size: 18px;
+                text-align: center;
+                font-weight: normal;
+                border: 1px solid lightgray;
+                box-sizing: border-box;
+                font-family: Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                text-transform: capitalize;
+                opacity: 1;
+                background-color: #F8F8F8;
+            }
+            .top-modals-list {
+                padding-top: 80px;
+                padding-bottom: 170px;
+                padding-left: 80px;
+                padding-right: 80px;
+                background-color: #F4F4F4;
+            }
+            .card-img-top {
+                height: 400px;
+            }
+            .card-img-div {
+                background-color: #EEEEEE;
+                cursor: pointer;
+            }
+            .card i {
+                font-size: 22px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-top: 10px;
+                background-color: #BEBFBD;
+                color: white;
+            }
+            .card-footer {
+                background-color: #E9E9E9;
+                padding: 31px 86px 38px 86px;
+            }
+            .card-footer h3 {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal bold 30px/40px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .card-footer p {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal medium 18px/24px Montserrat-Arabic;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .card-footer h5 {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal 30px/40px Montserrat-Arabic, SemiBold;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
             }
         }
     </style>
 
     <script>
-        $(document).ready(function() {
-            $('.top-modals-header-div h3 ').waypoint(function(direction) {
-                $('.top-modals-header-div h3 ').addClass('animated zoomInDown')
-            }, {
-                offset: '700px'
-            })
-        });
-        $(document).ready(function() {
-            $('.top-modals-paragraph-div p').waypoint(function(direction) {
-                $('.top-modals-paragraph-div p ').addClass('animated flash')
-            }, {
-                offset: '700px'
-            })
-        });
+        function Redirect() {
+            window.location.href = "Top-modals.html";
+        }
+
+        function Home() {
+            window.location.href = "index.html";
+        }
     </script>
 </head>
 
@@ -1199,7 +2284,7 @@
     <div class="page-head-part">
         <header>
             <div class="logo">
-                <img src="./static/images/logo.png" alt="" class="logoimg">
+                <img src="./static/images/logo.png" alt="" class="logoimg" onclick="Home()">
             </div>
             <div class="header-right">
                 <div class="lang-bx">AR</div>
@@ -1214,23 +2299,23 @@
 
     <div class="container-fluid top-modals-container">
         <div class="row top-modals-content">
-            <div class="col-12 top-modals-header text-lg-left text-xl-left text-md-center text-sm-center text-center">
+            <div class="col-12 text-xxl-start text-lg-start text-xl-start text-md-center text-sm-center text-center top-modals-header ps-xxl-0">
                 <div class="top-modals-header-div">
                     <h3>TOP MODALS</h3>
                 </div>
             </div>
-            <div class="col-12 top-modals-paragraph text-lg-left text-xl-left text-md-center text-sm-center text-center">
+            <div class="col-12 top-modals-paragraph text-lg-start text-xl-start text-md-center text-sm-center text-center ps-xxl-0">
                 <div class="top-modals-paragraph-div">
                     <p>
                         Buying a prefab house online is the new reality of modern living
                     </p>
                 </div>
             </div>
-            <div class="col-12 top-modals-menu1">
-                <div class="top-modals-menu1-col1"><i class="fa fa-home" aria-hidden="true"></i> Facilities Prefab</div>
-                <div class="top-modals-menu1-col2"><i class="fa fa-briefcase" aria-hidden="true"></i> Offices Prefab</div>
-                <div class="top-modals-menu1-col3"><i class="fa fa-building" aria-hidden="true"></i> Residential Prefab</div>
-                <div class="top-modals-menu1-col4"><i class="fa fa-home" aria-hidden="true"></i> Commercials Prefab</div>
+            <div class="col-12 top-modals-menu1 ps-xxl-0 pe-xxl-0">
+                <div class="top-modals-menu1-col1"><img src="./static/images/001-building.png" alt="" class="img-fluid"> Facilities Prefab</div>
+                <div class="top-modals-menu1-col2"><img src="./static/images/002-workspace.png" alt=""> Offices Prefab</div>
+                <div class="top-modals-menu1-col3"><img src="./static/images/Residence.png" alt=""> Residential Prefab</div>
+                <div class="top-modals-menu1-col4"><img src="./static/images/004-commercial.png" alt=""> Commercials Prefab</div>
                 <div class="clear"></div>
             </div>
 
@@ -1241,212 +2326,280 @@
                 <div class=" top-modals-menu2-col2">Resort Prefab</div>
                 <div class=" top-modals-menu2-col3">Office Prefab</div>
                 <div class=" top-modals-menu2-col4">Non-expensive Prefab</div>
+                <div class=" top-modals-menu2-col5">Resort Prefab</div>
+                <div class=" top-modals-menu2-col6">Office Prefab</div>
                 <div class=" clear"></div>
             </div>
         </div>
 
         <div class="row top-modals-list">
-            <div class="col-4 top-modals-list-col1">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 top-modals-list-col1 ps-xxl-0 ps-xl-0 ps-lg-0">
                 <div class="card">
                     <div class="card-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  snle ammariyah 4.png" alt="Card image cap">
+                        <img class="card-img-top" src="./static/images/Single-ammariyah.png" alt="Card image cap" onclick="Redirect()">
                     </div>
                     <div class="card-footer">
-                        <h3>Alammariyah Suite Cabin</h3>
+                        <h5>Alammariyah Suite Cabin</h5>
                         <p>Start from</p>
-                        <h5>XXX,XXX SR</h5>
+                        <h3>XXX,XXX SR</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-4 top-modals-list-col2">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 top-modals-list-col2 ">
                 <div class="card">
                     <div class="card-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0 Single Umluj.png" alt="Card image cap">
+                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0 Single Umluj.png" alt="Card image cap" onclick="Redirect()">
                     </div>
                     <div class="card-footer">
-                        <h3>Umluj Suite Cabin</h3>
+                        <h5>Umluj Suite Cabin</h5>
                         <p>Start from</p>
-                        <h5>XXX,XXX SR</h5>
+                        <h3>XXX,XXX SR</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-4 top-modals-list-col3">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 top-modals-list-col3 pe-xxl-0 pe-xl-0 pe-lg-0">
                 <div class="card">
                     <div class="card-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  snle SOODAH.png" alt="Card image cap">
+                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  snle SOODAH.png" alt="Card image cap" onclick="Redirect()">
                     </div>
                     <div class="card-footer">
-                        <h3>Alsoodah Suite Cabin</h3>
+                        <h5>Alsoodah Suite Cabin</h5>
                         <p>Start from</p>
-                        <h5>XXX,XXX SR</h5>
+                        <h3>XXX,XXX SR</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-4 top-modals-list-col4">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 top-modals-list-col4 ps-xxl-0 ps-xl-0 ps-lg-0">
                 <div class="card">
                     <div class="card-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Ammariyah.png" alt="Card image cap">
+                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Ammariyah.png" alt="Card image cap" onclick="Redirect()">
                     </div>
                     <div class="card-footer">
-                        <h3>Alammariyah Twin Cabins</h3>
+                        <h5>Alammariyah Twin Cabins</h5>
                         <p>Start from</p>
-                        <h5>XXX,XXX SR</h5>
+                        <h3>XXX,XXX SR</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-4 top-modals-list-col5">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 top-modals-list-col5">
                 <div class="card">
                     <div class="card-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Umluj.png" alt="Card image cap">
+                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Umluj.png" alt="Card image cap" onclick="Redirect()">
                     </div>
                     <div class="card-footer">
-                        <h3>Umluj Twin Cabins</h3>
+                        <h5>Umluj Twin Cabins</h5>
                         <p>Start from</p>
-                        <h5>XXX,XXX SR</h5>
+                        <h3>XXX,XXX SR</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-4 top-modals-list-col6">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 top-modals-list-col6 pe-xxl-0 pe-xl-0 pe-lg-0">
                 <div class="card">
                     <div class="card-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  snle SOODAH.png" alt="Card image cap">
+                        <img class="card-img-top" src="./static/images/Double_alshood.png" alt="Card image cap" onclick="Redirect()">
                     </div>
                     <div class="card-footer">
-                        <h3>Alsoodah Twin Cabins</h3>
+                        <h5>Alsoodah Twin Cabins</h5>
                         <p>Start from</p>
-                        <h5>XXX,XXX SR</h5>
+                        <h3>XXX,XXX SR</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-4 top-modals-list-col7">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 top-modals-list-col7 ps-xxl-0 ps-xl-0 ps-lg-0">
                 <div class="card">
                     <div class="card-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Grey.png" alt="Card image cap">
+                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Grey.png" alt="Card image cap" onclick="Redirect()">
                     </div>
                     <div class="card-footer">
-                        <h3>Customized Twin Cabins</h3>
+                        <h5>Customized Twin Cabins</h5>
                         <p>Start from</p>
-                        <h5>XXX,XXX SR</h5>
+                        <h3>XXX,XXX SR</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-4 top-modals-list-col8">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 top-modals-list-col8">
                 <div class="card">
                     <div class="card-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Blue.png" alt="Card image cap">
+                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Blue.png" alt="Card image cap" onclick="Redirect()">
                     </div>
                     <div class="card-footer">
-                        <h3>Customized Twin Cabins</h3>
+                        <h5>Customized Twin Cabins</h5>
                         <p>Start from</p>
-                        <h5>XXX,XXX SR</h5>
+                        <h3>XXX,XXX SR</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-4  top-modals-list-col9">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 top-modals-list-col9 pe-xxl-0 pe-xl-0 pe-lg-0">
                 <div class="card">
                     <div class="card-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
-                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Red.png" alt="Card image cap">
+                        <img class="card-img-top" src="./static/images/P21-002 Shelt 1.0  Red.png" alt="Card image cap" onclick="Redirect()">
                     </div>
                     <div class="card-footer">
-                        <h3>Customized Twin Cabins</h3>
+                        <h5>Customized Twin Cabins</h5>
                         <p>Start from</p>
-                        <h5>75,452 SR</h5>
+                        <h3>75,452 SR</h3>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- //footer -->
-    <div class="page-foot-part ">
+    <div class="page-foot-part">
         <footer>
-            <div class="footer-left ">
-                <div class="footer-left-top ">
-                    <div class="footer-left-top-contianer footer-details-container ">
-                        <div class="logo ">
-                            <img src="./static/images/logo.png" alt="">
+            <div class="footer-top">
+                <div class="footer-left">
+                    <div class="footer-left-top">
+                        <div class="footer-left-top-contianer footer-details-container">
+                            <div class="logo">
+                                <img src="./static/images/logo.png" alt="" class="logoimg">
+                            </div>
+                            <div class="footer-app-short">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                            </div>
+                            <a href="contact.html"><button class="slide-button slide_right">CONTACT US</button></a>
                         </div>
-                        <div class="footer-app-short ">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                        <div class="footer-left-top-contianer footer-contact-container">
+                            <p class="head">
+                                CONTACT
+                            </p>
+                            <div class="content">
+                                <p class="head">PHONE</p>
+                                <p class="value">+966 666 444 0000</p>
+                            </div>
+                            <div class="content">
+                                <p class="head">ADDRESS</p>
+                                <p class="value">22 Road, borklyn street Riyadh, Saudi Arabia</p>
+                            </div>
+                            <div class="content">
+                                <p class="head">EMAIL</p>
+                                <p class="value">customers@nozol.sa</p>
+                            </div>
                         </div>
-                        <button class="slide-button slide_right " onclick="goToContactUs() ">ORDER NOW</button>
-                    </div>
-                    <div class="footer-left-top-contianer footer-contact-container ">
-                        <p class="head ">
-                            CONTACT
-                        </p>
-                        <div class="content ">
-                            <p class="head ">PHONE</p>
-                            <p class="value ">+966 666 444 0000</p>
+                        <div class="footer-left-top-contianer footer-nozol-container">
+                            <p class="head">
+                                NOZOL
+                            </p>
+                            <p class="link">Our Models</p>
+                            <p class="link">About Us</p>
+                            <p class="link">Pricing</p>
+                            <p class="link">How it works</p>
+                            <p class="link">Account</p>
+                            <p class="link">ENG</p>
                         </div>
-                        <div class="content ">
-                            <p class="head ">ADDRESS</p>
-                            <p class="value ">22 Road, borklyn street Riyadh, Saudi Arabia</p>
+                        <div class="footer-left-top-contianer footer-support-container">
+                            <p class="head">
+                                SUPPORT
+                            </p>
+                            <p class="link">FAQs</p>
+                            <p class="link">Contact Us</p>
+                            <p class="link">Terms of Service</p>
+                            <p class="link">Privacy</p>
+                            <p class="link">Careers</p>
+                            <p class="link">Blogs</p>
                         </div>
-                        <div class="content ">
-                            <p class="head ">EMAIL</p>
-                            <p class="value ">customers@nozol.sa</p>
-                        </div>
-                    </div>
-                    <div class="footer-left-top-contianer footer-nozol-container ">
-                        <p class="head ">
-                            NOZOL
-                        </p>
-                        <p class="link ">Our Models</p>
-                        <p class="link ">About Us</p>
-                        <p class="link ">Pricing</p>
-                        <p class="link ">How it works</p>
-                        <p class="link ">Account</p>
-                        <p class="link ">ENG</p>
-                    </div>
-                    <div class="footer-left-top-contianer footer-support-container ">
-                        <p class="head ">
-                            SUPPORT
-                        </p>
-                        <p class="link ">FAQs</p>
-                        <p class="link ">Contact Us</p>
-                        <p class="link ">Terms of Service</p>
-                        <p class="link ">Privacy</p>
-                        <p class="link ">Careers</p>
-                        <p class="link ">Blogs</p>
                     </div>
                 </div>
-                <div class="footer-left-bottom ">
-                    <div class="back-to-top-btn " onclick="gotoTop() "><i class="fa fa-long-arrow-up " aria-hidden="true "></i> BACK TO TOP</div>
-                    <div> © 2021 PREFAB, All copyright reserve</div>
+                <div class="footer-right">
+                    <p class="head">FOLLOW US</p>
+                    <div class="social-handle-container">
+                        <div class="social-handle">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-handle">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-handle">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-handle">
+                            <i class="fa fa-google-plus" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="news-letter-input">
+                        <p class="news-letter-input-label mb-3">Sign to our newsletter for updates</p>
+                        <input type="text" placeholder="Email...">
+                    </div>
                 </div>
             </div>
-            <div class="footer-right ">
-                <p class="head ">FOLLOW US</p>
-                <div class="social-handle-container ">
-                    <div class="social-handle ">
-                        <i class="fa fa-facebook " aria-hidden="true "></i>
+            <div class="footer-left-top footer-second-row">
+                <div class="footer-left-top-contianer footer-nozol-container">
+                    <p class="head">
+                        NOZOL
+                    </p>
+                    <p class="link">Our Models</p>
+                    <p class="link">About Us</p>
+                    <p class="link">Pricing</p>
+                    <p class="link">How it works</p>
+                    <p class="link">Account</p>
+                    <p class="link">ENG</p>
+                </div>
+                <div class="footer-left-top-contianer footer-support-container">
+                    <p class="head">
+                        SUPPORT
+                    </p>
+                    <p class="link">FAQs</p>
+                    <p class="link">Contact Us</p>
+                    <p class="link">Terms of Service</p>
+                    <p class="link">Privacy</p>
+                    <p class="link">Careers</p>
+                    <p class="link">Blogs</p>
+                </div>
+                <div class="footer-left-top-contianer footer-contact-container">
+                    <p class="head">
+                        CONTACT
+                    </p>
+                    <div class="content">
+                        <p class="head">PHONE</p>
+                        <p class="value">+966 666 444 0000</p>
                     </div>
-                    <div class="social-handle ">
-                        <i class="fa fa-instagram " aria-hidden="true "></i>
+                    <div class="content">
+                        <p class="head">ADDRESS</p>
+                        <p class="value">22 Road, borklyn street Riyadh, Saudi Arabia</p>
                     </div>
-                    <div class="social-handle ">
-                        <i class="fa fa-twitter " aria-hidden="true "></i>
-                    </div>
-                    <div class="social-handle ">
-                        <i class="fa fa-google-plus " aria-hidden="true "></i>
+                    <div class="content">
+                        <p class="head">EMAIL</p>
+                        <p class="value">customers@nozol.sa</p>
                     </div>
                 </div>
-                <div class="news-letter-input ">
-                    <p class="news-letter-input-label mb-3 ">Sign to our newsletter for updates</p>
-                    <input type="text " placeholder="Email... ">
+            </div>
+            <div class="footer-right footer-third-row">
+                <p class="head">FOLLOW US</p>
+                <div class="social-handle-container">
+                    <div class="social-handle">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </div>
+                    <div class="social-handle">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                    <div class="social-handle">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </div>
+                    <div class="social-handle">
+                        <i class="fa fa-google-plus" aria-hidden="true"></i>
+                    </div>
                 </div>
+                <div class="news-letter-input">
+                    <p class="news-letter-input-label mb-3">Sign to our newsletter for updates</p>
+                    <input type="text" placeholder="Email...">
+                </div>
+            </div>
+            <div class="footer-left-bottom">
+                <div class="back-to-top-btn" onclick="gotoTop()"><i class="fa fa-long-arrow-up" aria-hidden="true"></i> BACK TO TOP</div>
+                <div class="footer-copyright"> © 2021 PREFAB, All copyright reserve</div>
             </div>
         </footer>
     </div>
+    <!-- footer -->
+
 </body>
 
 </html>
