@@ -1,5 +1,5 @@
 header {
-    padding: 40px 80px;
+    padding: 40px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,7 +96,7 @@ header {
 
 @media only screen and (min-width:1500px) and (max-width:2500px) {
     header {
-        padding: 40px 80px;
+        /* padding: 40px 80px; */
         display: flex;
         align-items: center;
         justify-content: space-between;

@@ -123,17 +123,16 @@ function slideNextModelCarosulItem() {
             .attr("src", nextItemObj.imgPath)
             .fadeIn(500);
 
+        console.log($('#model-carosul-item-slider-'+(currentModelCarosulItem+1)));
         $('.carosul-slider div').removeClass("active");
-        $('#model-carosul-item-slider-' + (currentModelCarosulItem + 1)).addClass("active");
+        $('#model-carosul-item-slider-'+(currentModelCarosulItem+1)).addClass("active");
 
         console.log(currentModelCarosulItem);
         if (currentModelCarosulItem < modelCarosulItems.length - 1) {
             $("#model-carosul-item-hidden").css("display", "block");
 
             var hiddenCarosulItemIdx = currentModelCarosulItem + 1;
-            console.log(hiddenCarosulItemIdx);
             var hiddenItemObj = modelCarosulItems[hiddenCarosulItemIdx];
-            console.log(hiddenItemObj);
             $("#model-carosul-item-hidden img")
                 .attr("src", hiddenItemObj.imgPath)
                 .fadeIn(500);
@@ -149,9 +148,7 @@ function slideNextModelCarosulItem() {
             $("#model-carosul-item-hidden").css("display", "block");
 
             var hiddenCarosulItemIdx = currentModelCarosulItem - 1;
-            console.log(hiddenCarosulItemIdx);
             var hiddenItemObj = modelCarosulItems[hiddenCarosulItemIdx];
-            console.log(hiddenItemObj);
             $("#model-carosul-item-hidden-left img")
                 .attr("src", hiddenItemObj.imgPath)
                 .fadeIn(500);
