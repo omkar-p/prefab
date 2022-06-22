@@ -20,7 +20,7 @@ var pageHeadBgImages = [{
 var nextModelClosup = 0;
 var modelClosupImages = [{
         "id": "model-closup-preview",
-        "imgPath": "./static/images/LIVING.jpg"
+        "imgPath": "./static/images/Shore_CB.jpg"
     },
     {
         "id": "model-closup-plan",
@@ -28,11 +28,11 @@ var modelClosupImages = [{
     },
     {
         "id": "model-closup-interior",
-        "imgPath": "./static/images/Shore_CB.jpg"
+        "imgPath": "./static/images/LIVING.jpg"
     },
     {
         "id": "model-closup-exterior",
-        "imgPath": "./static/images/Cabin_Desert_2k.jpg"
+        "imgPath": "./static/images/Cabin_Desert.jpg"
     }
 ];
 var changeHeadBgTimeout;
@@ -123,9 +123,9 @@ function slideNextModelCarosulItem() {
             .attr("src", nextItemObj.imgPath)
             .fadeIn(500);
 
-        console.log($('#model-carosul-item-slider-'+(currentModelCarosulItem+1)));
+        console.log($('#model-carosul-item-slider-' + (currentModelCarosulItem + 1)));
         $('.carosul-slider div').removeClass("active");
-        $('#model-carosul-item-slider-'+(currentModelCarosulItem+1)).addClass("active");
+        $('#model-carosul-item-slider-' + (currentModelCarosulItem + 1)).addClass("active");
 
         console.log(currentModelCarosulItem);
         if (currentModelCarosulItem < modelCarosulItems.length - 1) {

@@ -91,9 +91,6 @@ header {
     align-self: flex-end;
 }
 
-
-
-
 @media only screen and (min-width:1500px) and (max-width:2500px) {
     header {
         /* padding: 40px 80px; */
@@ -178,17 +175,14 @@ header {
     }
 }
 
-
 @media (min-width:1600px) {
     header {
         padding: 55px 160px;
     }
-
     .logo .logoimg {
         height: 50px;
         width: 220px;
     }
-
     .lang-bx {
         width: 35px;
         height: 35px;
@@ -196,7 +190,6 @@ header {
         font-weight: 600;
         margin-right: 50px;
     }
-
     .sidebar-btn {
         width: 40px;
         height: 30px;
@@ -204,24 +197,20 @@ header {
     }
 }
 
-
 @media (max-width: 900px) {
     header {
         padding: 30px 40px;
     }
-
     .logo .logoimg {
         height: 30px;
         width: 140px;
     }
 }
 
-
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
     header {
         padding: 20px 20px;
     }
-
     .logo .logoimg {
         height: 25px;
         width: 120px;

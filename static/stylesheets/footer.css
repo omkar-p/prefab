@@ -188,8 +188,6 @@
     display: none;
 }
 
-
-
 @media (min-width:1600px) {
     .page-foot-part .footer-left-top {
         padding: 70px 0px 70px 160px;
@@ -201,43 +199,44 @@
     .page-foot-part .footer-right {
         padding-right: 100px;
     }
+    .page-foot-part .footer-left-top .logo {
+        margin-bottom: 44.85px;
+    }
     .footer-app-short {
-        font-size: 16px;
-        line-height: 32px;
+        width: 321px;
+        font: normal normal 18px/30px Montserrat-Arabic;
         width: 93%;
-        margin-bottom: 45px;
+        margin-bottom: 22.42px;
     }
     .footer-left-top-contianer button {
         width: 162px;
         height: 47px;
-        font-size: 12px;
+        font: normal normal normal 12px/14px Montserrat-Arabic;
     }
     .footer-left-top-contianer .head {
-        font-size: 18px;
-        line-height: 30px;
-        margin-bottom: 60px;
+        font: normal normal 18px/30px Montserrat-Arabic;
+        margin-bottom: 30px;
     }
     .footer-contact-container .content .head {
-        font-size: 12px !important;
-        line-height: 30px;
+        font: normal normal 12px/30px Montserrat-Arabic;
+        margin-bottom: 5px;
         letter-spacing: 4.8px;
     }
     .footer-contact-container .content .value {
-        font-size: 16px;
-        line-height: 30px;
+        font: normal normal 16px/30px Montserrat-Arabic;
+        width: 163px;
     }
     .footer-left-top-contianer .link {
-        font-size: 16px;
-        line-height: 40px;
+        font: normal normal normal 16px/32px Montserrat-Arabic;
     }
     .footer-left-bottom {
-        font-size: 12px;
+        font: normal normal 15px/14px Montserrat-Arabic;
     }
     .footer-copyright {
         font-size: 15px;
     }
     .footer-right .head {
-        font-size: 18px;
+        font: normal normal 18px/30px Montserrat-Arabic;
     }
     .social-handle-container {
         width: 228px;
@@ -245,11 +244,11 @@
     .footer-right .social-handle {
         height: 48px;
         width: 48px;
+        font: normal normal normal 17px/18px Font Awesome 5 Brands;
         /* margin-right: 12px; */
     }
     .news-letter-input-label {
-        font-size: 13px;
-        line-height: 20px;
+        font: normal normal 16px/20px Montserrat-Arabic;
     }
     .news-letter-input input[type="text"] {
         /* width: 66%; */
@@ -289,14 +288,12 @@
     .footer-left .footer-left-top .footer-support-container {
         display: none;
     }
-
     .footer-fourth-row {
         display: flex;
     }
     .footer-left .footer-left-bottom {
         display: none;
     }
-
     .footer-left .footer-left-top .footer-details-container {
         width: 100%;
     }

@@ -7,6 +7,10 @@
     --ma-262723: #262723;
 }
 
+sub {
+    content: "\00A9";
+}
+
 .model-box {
     position: fixed;
     width: 35%;
@@ -609,16 +613,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    margin-left: 1px;
+    margin-top: 1px;
 }
 
-.model-closup-tab.active {
+.model-closup-tab+.active {
     background: #262723;
     opacity: 1;
     border: none;
-    /* border-top: 1px solid;
-    border-bottom: 1px solid; */
-    border: 1px solid;
 }
 
 .model-closup-detail {
@@ -647,7 +649,6 @@ body {
 }
 
 .model-closup-detail-logo sup {
-    top: -0.53em;
     font-size: 60%;
     left: 3px;
     font-weight: normal;
@@ -678,8 +679,6 @@ body {
     color: #000;
     margin-top: 20px;
 }
-
-.model-closup-detail p {}
 
 .designed-experience-external-container {
     background: #FFFFFF;
@@ -1156,7 +1155,6 @@ body {
 .col2row1 .facility {
     border: 1px solid #E9E9E942;
     text-align: center;
-    background: rgba(0, 0, 0, 0.2);
 }
 
 .fa-cog {
@@ -1186,6 +1184,7 @@ body {
 .col2row1 .office {
     border: 1px solid #E9E9E942;
     text-align: center;
+    background-color: #30312D;
 }
 
 .col2row1 .office p {
@@ -1200,6 +1199,7 @@ body {
 .col2row2 .commercial {
     border: 1px solid #E9E9E942;
     text-align: center;
+    background-color: #30312D;
 }
 
 .col2row2 .commercial p {
@@ -1221,7 +1221,6 @@ body {
 .col2row2 .residence {
     border: 1px solid #E9E9E942;
     text-align: center;
-    background: rgba(0, 0, 0, 0.2);
 }
 
 .col2row2 .residence p {
@@ -1414,7 +1413,6 @@ body {
     .slogan-with-order-btn p {
         font-size: 12px;
     }
-    
     .slogan-with-order-btn button {
         border: none;
         background: none;
@@ -1430,7 +1428,6 @@ body {
         color: #262723;
         font-family: 'Montserrat-Arabic', sans-serif;
     }
-    
     .modal-categories-container {
         padding: 40px 100px 213px 100px;
         background-color: #262723;
@@ -1511,7 +1508,7 @@ body {
         font-size: 45px;
     }
     .modal-closup-box {
-        height: 914px;
+        height: 1100px;
         position: relative;
         display: flex;
         justify-content: center;
@@ -1558,6 +1555,7 @@ body {
         justify-content: center;
         align-items: center;
         margin-right: 1px;
+        margin-top: 2px;
     }
     .model-closup-tab+.active {
         background: #262723;
@@ -1815,7 +1813,6 @@ body {
         height: 100%;
         background: transparent linear-gradient(90deg, #262723 0%, #26272300 100%) 0% 0% no-repeat padding-box;
     }
-    
     .been-there-team-members .been-there-team-member-img {
         height: 40px;
         width: 40px;
@@ -2192,12 +2189,10 @@ body {
         font-weight: 600;
         margin-right: 50px;
     }
-
     .ui-pattern-1 {
         width: 595px;
         height: 531px;
     }
-
     .sidebar-btn {
         width: 40px;
         height: 30px;
@@ -2207,7 +2202,7 @@ body {
         font-size: 18px;
     }
     .slogan-with-order-btn h1 {
-        margin-bottom: 35px;
+        margin-bottom: 25px;
         font-size: 60px;
         font-weight: 900;
         line-height: 70px;
@@ -2216,7 +2211,6 @@ body {
         width: 236px;
         height: 60px;
         font-size: 18px;
-        margin-top: 30px;
     }
     .bg-slider-options .bg-slider-img-container {
         height: 100px;
@@ -2298,7 +2292,7 @@ body {
         padding: 40px 160px 213px 160px;
     }
     .modal-categories-detail {
-        padding: 140px 94px 60px 94px;
+        padding: 50px 94px 60px 94px;
     }
     .row1 .col1 .headrow,
     .row1 .col1 .datarow,
@@ -2336,7 +2330,7 @@ body {
         font-size: 40px;
     }
     .modal-closup-box {
-        height: 913px;
+        height: 1100px;
     }
     .model-closup-tab {
         width: 253px;
@@ -2575,7 +2569,6 @@ body {
         height: 30px;
         width: 140px;
     }
-
     .slogan-with-order-btn {
         padding: 70px 0px 80px 40px;
     }
@@ -2940,7 +2933,6 @@ body {
         height: 25px;
         width: 120px;
     }
-
     .slogan-with-order-btn {
         padding: 80px 30px 80px 30px;
         display: flex;
