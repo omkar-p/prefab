@@ -204,39 +204,31 @@
     }
     .footer-app-short {
         width: 321px;
-        font: normal normal 18px/30px Montserrat-Arabic;
         width: 93%;
         margin-bottom: 22.42px;
     }
     .footer-left-top-contianer button {
         width: 162px;
         height: 47px;
-        font: normal normal normal 12px/14px Montserrat-Arabic;
     }
     .footer-left-top-contianer .head {
-        font: normal normal 18px/30px Montserrat-Arabic;
         margin-bottom: 30px;
     }
     .footer-contact-container .content .head {
-        font: normal normal 12px/30px Montserrat-Arabic;
         margin-bottom: 5px;
         letter-spacing: 4.8px;
     }
     .footer-contact-container .content .value {
-        font: normal normal 16px/30px Montserrat-Arabic;
         width: 163px;
     }
     .footer-left-top-contianer .link {
-        font: normal normal normal 16px/32px Montserrat-Arabic;
     }
     .footer-left-bottom {
-        font: normal normal 15px/14px Montserrat-Arabic;
     }
     .footer-copyright {
         font-size: 15px;
     }
     .footer-right .head {
-        font: normal normal 18px/30px Montserrat-Arabic;
     }
     .social-handle-container {
         width: 228px;
@@ -244,11 +236,9 @@
     .footer-right .social-handle {
         height: 48px;
         width: 48px;
-        font: normal normal normal 17px/18px Font Awesome 5 Brands;
         /* margin-right: 12px; */
     }
     .news-letter-input-label {
-        font: normal normal 16px/20px Montserrat-Arabic;
     }
     .news-letter-input input[type="text"] {
         /* width: 66%; */

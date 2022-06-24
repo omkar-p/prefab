@@ -20,11 +20,11 @@ var pageHeadBgImages = [{
 var nextModelClosup = 0;
 var modelClosupImages = [{
         "id": "model-closup-preview",
-        "imgPath": "./static/images/Shore_CB.jpg"
+        "imgPath": "./static/images/preview_01.jpg"
     },
     {
         "id": "model-closup-plan",
-        "imgPath": "./static/images/Desert.jpg"
+        "imgPath": "./static/images/Floor_Plan_01.jpg"
     },
     {
         "id": "model-closup-interior",
@@ -117,7 +117,6 @@ function changeModelClosup(modelClosupIdx) {
 
 function slideNextModelCarosulItem() {
     if (currentModelCarosulItem < modelCarosulItems.length - 1) {
-        console.log(currentModelCarosulItem);
         var nextItemObj = modelCarosulItems[++currentModelCarosulItem];
         $("#model-carosul-item-active img")
             .attr("src", nextItemObj.imgPath)

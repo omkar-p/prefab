@@ -617,7 +617,7 @@ body {
     margin-top: 1px;
 }
 
-.model-closup-tab+.active {
+.model-closup-tab.active {
     background: #262723;
     opacity: 1;
     border: none;
@@ -931,6 +931,7 @@ body {
 .been-there-content h3 {
     margin: 0;
     padding-bottom: 20px;
+    font-weight: 700;
 }
 
 .been-there-content p {
