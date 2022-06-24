@@ -89,8 +89,8 @@
    
    .footer-contact-container .content .value {
        color: #262723;
-       font: normal normal 12px Montserrat-Arabic;
-       width: 163px;
+       font: normal normal 300 12px/20px Montserrat-Arabic;
+       width: 150px;
    }
    
    .footer-left-top-contianer .link {
@@ -268,7 +268,7 @@
        }
        .footer-contact-container .content .value {
            color: #262723;
-           font: normal normal 16px/30px Montserrat-Arabic;
+           font: normal normal 300 17px/30px  Montserrat-Arabic;
            width: 163px;
        }
        .footer-left-top-contianer .link {
@@ -353,7 +353,7 @@
            padding-left: 10px;
        }
    }
-   
+ 
    @media (max-width: 900px) {
        .footer-second-row {
            display: flex;
@@ -391,6 +391,7 @@
            margin-bottom: 30px;
            font-family: Montserrat-Arabic;
        }
+    
        .footer-top {
            border: none;
            border-top: 1px solid #E9E9E9;
