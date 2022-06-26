@@ -20,7 +20,7 @@ var pageHeadBgImages = [{
 var nextModelClosup = 0;
 var modelClosupImages = [{
         "id": "model-closup-preview",
-        "imgPath": "./static/images/preview_01.jpg"
+        "imgPath": "./static/images/preview_02.jpg"
     },
     {
         "id": "model-closup-plan",
