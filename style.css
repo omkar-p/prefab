@@ -1509,7 +1509,7 @@ body {
         font-size: 45px;
     }
     .modal-closup-box {
-        height: 1100px;
+        height: 1000px;
         position: relative;
         display: flex;
         justify-content: center;
@@ -2331,7 +2331,7 @@ body {
         font-size: 40px;
     }
     .modal-closup-box {
-        height: 1100px;
+        height: 1000px;
     }
     .model-closup-tab {
         width: 253px;
