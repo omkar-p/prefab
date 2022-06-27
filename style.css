@@ -626,7 +626,7 @@ body {
 .model-closup-detail {
     width: 50%;
     height: auto;
-    background: rgb(38, 39, 35, 0.43);
+    background: rgba(183, 199, 136, 0.33);
     /* opacity: 0.43; */
     color: #FFFFFF;
     padding: 35px 80px 40px 45px;
@@ -711,6 +711,7 @@ body {
 .designed-experience-container .designed-exerinence-content h3 {
     color: #262723;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .designed-experience-container .designed-exerinence-content .designed-exerinence-content-body {
@@ -1502,12 +1503,7 @@ body {
         padding-left: 130px;
         padding-bottom: 31.27px;
     }
-    .modal-closup-head h3 {
-        margin: 0px;
-        font-weight: bold;
-        color: #fff;
-        font-size: 45px;
-    }
+    
     .modal-closup-box {
         height: 1000px;
         position: relative;
@@ -1563,15 +1559,6 @@ body {
         opacity: 1;
         border: none;
     }
-    .model-closup-detail {
-        width: 770px;
-        height: auto;
-        background: rgb(38, 39, 35, 0.43);
-        /* opacity: 0.43; */
-        color: #FFFFFF;
-        padding: 35px 80px 40px 45px;
-        margin-top: auto;
-    }
     .model-closup-detail p {
         font-size: 15px;
         font-weight: 300;
@@ -1617,12 +1604,6 @@ body {
         letter-spacing: 2px;
         font-size: 20px;
         font-weight: 600px;
-    }
-    .designed-experience-container .designed-exerinence-content h3 {
-        color: #262723;
-        font-weight: bold;
-        font-size: 45px;
-        padding-bottom: 59px;
     }
     .designed-experience-container .designed-exerinence-content .designed-exerinence-content-body {
         color: #565953;
@@ -2328,7 +2309,7 @@ body {
         font-size: 22px;
     }
     .modal-closup-head h3 {
-        font-size: 40px;
+        font-size: 36px;
     }
     .modal-closup-box {
         height: 1000px;
@@ -2372,10 +2353,10 @@ body {
         margin-bottom: 0px;
     }
     .designed-experience-container .designed-exerinence-content h3 {
-        font-size: 45px;
+        font-size: 40px;
         line-height: 55px;
         padding-bottom: 0px;
-        margin-bottom: 80px;
+        margin-bottom: 49px;
     }
     .designed-experience-container .designed-exerinence-content hr {
         border-top: 4px solid #141416;
