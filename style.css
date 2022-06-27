@@ -626,7 +626,7 @@ body {
 .model-closup-detail {
     width: 50%;
     height: auto;
-    background: rgba(183, 199, 136, 0.33);
+    background: rgba(0, 0, 0, 0.1);
     /* opacity: 0.43; */
     color: #FFFFFF;
     padding: 35px 80px 40px 45px;
