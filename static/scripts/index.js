@@ -38,7 +38,7 @@ var modelClosupImages = [{
 var changeHeadBgTimeout;
 var images = new Array('', '', '', '');
 
-
+var changModelCarosulTimeout;
 var currentModelCarosulItem = -1;
 var modelCarosulItems = [{
         "id": "model-carosul-item-1",
@@ -162,6 +162,13 @@ function slideNextModelCarosulItem() {
             $("#model-carosul-item-hidden-left .share-button-container").css("display", "none");
         }
     }
+}
+
+function doCarosulSlideShow() {
+    if (currentModelCarosulItem >= modelCarosulItems.length - 1) { currentModelCarosulItem = -1; }
+    clearTimeout(changModelCarosulTimeout);
+    slideNextModelCarosulItem();
+    changModelCarosulTimeout = setTimeout(doCarosulSlideShow, 3000);
 }
 
 

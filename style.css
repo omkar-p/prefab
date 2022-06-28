@@ -757,6 +757,12 @@ body {
     border: 2px solid #fff;
 }
 
+.designed-experience-container .back-imgs .bitmap-pattern {
+    height: 222px;
+    position: absolute;
+    left: 15px;
+}
+
 .designed-experience-external-container-2 {
     position: relative;
     height: 800px;
@@ -852,6 +858,12 @@ body {
     top: 315px;
 }
 
+.designed-experience-container-2 .back-imgs .bitmap-pattern {
+    height: 222px;
+    position: absolute;
+    right: 145px;
+}
+
 .designed-experience-container-2 .back-imgs .bathroom {
     height: 500px;
     position: absolute;
@@ -911,7 +923,8 @@ body {
     width: 50%;
     height: 100%;
     background: url('./static/images/Desert_Wide.jpg');
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 100% 100%;
     position: absolute;
     right: 0;
 }
@@ -1623,14 +1636,7 @@ body {
         width: 100%;
         position: relative;
     }
-    .designed-experience-container .back-imgs .gray-bitmap {
-        width: 200px;
-        height: 200px;
-        background: #F0EFEF;
-        position: absolute;
-        right: 230px;
-        top: 30px;
-    }
+    
     .designed-experience-container .back-imgs .bathroom {
         height: 844px;
         width: 645px;
@@ -1712,11 +1718,6 @@ body {
         margin-top: auto;
         margin-left: 0;
     }
-    .designed-experience-container-2 .back-imgs {
-        height: 100%;
-        width: 100%;
-        position: relative;
-    }
     /* .designed-experience-container-2 .back-imgs .gray-bitmap {
         width: 200px;
         height: 200px;
@@ -1782,14 +1783,7 @@ body {
         position: absolute;
         left: 0;
     }
-    .been-there-bg-2 {
-        width: 50%;
-        height: 100%;
-        background: url('./static/images/Desert_Wide.jpg');
-        background-size: cover;
-        position: absolute;
-        right: 0;
-    }
+    
     .been-there-bg-2-gradient {
         width: 100%;
         height: 100%;
@@ -2347,6 +2341,17 @@ body {
         height: 600px;
         right: 420px;
     }
+
+    .designed-experience-container-2 .back-imgs .bathroom {
+        width: 645px;
+        height: 844px;
+    }
+    .designed-experience-container-2 .back-imgs .bedroom {
+        width: 856px;
+        height: 439px;
+        left: 340px;
+    }
+
     .designed-experience-container .designed-exerinence-content .top-head {
         font-size: 18px;
         padding-bottom: 0px;
@@ -2386,15 +2391,28 @@ body {
     .designed-experience-container-2 button {
         margin-top: 0px;
     }
-    .designed-experience-container-2 .back-imgs .bathroom {
+
+    .designed-experience-container .back-imgs .gray-bitmap {
         width: 645px;
-        height: 844px;
+        height: 678px;
+        position: absolute;
+        right: 50px;
     }
-    .designed-experience-container-2 .back-imgs .bedroom {
-        width: 856px;
-        height: 439px;
-        left: 340px;
+
+    .designed-experience-container-2 .back-imgs .bitmap-pattern {
+        height: 250px;
+        position: absolute;
+        right: -10px;
+        top: 85px;
     }
+
+    .designed-experience-container .back-imgs .bitmap-pattern {
+        height: 250px;
+        position: absolute;
+        left: -215px;
+        top: 15px;
+    }
+
     .designed-experience-container-2 button {
         width: 236px;
         height: 60px;

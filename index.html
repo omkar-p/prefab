@@ -436,6 +436,7 @@
                 <hr>
             </div>
             <div class="back-imgs">
+                <img class="bitmap-pattern" src="./static/images/Pattern-01.png" alt="">
                 <div class="gray-bitmap"></div>
                 <img class="bathroom" src="./static/images/BATHROOM.jpg" alt="">
                 <img class="bedroom" src="./static/images/BEDROOM.jpg" alt="">
@@ -460,6 +461,7 @@
         <div class="designed-experience-bg-2"></div>
         <div class="designed-experience-container-2">
             <div class="back-imgs">
+                <img class="bitmap-pattern" src="./static/images/Pattern-01.png" alt="">
                 <!-- <div class="gray-bitmap"></div> -->
                 <img class="bedroom" src="./static/images/Shore_CB_croped.jpg" alt="">
                 <img class="bathroom" src="./static/images/Forest_croped.jpg" alt="">
@@ -726,7 +728,9 @@
 
     <script>
         changeHeadBg(1); //initializing from index 1 to show 2nd image first after page load
-        slideNextModelCarosulItem();
+        // slideNextModelCarosulItem();
+        doCarosulSlideShow();
+        
 
         function Redirect() {
             window.location.href = "index.html";
