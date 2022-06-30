@@ -898,7 +898,7 @@ body {
 
 .been-there-container {
     background-color: #262723;
-    height: 400px;
+    height: 500px;
     width: 100%;
     padding-right: 100px;
     padding-bottom: 100px;
@@ -922,7 +922,7 @@ body {
 .been-there-bg-2 {
     width: 50%;
     height: 100%;
-    background: url('./static/images/Desert_Wide_4to3.jpg');
+    background: url('./static/images/Desert_03.jpg');
     /* background-size: cover; */
     background-size: 100% 100%;
     position: absolute;
@@ -1991,13 +1991,14 @@ body {
     .been-there-container {
         height: 651px !important;
         padding-right: 160px;
+       
     }
     .been-there-bg-2 {
         width: 54.574%;
         height: 100%;
     }
     .been-there-content {
-        padding: 80px 60px 40px 160px;
+        padding: 130px 60px 40px 180px;
     }
     .been-there-content h3 {
         font-size: 39px;
@@ -2066,7 +2067,11 @@ body {
     }
 
     .been-there-container {
-        height: 470px;
+        height: 651px !important;
+       
+    }
+    .been-there-content {
+        padding: 130px 60px 40px 180px;
     }
 }
 
