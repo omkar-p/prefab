@@ -2085,15 +2085,7 @@ body {
         height: 409px;
     }
 }
-/* 
-sagir new css for bedroom image  */
-@media only screen and (min-width: 1024px) and (max-width:1499px)
-{
-    .designed-experience-container .back-imgs .bedroom {
-        width: 450px;
-      height: 320px;
-    }
-}
+
 @media (max-width: 1110px) {
     .modal-categories-container {
         padding: 30px 60px 70px 60px;
