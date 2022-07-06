@@ -626,7 +626,7 @@ body {
 .model-closup-detail {
     width: 50%;
     height: auto;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.01);
     /* opacity: 0.43; */
     color: #FFFFFF;
     padding: 35px 80px 40px 45px;
@@ -1865,10 +1865,10 @@ body {
         font-size: 18px;
     }
     .model-closup-detail {
-        height: 344px;
+        height: 300px;
         /* width: 770px; */
-        width: 840px;
-        padding: 65px 80px 65px 60.162px;
+        width: 800px;
+        padding: 55px 80px 55px 60.162px;
     }
     .model-closup-detail-logo {
         font-size: 40px;
