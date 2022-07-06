@@ -24,7 +24,7 @@ var modelClosupImages = [{
     },
     {
         "id": "model-closup-plan",
-        "imgPath": "./static/images/Floor_Plan_01.jpg"
+        "imgPath": "./static/images/Floor_Plan_03.jpg"
     },
     {
         "id": "model-closup-interior",
