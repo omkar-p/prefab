@@ -125,7 +125,7 @@
 }
 
 .footer-right .head {
-    font: normal normal 16px/30px 'Montserrat-Arabic', sans-serif;
+    font: normal normal 12px/30px 'Montserrat-Arabic', sans-serif;
     margin-bottom: 55px;
     letter-spacing: 0px;
     color: #262723;
@@ -164,10 +164,10 @@
 
 .news-letter-input-label {
     font: normal normal 11px 'Montserrat-Arabic', sans-serif;
+    margin-bottom: 20px;
     letter-spacing: 0px;
     color: #1C1E25;
     opacity: 1;
-    margin-bottom: 20px;
 }
 
 .news-letter-input input[type="text"] {
