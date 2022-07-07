@@ -86,12 +86,14 @@
 .footer-contact-container .content .value {
     color: #FFFFFF;
     font: normal normal 300 12px/20px 'Montserrat-Arabic', sans-serif;
+    width: 150px;
 }
 
 .footer-left-top-contianer .link {
     
     color: #E9E9E9;
-    font: normal normal 300 12px/20px 'Montserrat-Arabic', sans-serif;
+    font: normal normal normal 12px/22px 'Montserrat-Arabic', sans-serif;
+    letter-spacing: 0px;
 }
 
 .footer-left-bottom {
@@ -211,7 +213,7 @@
     }
     .footer-app-short {
         line-height: 20px;
-       
+
         margin-bottom: 22.42px;
         width: 75%;
         font: normal normal 17px/30px 'Montserrat-Arabic', sans-serif;
@@ -237,9 +239,8 @@
         width: 163px;
     }
     .footer-left-top-contianer .link {
-        font: normal normal normal 16px/25px 'Montserrat-Arabic', sans-serif;
+        font: normal normal 300 17px/25px 'Montserrat-Arabic', sans-serif;
            letter-spacing: 0px;
-          
            opacity: 1;
     }
     .footer-left-bottom {
