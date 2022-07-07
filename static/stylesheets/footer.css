@@ -21,7 +21,7 @@
     width: 150px;
     height: auto;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin-bottom: 44.85px;
 }
 
 .footer-left-top {
@@ -43,6 +43,7 @@
     color: #7A7C83;
     margin-bottom: 15px;
     width: 75%;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-left-top-contianer button {
@@ -64,6 +65,7 @@
     color: #FFFFFF;
     margin-bottom: 30px;
     font-size: 12px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-contact-container {
@@ -79,15 +81,22 @@
     font-size: 11px;
     margin-bottom: 5px;
     color: #7A7C83;
+    line-height: 30px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-contact-container .content .value {
     color: #FFFFFF;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-left-top-contianer .link {
     font-size: 11px;
     color: #FFFFFF;
+    line-height: 20px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-left-bottom {
@@ -125,7 +134,8 @@
 
 .footer-right .head {
     font-size: 12px;
-    margin-bottom: 30px;
+    margin-bottom: 55px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-right .social-handle {
@@ -163,6 +173,7 @@
 .news-letter-input-label {
     font-size: 10px;
     margin-bottom: 20px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .news-letter-input input[type="text"] {
@@ -213,15 +224,22 @@
     }
     .footer-left-top-contianer .head {
         margin-bottom: 30px;
+        font: normal normal 18px/30px 'Montserrat-Arabic', sans-serif;
+        
     }
     .footer-contact-container .content .head {
         margin-bottom: 5px;
         letter-spacing: 4.8px;
+ 
+        font: normal normal 12px/30px 'Montserrat-Arabic', sans-serif;
     }
     .footer-contact-container .content .value {
         width: 163px;
+
+        font: normal normal 300 17px/30px 'Montserrat-Arabic', sans-serif;
     }
     .footer-left-top-contianer .link {
+        font: normal normal normal 16px/30px 'Montserrat-Arabic', sans-serif;
     }
     .footer-left-bottom {
     }
@@ -229,6 +247,8 @@
         font-size: 15px;
     }
     .footer-right .head {
+        font: normal normal 18px/30px 'Montserrat-Arabic', sans-serif;
+        margin-bottom: 55px;
     }
     .social-handle-container {
         width: 228px;
@@ -239,6 +259,8 @@
         /* margin-right: 12px; */
     }
     .news-letter-input-label {
+        font: normal normal 15px/20px 'Montserrat-Arabic', sans-serif;
+        margin-bottom: 25px;
     }
     .news-letter-input input[type="text"] {
         /* width: 66%; */
