@@ -1,9 +1,10 @@
-.footer-top {
+   /* footer css */
+   
+   .footer-top {
     display: flex;
     border: 1px solid #E9E9E9;
-       border-bottom: none;
-       border-right: none;
-
+    border-bottom: none;
+    border-right: none;
 }
 
 .page-foot-part .footer-left {
@@ -16,7 +17,7 @@
 
 .page-foot-part .footer-left-top {
     background-color: #F4F4F4;
-       padding: 70px 0px 70px 80px;
+    padding: 70px 0px 70px 80px;
 }
 
 .page-foot-part .footer-left-top .logo {
@@ -44,9 +45,11 @@
     font-size: 11px;
     line-height: 20px;
     color: #7A7C83;
-    margin-bottom: 15px;
     width: 75%;
-    font-family: 'Montserrat-Arabic', sans-serif;
+    margin-bottom: 22.42px;
+    font: normal normal 11px/20px 'Montserrat-Arabic',sans-serif;
+    letter-spacing: 0px;
+    opacity: 1;
 }
 
 .footer-left-top-contianer button {
@@ -61,14 +64,13 @@
     opacity: 1;
     font-size: 11px;
     color: white;
-    font-family: 'Montserrat-Arabic', sans-serif;
+    font-family: 'Montserrat-Arabic',sans-serif;
 }
 
 .footer-left-top-contianer .head {
     color: #262723;
+    font: normal normal 12px/30px 'Montserrat-Arabic',sans-serif;
     margin-bottom: 30px;
-    font-size: 12px;
-    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-contact-container {
@@ -78,46 +80,39 @@
 .footer-contact-container .content {
     font-size: 11px;
     margin-bottom: 25px;
-    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-contact-container .content .head {
-    font-size: 11px;
+    font: normal normal 11px/30px 'Montserrat-Arabic',sans-serif;
     margin-bottom: 5px;
     color: #262723;
-    font-family: 'Montserrat-Arabic', sans-serif;
-
 }
 
 .footer-contact-container .content .value {
     color: #262723;
-    font-size: 11px;
-    font-weight: 300;
-    font-family: 'Montserrat-Arabic', sans-serif;
+    font: normal normal 300 12px/20px 'Montserrat-Arabic',sans-serif;
+    width: 150px;
 }
 
 .footer-left-top-contianer .link {
-    font-size: 11px;
+    font: normal normal normal 300 12px/17px 'Montserrat-Arabic',sans-serif;
+    letter-spacing: 0px;
     color: #262723;
-    line-height: 0%;
-    padding-bottom: 10px;
-    font-weight: 300;
-    font-family: 'Montserrat-Arabic', sans-serif;
+    opacity: 1;
 }
 
 .footer-left-bottom {
-    font-size: 11px;
-    padding: 20px 40px 20px 80px;
-    background: #F8F8F8;
+    font: normal normal 11px 'Montserrat-Arabic',sans-serif;
+    padding: 20px 23% 20px 5%;
+    background: linear-gradient(to right, #F8F8F8 80%, #E9E9E9 20%);
     color: #1C1E25;
     display: flex;
     justify-content: space-between;
-    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .back-to-top-btn {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     letter-spacing: 3px;
     cursor: pointer;
 }
@@ -127,40 +122,29 @@
     font-size: 14px;
 }
 
-.back-to-top-btn svg {
-    margin-right: 10px;
-    width: 17px;
-    height: 18px;
-}
-
 .footer-right {
     background: #E9E9E9;
     padding: 70px 0px 20px 30px;
-    color: #FFFFFF;
+    color: #262723;
 }
 
 .footer-right .head {
-    font-size: 12px;
-    margin-bottom: 30px;
-    color: #262723;
+    font: normal normal 12px/30px 'Montserrat-Arabic',sans-serif;
     margin-bottom: 55px;
-    font-family: 'Montserrat-Arabic', sans-serif;
+    letter-spacing: 0px;
+    color: #262723;
+    text-transform: uppercase;
+    opacity: 1;
 }
 
 .footer-right .social-handle {
     width: 40px;
     height: 40px;
-    background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
-    border: 1px solid var(--br-e9e9e9);
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: white 0% 0% no-repeat padding-box;
     border: 1px solid #E9E9E9;
     opacity: 1;
-    font: normal normal normal 17px/18px Font Awesome 5 Brands;
-letter-spacing: 0px;
-color: #1C1E25;
-opacity: 1;
-    /* margin-right: 7px; */
-    font-size: 19px;
+    margin-right: 7px;
+    font: normal normal normal 16px Font Awesome 5 Brands;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,28 +162,27 @@ opacity: 1;
 }
 
 .social-handle-container {
-    width: 161px;
     display: flex;
-    justify-content: space-between;
     margin-bottom: 60px;
 }
 
 .news-letter-input-label {
-    font-size: 10px;
-    margin-bottom: 20px;
+    font: normal normal 11px 'Montserrat-Arabic',sans-serif;
+    letter-spacing: 0px;
     color: #1C1E25;
-    font-family: 'Montserrat-Arabic', sans-serif;
+    opacity: 1;
+    margin-bottom: 20px;
 }
 
 .news-letter-input input[type="text"] {
     /* width: 66%; */
     width: 161px;
-       height: 40px;
-       background: #FFFFFF;
-       border: 1px solid #E9E9E9;
-       outline: none;
-       font-size: 11px;
-       padding-left: 10px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    outline: none;
+    font-size: 11px;
+    padding-left: 10px;
 }
 
 .footer-second-row {
@@ -210,117 +193,165 @@ opacity: 1;
     display: none !important;
 }
 
-.footer-fourth-row {
-    display: none;
-}
-
-@media (min-width:1600px) {
+@media only screen and (min-width:1500px) and (max-width:2500px) {
     .footer-top {
         display: flex;
-        border: 2px solid #E9E9E9;
-           border-bottom: none;
-           border-right: none;
-    
+        border: 1px solid #E9E9E9;
+        border-bottom: none;
+        border-right: none;
     }
-    .page-foot-part .footer-left-top {
-        padding: 70px 0px 70px 160px;
-        
-    }
-    .footer-left-bottom {
-        /* padding: 32px 520px 32px 160px; */
-        padding: 32px 160px 32px 160px;
+    .page-foot-part .footer-left {
+        width: 80%;
     }
     .page-foot-part .footer-right {
-        padding-right: 100px;
+        width: 20%;
+    }
+    .page-foot-part .footer-left-top {
+        background-color: #F8F8F8;
+        padding: 70px 0px 70px 160px;
     }
     .page-foot-part .footer-left-top .logo {
+        font-size: 30px;
+        width: 150px;
+        height: auto;
+        color: #FFFFFF;
         margin-bottom: 44.85px;
     }
+    .page-foot-part .footer-top .footer-left .footer-left-top {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-left-top-contianer {
+        width: 18%;
+    }
+    .footer-details-container {
+        width: 30%;
+    }
     .footer-app-short {
-        width: 321px;
-        width: 93%;
+        line-height: 20px;
+        color: #7A7C83;
         margin-bottom: 22.42px;
-        font-size: 17px;
-        font-family: 'Montserrat-Arabic',sans-serif;
+        width: 75%;
+        font: normal normal 17px/30px 'Montserrat-Arabic',sans-serif;
+        letter-spacing: 0px;
+        color: #7A7C83;
+        opacity: 1;
     }
     .footer-left-top-contianer button {
+        border: none;
+        background: none;
+        cursor: pointer;
         width: 162px;
         height: 47px;
+        /* UI Properties */
+        background: #1C1E25 0% 0% no-repeat padding-box;
+        /* box-shadow: 10px 10px 20px #221F2033; */
+        opacity: 1;
+        font: normal normal normal 12px/14px 'Montserrat-Arabic',sans-serif;
+        color: white;
     }
     .footer-left-top-contianer .head {
+        color: #262723;
+        font: normal normal 18px/30px 'Montserrat-Arabic',sans-serif;
         margin-bottom: 30px;
-        font-size: 17px;
-        font-family: 'Montserrat-Arabic',sans-serif;
+    }
+    .footer-contact-container {
+        padding-top: 5px;
+    }
+    .footer-contact-container .content {
+        font-size: 11px;
+        margin-bottom: 25px;
     }
     .footer-contact-container .content .head {
+        font: normal normal 12px/30px 'Montserrat-Arabic',sans-serif;
         margin-bottom: 5px;
-        letter-spacing: 4.8px;
-        font-size: 12px;
-        font-family: 'Montserrat-Arabic',sans-serif;
-        
+        color: #262723;
     }
     .footer-contact-container .content .value {
+        color: #262723;
+        font: normal normal 300 17px/30px  'Montserrat-Arabic',sans-serif;
         width: 163px;
-        font-size: 14px;
-        font-weight: 300;
-        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-left-top-contianer .link {
-        font-size: 14px;
-        padding-bottom: 12px;
-        font-weight: 300;
-        font-family: 'Montserrat-Arabic',sans-serif;
+        font: normal normal 300 16px/20px 'Montserrat-Arabic',sans-serif;
+        letter-spacing: 0px;
+        color: #262723;
+        opacity: 1;
     }
     .footer-left-bottom {
         font: normal normal 15px/14px 'Montserrat-Arabic',sans-serif;
-          
+        padding: 20px 23% 20px 8%;
+        background: linear-gradient(to right, #F8F8F8 80%, #E9E9E9 20%);
+        color: #1C1E25;
+        display: flex;
+        border: none;
+        justify-content: space-between;
     }
-    .footer-copyright {
-        font-size: 15px;
+    .back-to-top-btn {
+        display: flex;
+        align-items: baseline;
+        letter-spacing: 3px;
+        cursor: pointer;
+    }
+    .back-to-top-btn i {
+        margin-right: 10px;
+        font-size: 14px;
     }
     .footer-right {
+        background: #E9E9E9;
+        padding: 70px 0px 20px 30px;
+        color: #262723;
         border-bottom: 1px solid #E9E9E9;
     }
     .footer-right .head {
+        font: normal normal 18px/30px 'Montserrat-Arabic',sans-serif;
         margin-bottom: 55px;
-font-size: 17px;
-font-family: 'Montserrat-Arabic',sans-serif;
-    }
-    .social-handle-container {
-        width: 228px;
+        letter-spacing: 0px;
+        color: #262723;
+        text-transform: uppercase;
+        opacity: 1;
     }
     .footer-right .social-handle {
-        height: 48px;
         width: 48px;
-        /* margin-right: 12px; */
+        height: 49px;
+        background: white 0% 0% no-repeat padding-box;
+        border: 1px solid #E9E9E9;
+        opacity: 1;
+        margin-right: 7px;
+        font: normal normal normal 17px/18px Font Awesome 5 Brands;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .footer-right .social-handle .fa {
+        transition: .5s;
+    }
+    .footer-right .social-handle:hover>.fa {
+        -webkit-transform: rotateX(360deg);
+        -ms-transform: rotateX(360deg);
+        transform: rotateX(360deg);
+    }
+    .social-handle-container {
+        display: flex;
+        margin-bottom: 60px;
     }
     .news-letter-input-label {
-        font-size: 15px;
-        font-family: 'Montserrat-Arabic',sans-serif;
+        font: normal normal 15px/20px 'Montserrat-Arabic',sans-serif;
+        letter-spacing: 0px;
+        color: #1C1E25;
+        opacity: 1;
+        margin-bottom: 25px;
     }
     .news-letter-input input[type="text"] {
         /* width: 66%; */
         width: 228px;
         height: 54px;
-        font-size: 14px;
-        font-family: 'Montserrat-Arabic',sans-serif;
-    }
-    .page-foot-part .footer-left {
-        width: 75%;
-    }
-    .page-foot-part .footer-right {
-        width: 25%;
-    }
-    .back-to-top-btn svg {
-        width: 20px;
-        height: 21px;
-        margin-right: 20px;
-    }
-}
-
-@media (max-width: 1020px) {
-    .footer-top .footer-right {
-        padding-left: 15px;
+        background: #FFFFFF;
+        border: 1px solid #E9E9E9;
+        outline: none;
+        font-size: 11px;
+        padding-left: 10px;
     }
 }
 
@@ -337,12 +368,6 @@ font-family: 'Montserrat-Arabic',sans-serif;
     .footer-left .footer-left-top .footer-support-container {
         display: none;
     }
-    .footer-fourth-row {
-        display: flex;
-    }
-    .footer-left .footer-left-bottom {
-        display: none;
-    }
     .footer-left .footer-left-top .footer-details-container {
         width: 100%;
     }
@@ -354,7 +379,7 @@ font-family: 'Montserrat-Arabic',sans-serif;
         width: 25%;
     }
     .page-foot-part .footer-left-top {
-        background-color: #262723;
+        background-color: #F4F4F4;
         padding: 40px 40px 10px 40px;
     }
     .footer-left-top-contianer button {
@@ -365,21 +390,30 @@ font-family: 'Montserrat-Arabic',sans-serif;
     .footer-app-short {
         font-size: 10px;
         margin-bottom: 30px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
+ 
     .footer-top {
         border: none;
-        border-top: 1px solid #30312D;
+        border-top: 1px solid #E9E9E9;
     }
     .footer-right {
         padding: 40px 0px 20px 40px;
     }
+    .footer-left-bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px 40px 20px 40px;
+        background: #f8f8f8;
+        font-family: 'Montserrat-Arabic',sans-serif;
+    }
     .footer-right .head {
         font-size: 11px;
         margin-bottom: 20px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .social-handle-container {
         margin-bottom: 40px;
-        width: 145px;
     }
     .footer-right .social-handle {
         width: 30px;
@@ -394,45 +428,66 @@ font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-left-top-contianer .head {
         font-size: 11px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-contact-container .content {
         font-size: 10px;
     }
     .footer-contact-container .content .head {
         font-size: 10px;
+        font-family:'Montserrat-Arabic',sans-serif;
     }
     .footer-left-top-contianer .head {
         font-size: 10px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-left-top-contianer .link {
         font-size: 10px;
-    }
-    .news-letter-input input[type="text"] {
-        width: 145px;
+        font-family:'Montserrat-Arabic',sans-serif;
     }
 }
 
 @media (max-width: 650px) {
-    .footer-top .footer-right {
+    .footer-right {
         padding: 40px 0px 20px 25px !important;
     }
 }
 
-@media (max-width: 540px) {
-    .footer-top .footer-right {
-        padding: 40px 0px 20px 15px !important;
-    }
-}
-
 @media (max-width: 500px) {
+    .footer-top {
+        border: 1px solid #E9E9E9;
+    }
     .page-foot-part .footer-left {
         width: 100% !important;
     }
-    .page-foot-part .footer-left-top .logo svg {
-        width: 170px !important;
-    }
     .footer-app-short {
         width: 100%;
+        font-size: 12px;
+        font-family: 'Montserrat-Arabic',sans-serif;
+    }
+    .footer-left-top-contianer .head {
+        color: #262723;
+        margin-bottom: 30px;
+        font-size: 12px;
+        font-family: 'Montserrat-Arabic',sans-serif;
+    }
+    .footer-contact-container .content .head {
+        font-size: 11px;
+        margin-bottom: 5px;
+        color: #262723;
+        font-family: 'Montserrat-Arabic',sans-serif;
+    }
+    .footer-contact-container .content .value {
+        color: #262723;
+        font-family: 'Montserrat-Arabic',sans-serif;
+    }
+    .footer-left-top-contianer .link {
+        font-size: 11px;
+        color: #262723;
+        font-family: 'Montserrat-Arabic',sans-serif;
+    }
+    .footer-left-bottom {
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-third-row {
         width: 100% !important;
@@ -454,6 +509,9 @@ font-family: 'Montserrat-Arabic',sans-serif;
     .page-foot-part .footer-right {
         display: none;
     }
+    .footer-right .head {
+        font-family: 'Montserrat-Arabic',sans-serif;
+    }
     .footer-second-row .footer-contact-container {
         display: none;
     }
@@ -462,7 +520,7 @@ font-family: 'Montserrat-Arabic',sans-serif;
         text-align: right;
     }
     .page-foot-part .footer-left-top {
-        background-color: #262723;
+        background-color: #f4f4f4;
         padding: 40px 30px 10px 30px;
     }
     .page-foot-part .footer-third-row {
@@ -472,9 +530,6 @@ font-family: 'Montserrat-Arabic',sans-serif;
         flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-    .social-handle-container {
-        width: 200px;
     }
     .footer-right .social-handle {
         width: 40px !important;
@@ -489,15 +544,18 @@ font-family: 'Montserrat-Arabic',sans-serif;
     }
     .news-letter-input input[type="text"] {
         width: 100%;
-        background: #262723;
+        background: white;
     }
     .footer-left-bottom {
         flex-direction: column-reverse;
         align-items: center;
         padding: 20px 40px 20px 40px;
-        background: #262723;
+        background: #f8f8f8;
     }
     .back-to-top-btn {
         margin-top: 30px;
+    }
+    .news-letter-input-label {
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
 }
