@@ -107,8 +107,8 @@
 
 .footer-left-bottom {
     font-size: 11px;
-    padding: 20px 23% 20px 5%;
-    background: linear-gradient(to right, #F8F8F8 80%, #E9E9E9 20%);
+    padding: 20px 40px 20px 80px;
+    background: #F8F8F8;
     color: #1C1E25;
     display: flex;
     justify-content: space-between;
@@ -273,12 +273,7 @@ opacity: 1;
     }
     .footer-left-bottom {
         font: normal normal 15px/14px 'Montserrat-Arabic',sans-serif;
-           padding: 20px 30% 20px 8%;
-           background: linear-gradient(to right, #F8F8F8 75.1%, #E9E9E9 24.9%);
-           color: #1C1E25;
-           display: flex;
-           border: none;
-           justify-content: space-between;
+          
     }
     .footer-copyright {
         font-size: 15px;
