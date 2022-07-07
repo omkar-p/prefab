@@ -125,7 +125,7 @@
 }
 
 .footer-right .head {
-    font: normal normal 16px/30px Montserrat-Arabic;
+    font: normal normal 16px/30px 'Montserrat-Arabic', sans-serif;
     margin-bottom: 55px;
     letter-spacing: 0px;
     color: #262723;
@@ -163,7 +163,7 @@
 }
 
 .news-letter-input-label {
-    font: normal normal 11px Montserrat-Arabic;
+    font: normal normal 11px 'Montserrat-Arabic', sans-serif;
     letter-spacing: 0px;
     color: #1C1E25;
     opacity: 1;
@@ -275,7 +275,7 @@
         opacity: 1;
     }
     .footer-left-bottom {
-        font: normal normal 15px/14px Montserrat-Arabic;
+        font: normal normal 15px/14px 'Montserrat-Arabic', sans-serif;
         padding: 20px 23% 20px 8%;
         background: linear-gradient(to right, #F8F8F8 80%, #E9E9E9 20%);
         color: #1C1E25;
@@ -300,7 +300,7 @@
         border-bottom: 1px solid #E9E9E9;
     }
     .footer-right .head {
-        font: normal normal 18px/30px Montserrat-Arabic;
+        font: normal normal 18px/30px 'Montserrat-Arabic', sans-serif;
         margin-bottom: 55px;
         letter-spacing: 0px;
         color: #262723;
@@ -333,7 +333,7 @@
         margin-bottom: 60px;
     }
     .news-letter-input-label {
-        font: normal normal 15px/20px Montserrat-Arabic;
+        font: normal normal 15px/20px 'Montserrat-Arabic', sans-serif;
         letter-spacing: 0px;
         color: #1C1E25;
         opacity: 1;
