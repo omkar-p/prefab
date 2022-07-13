@@ -355,7 +355,7 @@
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1366px) {
     .footer-second-row {
         display: flex;
     }
@@ -401,7 +401,7 @@
         padding: 40px 0px 20px 40px;
     }
     .footer-left-bottom {
-        flex-direction: column-reverse;
+     
         align-items: center;
         padding: 20px 40px 20px 40px;
         background: #f8f8f8;
