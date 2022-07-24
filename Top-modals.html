@@ -665,7 +665,7 @@
         /* footer css */
         /* small and extra small device */
         
-        @media only screen and (min-width:100px) and (max-width:767px) {
+        @media only screen and (min-width:100px) and (max-width:350px) {
             header {
                 padding-left: 20px;
                 padding-right: 20px;
@@ -675,10 +675,15 @@
                 height: 110px;
             }
             .topmodals-header-image-row {
-                padding-left: 20px;
-                padding-right: 20px;
+                padding-left: 0px;
+                padding-right: 0px;
                 padding-top: 40px;
                 background-color: #F4F4F4;
+            }
+            .topmodals-header-image-col1
+            {
+                opacity: 0;
+                position: absolute;
             }
             .topmodals-header-image-col1-div1 {
                 height: 250px;
@@ -705,26 +710,58 @@
                 height: 250px;
             }
             .topmodals-header-image-col2 {
-                height: 300px;
+                height: 200px;
             }
             .carousel {
-                height: 300px;
+                height: 200px;
             }
             .carousel-inner {
-                height: 300px;
+                height: 200px;
             }
             .carousel-inner .carousel-item {
-                height: 300px;
+                height: 200px;
             }
             .carousel-inner .carousel-item img {
-                height: 300px;
+                height: 200px;
             }
+            .topmodals-ipad-row
+            {
+                padding-top: 20px;
+                background-color: #F4F4F4;
+
+            }
+            .img-col1 img 
+            {
+                height: 70px;
+            }
+            .img-col2 img 
+            {
+                height: 70px;
+            }
+            .img-col3 img 
+            {
+                height: 70px;
+            }
+            .img-col4
+            {
+                opacity: 0;
+                position: absolute;
+            }
+
+           
+         
+        
+      
             .topmodal-content-row {
                 padding-left: 20px;
                 padding-right: 20px;
                 padding-top: 40px;
                 background-color: #F4F4F4;
+            
+             
             }
+          
+
             .topmodal-content-col1-p1 p {
                 font: normal normal 12px/20px Montserrat-Arabic, Light;
                 color: #262723;
@@ -762,7 +799,7 @@
             }
             .topmodal-content-col1-p2 {
                 letter-spacing: 0px;
-                text-align: center;
+                text-align: left;
                 color: #262723;
                 opacity: 1;
                 font: normal normal lighter 12px/20px 'Montserrat-Arabic', sans-serif;
@@ -774,10 +811,347 @@
                 margin-bottom: 16px;
             }
             .topmodal-content-col1-p3 {
-                text-align: center;
+                text-align: left;
                 color: #262723;
                 opacity: 1;
                 font: normal normal lighter 12px/20px 'Montserrat-Arabic', sans-serif;
+            }
+            .topmodal-data-row
+            {
+                position: absolute;
+                opacity: 0;
+            }
+            .card {
+                border: none;
+            }
+            .card-body {
+                padding-left: 30px;
+                padding-top: 32px;
+                padding-right: 30px;
+                background-color: #E9E9E9;
+                border: 1px solid #E9E9E9;
+            }
+            .card-body .card-body-p1 {
+                color: red;
+                text-decoration: line-through;
+                font: normal normal 600 10px 'Montserrat-Arabic', sans-serif;
+                padding-bottom: 2px;
+            }
+            .card-body-div1 {
+                float: left;
+                width: 40%;
+            }
+            .card-body-div2 {
+                float: left;
+                width: 60%;
+            }
+            .card-body-div1 h5 {
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                font: normal normal bold 12px 'Montserrat-Arabic', sans-serif;
+            }
+            .card-body-div2 p {
+                font: normal normal 300 7px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            label {
+                font: normal normal normal 14px 'Montserrat-Arabic', sans-serif;
+                color: #1C1E25;
+            }
+            input[type='date'] {
+                height: 40px;
+                width: 100%;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border: 1px solid #E9E9E9;
+                opacity: 1;
+                font-size: 15px;
+            }
+            .minus {
+                font-size: 12px;
+                background-color: #E9E9E9;
+                padding: 5px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+            .plus {
+                font-size: 12px;
+                background-color: #262723;
+                color: white;
+                padding: 5px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+            .input-group-text img {
+                height: 14px;
+                width: 14px;
+            }
+            .form-control1,
+            .form-select1 {
+                border-right: none;
+                background-color: white;
+                height: 40px;
+                text-align-last: left;
+                text-align: left;
+                -ms-text-align-last: left;
+                -moz-text-align-last: left;
+                font-size: 15px;
+            }
+            .footer-p1 {
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                font: normal normal normal 12px 'Montserrat-Arabic', sans-serif;
+                padding-top: 29px;
+                padding-bottom: 16px;
+            }
+            .askbtn {
+                background-color: #E9E9E9;
+                color: #262723;
+                text-transform: uppercase;
+                opacity: 1;
+                font: normal normal normal 12px 'Montserrat-Arabic', sans-serif;
+            }
+            .footer-p2 {
+                letter-spacing: 0px;
+                color: #6C6C6C;
+                opacity: 1;
+                font: normal normal normal 12px 'Montserrat-Arabic', sans-serif;
+            }
+            .topmodal-similarmodal-row {
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                background-color: #F4F4F4;
+            }
+            .topmodal-similarmodal-col1 h5 {
+                text-align: left;
+                letter-spacing: 0px;
+                color: #060606;
+                text-transform: uppercase;
+                opacity: 1;
+                font: normal normal bold 22px/23px 'Montserrat-Arabic', sans-serif;
+            }
+            .topmodal-similarmodal-col1 p {
+                text-align: left;
+                letter-spacing: 0px;
+                color: #1C1E25;
+                opacity: 1;
+                font: normal normal 300 14px 'Montserrat-Arabic', sans-serif;
+                padding-bottom: 36px;
+            }
+            .topmodal-similarmodal-col2 {
+                margin-bottom: 20px;
+            }
+            .topmodal-similarmodal-col3 {
+                margin-bottom: 20px;
+            }
+            .topmodal-similarmodal-col4 {
+                margin-bottom: 20px;
+            }
+            .sm-img-div img {
+                height: 250px;
+            }
+            .sm-img-div i {
+                font-size: 15px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 7px;
+                padding-right: 7px;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-top: 10px;
+                background-color: #BEBFBD;
+                color: white;
+            }
+            .sm-img-div img 
+            {
+                height: 300px;
+                width: 100%;
+            }
+            .smcard .card-footer h3 {
+                text-align: center;
+                font: normal normal 300 18px/30px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                padding-bottom: 2px;
+            }
+            .smcard .card-footer p {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal lighter 12px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .smcard .card-footer h5 {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal bold 15px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+        }
+         @media only screen and (min-width:351px) and (max-width:767px) {
+            header {
+                padding-left: 20px;
+                padding-right: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 110px;
+            }
+            .topmodals-header-image-row {
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 40px;
+                background-color: #F4F4F4;
+            }
+            .topmodals-header-image-col1
+            {
+                opacity: 0;
+                position: absolute;
+            }
+            .topmodals-header-image-col1-div1 {
+                height: 250px;
+            }
+            .topmodals-header-image-col1-div1 img {
+                height: 250px;
+            }
+            .topmodals-header-image-col1-div2 {
+                height: 250px;
+            }
+            .topmodals-header-image-col1-div2 img {
+                height: 250px;
+            }
+            .topmodals-header-image-col1-div3 {
+                height: 250px;
+            }
+            .topmodals-header-image-col1-div3 img {
+                height: 250px;
+            }
+            .topmodals-header-image-col1-div4 {
+                height: 250px;
+            }
+            .topmodals-header-image-col1-div4 img {
+                height: 250px;
+            }
+            .topmodals-header-image-col2 {
+                height: 200px;
+            }
+            .carousel {
+                height: 200px;
+            }
+            .carousel-inner {
+                height: 200px;
+            }
+            .carousel-inner .carousel-item {
+                height: 200px;
+            }
+            .carousel-inner .carousel-item img {
+                height: 200px;
+            }
+            .topmodals-ipad-row
+            {
+                padding-top: 20px;
+                background-color: #F4F4F4;
+
+            }
+            .img-col1 img 
+            {
+                height: 100px;
+            }
+            .img-col2 img 
+            {
+                height: 100px;
+            }
+            .img-col3 img 
+            {
+                height: 100px;
+            }
+            .img-col4
+            {
+                opacity: 0;
+                position: absolute;
+            }
+
+           
+         
+        
+      
+            .topmodal-content-row {
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 40px;
+                background-color: #F4F4F4;
+            
+             
+            }
+          
+
+            .topmodal-content-col1-p1 p {
+                font: normal normal 12px/20px Montserrat-Arabic, Light;
+                color: #262723;
+                
+            }
+            .topmodal-content-col1-h5 {
+                font: normal normal 300 19px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                padding-top: 8px;
+            }
+            .topmodal-content-col1-div2 i {
+                font-size: 14px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 20px;
+                background-color: #F8F8F8;
+                color: #1C1E25;
+                border: 1px solid #E9E9E9;
+            }
+            .topmodal-content-col1-div1 {
+                float: left;
+                width: 90%;
+                padding-bottom: 76px;
+                border-bottom: 1px solid #E9E9E9;
+            }
+            .topmodal-content-col1-div2 {
+                float: left;
+                width: 10%;
+                padding-bottom: 76px;
+                border-bottom: 1px solid #E9E9E9;
+            }
+            .topmodal-content-col1-p2 {
+                letter-spacing: 0px;
+                text-align: left;
+                color: #262723;
+                opacity: 1;
+                font: normal normal lighter 12px/20px 'Montserrat-Arabic', sans-serif;
+                padding-bottom: 26px;
+            }
+            .topmodal-content-col1 img {
+                height: 250px;
+                width: 100%;
+                margin-bottom: 16px;
+            }
+            .topmodal-content-col1-p3 {
+                text-align: left;
+                color: #262723;
+                opacity: 1;
+                font: normal normal lighter 12px/20px 'Montserrat-Arabic', sans-serif;
+            }
+            .topmodal-data-row
+            {
+                position: absolute;
+                opacity: 0;
             }
             .card {
                 border: none;
@@ -886,7 +1260,7 @@
                 background-color: #F4F4F4;
             }
             .topmodal-similarmodal-col1 h5 {
-                text-align: center;
+                text-align: left;
                 letter-spacing: 0px;
                 color: #060606;
                 text-transform: uppercase;
@@ -894,7 +1268,7 @@
                 font: normal normal bold 25px/23px 'Montserrat-Arabic', sans-serif;
             }
             .topmodal-similarmodal-col1 p {
-                text-align: center;
+                text-align: left;
                 letter-spacing: 0px;
                 color: #1C1E25;
                 opacity: 1;
@@ -955,6 +1329,7 @@
                 opacity: 1;
             }
         }
+      
         /* medium device */
         
         @media only screen and (min-width:768px) and (max-width:991px) {
@@ -967,69 +1342,117 @@
                 height: 110px;
             }
             .topmodals-header-image-row {
-                padding-left: 80px;
-                padding-right: 80px;
+                padding-left: 40px;
+                padding-right: 40px;
                 padding-top: 80px;
                 background-color: #F4F4F4;
             }
+            .topmodals-header-image-col1
+            {
+                opacity: 0;
+                position: absolute;
+            }
             .topmodals-header-image-col1-div1 {
-                height: 400px;
+                height: 0px;
+                width: 0%;
+                margin-bottom: 0px;
             }
             .topmodals-header-image-col1-div1 img {
-                height: 400px;
+                height: 0px;
+                width: 0%;
             }
             .topmodals-header-image-col1-div2 {
-                height: 400px;
+                height: 0px;
+                width: 0%;
+                margin-bottom: 0px;
             }
             .topmodals-header-image-col1-div2 img {
-                height: 400px;
+                height: 0px;
+                width: 0%;
             }
             .topmodals-header-image-col1-div3 {
-                height: 400px;
+                height: 0px;
+                width: 0%;
+                margin-bottom: 16px;
             }
             .topmodals-header-image-col1-div3 img {
-                height: 400px;
+                height: 0px;
+                width: 0%;
             }
             .topmodals-header-image-col1-div4 {
-                height: 400px;
+                height: 0px;
+                width: 0%;
             }
             .topmodals-header-image-col1-div4 img {
-                height: 400px;
+                height: 0px;
+                width: 0%;
             }
-            .topmodals-header-image-col2 {
-                height: 400px;
+            .topmodals-ipad-row
+            {
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 20px;
+                background-color: #F4F4F4;
             }
+            .topmodals-ipad-row img
+            {
+                height: 100px;
+                width: 100%;
+            }
+            
             .carousel {
-                height: 400px;
-            }
-            .carousel-inner {
-                height: 400px;
-            }
-            .carousel-inner .carousel-item {
-                height: 400px;
+                height: 528px;
             }
             .carousel-inner .carousel-item img {
-                height: 400px;
+                height: 528px;
+                width: 100%;
+            }
+            .carousel-control-prev div {
+                height: 5px;
+                width: 30px;
+                background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+            }
+            .carousel-control-next div {
+                height: 5px;
+                width: 30px;
+                background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+            }
+            .carousel-caption {
+                width: 112px;
+                height: 48px;
+                background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border-radius: 24px;
+                opacity: 0.8;
+                position: absolute;
+                left: 24px;
+                bottom: 28px;
+                color: black;
+                padding-top: 13px;
             }
             .topmodal-content-row {
-                padding-left: 80px;
-                padding-right: 80px;
-                padding-top: 80px;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 70px;
                 background-color: #F4F4F4;
             }
             .topmodal-content-col1-p1 p {
                 font: normal normal 16px/20px Montserrat-Arabic, Light;
                 color: #262723;
-                padding-bottom: 7px;
+                padding-bottom: 20px;
+                
             }
             .topmodal-content-col1-h5 {
-                font: normal normal 300 30px/48px 'Montserrat-Arabic', sans-serif;
+                font: normal normal 300 22px 'Montserrat-Arabic', sans-serif;
                 letter-spacing: 0px;
                 color: #262723;
                 opacity: 1;
+                padding-top: 10px;
             }
             .topmodal-content-col1-div2 i {
-                font-size: 16px;
+                font-size: 15px;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 padding-left: 10px;
@@ -1041,13 +1464,13 @@
             }
             .topmodal-content-col1-div1 {
                 float: left;
-                width: 60%;
+                width: 80%;
                 padding-bottom: 76px;
                 border-bottom: 1px solid #E9E9E9;
             }
             .topmodal-content-col1-div2 {
                 float: left;
-                width: 40%;
+                width: 20%;
                 padding-bottom: 76px;
                 border-bottom: 1px solid #E9E9E9;
             }
@@ -1055,25 +1478,36 @@
                 letter-spacing: 0px;
                 color: #262723;
                 opacity: 1;
-                font: normal normal lighter 16px/25px 'Montserrat-Arabic', sans-serif;
-                padding-bottom: 26px;
+                font: normal normal 300 12px/25px 'Montserrat-Arabic', sans-serif;
+                padding-bottom: 24px;
             }
             .topmodal-content-col1 img {
                 height: 400px;
                 width: 100%;
                 margin-bottom: 16px;
+                margin-left: -18px;
             }
             .topmodal-content-col1-p3 {
+                opacity: 0;
+                position: absolute;
+                height:0px;
+                height: 0px;
+            }
+            .topmodal-data-row
+            {
                 color: #262723;
                 opacity: 1;
-                font: normal normal lighter 16px/25px 'Montserrat-Arabic', sans-serif;
+                font: normal normal lighter 12px/25px 'Montserrat-Arabic', sans-serif;
+               background-color: #F4F4F4;
+               padding-right: 40px;
+               padding-left: 40px;
             }
             .card {
                 border: none;
             }
             .card-body {
                 padding-left: 30px;
-                padding-top: 32px;
+                padding-top: 20px;
                 padding-right: 30px;
                 background-color: #E9E9E9;
                 border: 1px solid #E9E9E9;
@@ -1081,31 +1515,32 @@
             .card-body .card-body-p1 {
                 color: red;
                 text-decoration: line-through;
-                font: normal normal 600 12px 'Montserrat-Arabic', sans-serif;
+                font: normal normal 600 10px 'Montserrat-Arabic', sans-serif;
                 padding-bottom: 2px;
             }
             .card-body-div1 {
                 float: left;
-                width: 40%;
+                width: 42%;
             }
             .card-body-div2 {
                 float: left;
-                width: 60%;
+                width: 58%;
             }
             .card-body-div1 h5 {
                 letter-spacing: 0px;
                 color: #262723;
                 opacity: 1;
-                font: normal normal bold 20 'Montserrat-Arabic', sans-serif;
+                font: normal normal bold 14px 'Montserrat-Arabic', sans-serif;
             }
             .card-body-div2 p {
-                font: normal normal 300 10px 'Montserrat-Arabic', sans-serif;
+                font: normal normal 300 8px 'Montserrat-Arabic', sans-serif;
                 letter-spacing: 0px;
                 color: #262723;
                 opacity: 1;
+              
             }
             label {
-                font: normal normal normal 14px 'Montserrat-Arabic', sans-serif;
+                font: normal normal normal 12px 'Montserrat-Arabic', sans-serif;
                 color: #1C1E25;
             }
             input[type='date'] {
@@ -1146,13 +1581,21 @@
                 -moz-text-align-last: left;
                 font-size: 15px;
             }
+            .placeorder {
+            background-color: #262723;
+            color: white;
+            font-size: 15px;
+            font-family: 'Montserrat-Arabic', sans-serif;
+        }
+        
+       
             .footer-p1 {
                 letter-spacing: 0px;
                 color: #262723;
                 opacity: 1;
-                font: normal normal normal 14px 'Montserrat-Arabic', sans-serif;
-                padding-top: 29px;
-                padding-bottom: 16px;
+                font: normal normal normal 12px 'Montserrat-Arabic', sans-serif;
+                padding-top: 15px;
+                padding-bottom: 10px;
             }
             .askbtn {
                 background-color: #E9E9E9;
@@ -1168,10 +1611,10 @@
                 font: normal normal normal 12px 'Montserrat-Arabic', sans-serif;
             }
             .topmodal-similarmodal-row {
-                padding-left: 80px;
-                padding-right: 80px;
-                padding-top: 80px;
-                padding-bottom: 80px;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 50px;
+                padding-bottom: 100px;
                 background-color: #F4F4F4;
             }
             .topmodal-similarmodal-col1 h5 {
@@ -1179,18 +1622,18 @@
                 color: #060606;
                 text-transform: uppercase;
                 opacity: 1;
-                font: normal normal bold 30px/23px 'Montserrat-Arabic', sans-serif;
+                font: normal normal bold 30px/33px 'Montserrat-Arabic', sans-serif;
                 padding-bottom: 10px;
             }
             .topmodal-similarmodal-col1 p {
+                font: normal normal 300 18px/30px 'Montserrat-Arabic', sans-serif;
                 letter-spacing: 0px;
                 color: #1C1E25;
                 opacity: 1;
-                font: normal normal 300 22px/30px 'Montserrat-Arabic', sans-serif;
                 padding-bottom: 43px;
             }
             .sm-img-div img {
-                height: 400px;
+                height: 250px;
             }
             .sm-img-div i {
                 font-size: 15px;
@@ -1206,25 +1649,21 @@
             }
             .sm-img-div img 
             {
-                height: 500px;
+                height: 350px;
                 width: 100%;
-            }
-            .card-footer
-            {
-                padding: 20px 0px 20px 0px;
             }
             .smcard .card-footer h3 {
                 text-align: center;
-                font: normal normal 300 30px/30px 'Montserrat-Arabic', sans-serif;
+                font: normal normal 300 22px/35px 'Montserrat-Arabic', sans-serif;
                 letter-spacing: 0px;
                 color: #262723;
                 opacity: 1;
-                padding-bottom: 10px;
+                padding-bottom: 2px;
             }
             .smcard .card-footer p {
                 color: var(--ma-262723);
                 text-align: center;
-                font: normal normal lighter 21px/25px 'Montserrat-Arabic', sans-serif;
+                font: normal normal lighter 16px/24px 'Montserrat-Arabic', sans-serif;
                 letter-spacing: 0px;
                 color: #262723;
                 opacity: 1;
@@ -1232,15 +1671,360 @@
             .smcard .card-footer h5 {
                 color: var(--ma-262723);
                 text-align: center;
-                font: normal normal bold 25px 'Montserrat-Arabic', sans-serif;
+                font: normal normal bold 18px 'Montserrat-Arabic', sans-serif;
                 letter-spacing: 0px;
                 color: #262723;
                 opacity: 1;
             }
+            
         }
         /* large and extra large device */
         
-        @media only screen and (min-width:992px) and (max-width:1499px) {
+        @media only screen and (min-width:992px) and (max-width:1112px) {
+            header {
+                padding-left: 80px;
+                padding-right: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                height: 110px;
+            }
+            .topmodals-header-image-row {
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 80px;
+                background-color: #F4F4F4;
+            }
+            .topmodals-header-image-col1
+            {
+                opacity: 0;
+                position: absolute;
+            }
+            .topmodals-header-image-col1-div1 {
+                height: 0px;
+                width: 0%;
+                margin-bottom: 0px;
+            }
+            .topmodals-header-image-col1-div1 img {
+                height: 0px;
+                width: 0%;
+            }
+            .topmodals-header-image-col1-div2 {
+                height: 0px;
+                width: 0%;
+                margin-bottom: 0px;
+            }
+            .topmodals-header-image-col1-div2 img {
+                height: 0px;
+                width: 0%;
+            }
+            .topmodals-header-image-col1-div3 {
+                height: 0px;
+                width: 0%;
+                margin-bottom: 16px;
+            }
+            .topmodals-header-image-col1-div3 img {
+                height: 0px;
+                width: 0%;
+            }
+            .topmodals-header-image-col1-div4 {
+                height: 0px;
+                width: 0%;
+            }
+            .topmodals-header-image-col1-div4 img {
+                height: 0px;
+                width: 0%;
+            }
+            .topmodals-ipad-row
+            {
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 20px;
+                background-color: #F4F4F4;
+            }
+            .topmodals-ipad-row img
+            {
+                height: 150px;
+                width: 100%;
+            }
+            
+            .carousel {
+                height: 528px;
+            }
+            .carousel-inner .carousel-item img {
+                height: 528px;
+                width: 100%;
+            }
+            .carousel-control-prev div {
+                height: 5px;
+                width: 30px;
+                background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+            }
+            .carousel-control-next div {
+                height: 5px;
+                width: 30px;
+                background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+            }
+            .carousel-caption {
+                width: 112px;
+                height: 48px;
+                background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border-radius: 24px;
+                opacity: 0.8;
+                position: absolute;
+                left: 24px;
+                bottom: 28px;
+                color: black;
+                padding-top: 13px;
+            }
+            .topmodal-content-row {
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 70px;
+                background-color: #F4F4F4;
+            }
+            .topmodal-content-col1-p1 p {
+                font: normal normal 16px/20px Montserrat-Arabic, Light;
+                color: #262723;
+                padding-bottom: 7px;
+            }
+            .topmodal-content-col1-h5 {
+                font: normal normal 300 30px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .topmodal-content-col1-div2 i {
+                font-size: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 20px;
+                background-color: #F8F8F8;
+                color: #1C1E25;
+                border: 1px solid #E9E9E9;
+            }
+            .topmodal-content-col1-div1 {
+                float: left;
+                width: 60%;
+                padding-bottom: 76px;
+                border-bottom: 1px solid #E9E9E9;
+            }
+            .topmodal-content-col1-div2 {
+                float: left;
+                width: 40%;
+                padding-bottom: 76px;
+                border-bottom: 1px solid #E9E9E9;
+            }
+            .topmodal-content-col1-p2 {
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                font: normal normal lighter 14px/25px 'Montserrat-Arabic', sans-serif;
+                padding-bottom: 24px;
+            }
+            .topmodal-content-col1 img {
+                height: 400px;
+                width: 100%;
+                margin-bottom: 16px;
+                margin-left: -18px;
+            }
+            .topmodal-content-col1-p3 {
+                opacity: 0;
+                position: absolute;
+                height:0px;
+                height: 0px;
+            }
+            .topmodal-data-row
+            {
+                color: #262723;
+                opacity: 1;
+                font: normal normal lighter 15px/25px 'Montserrat-Arabic', sans-serif;
+               background-color: #F4F4F4;
+               padding-right: 40px;
+               padding-left: 40px;
+            }
+            .card {
+                border: none;
+            }
+            .card-body {
+                padding-left: 30px;
+                padding-top: 20px;
+                padding-right: 30px;
+                background-color: #E9E9E9;
+                border: 1px solid #E9E9E9;
+            }
+            .card-body .card-body-p1 {
+                color: red;
+                text-decoration: line-through;
+                font: normal normal 600 12px 'Montserrat-Arabic', sans-serif;
+                padding-bottom: 2px;
+            }
+            .card-body-div1 {
+                float: left;
+                width: 42%;
+            }
+            .card-body-div2 {
+                float: left;
+                width: 58%;
+            }
+            .card-body-div1 h5 {
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                font: normal normal bold 16px 'Montserrat-Arabic', sans-serif;
+            }
+            .card-body-div2 p {
+                font: normal normal 300 8px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+              
+            }
+            label {
+                font: normal normal normal 13px 'Montserrat-Arabic', sans-serif;
+                color: #1C1E25;
+            }
+            input[type='date'] {
+                height: 40px;
+                width: 100%;
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border: 1px solid #E9E9E9;
+                opacity: 1;
+                font-size: 15px;
+            }
+            .minus {
+                font-size: 12px;
+                background-color: #E9E9E9;
+                padding: 5px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+            .plus {
+                font-size: 12px;
+                background-color: #262723;
+                color: white;
+                padding: 5px;
+                border-radius: 20px;
+                cursor: pointer;
+            }
+            .input-group-text img {
+                height: 14px;
+                width: 14px;
+            }
+            .form-control1,
+            .form-select1 {
+                border-right: none;
+                background-color: white;
+                height: 40px;
+                text-align-last: left;
+                text-align: left;
+                -ms-text-align-last: left;
+                -moz-text-align-last: left;
+                font-size: 15px;
+            }
+            .placeorder {
+            background-color: #262723;
+            color: white;
+            font-size: 15px;
+            font-family: 'Montserrat-Arabic', sans-serif;
+        }
+        
+       
+            .footer-p1 {
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                font: normal normal normal 13px 'Montserrat-Arabic', sans-serif;
+                padding-top: 15px;
+                padding-bottom: 10px;
+            }
+            .askbtn {
+                background-color: #E9E9E9;
+                color: #262723;
+                text-transform: uppercase;
+                opacity: 1;
+                font: normal normal normal 14px 'Montserrat-Arabic', sans-serif;
+            }
+            .footer-p2 {
+                letter-spacing: 0px;
+                color: #6C6C6C;
+                opacity: 1;
+                font: normal normal normal 12px 'Montserrat-Arabic', sans-serif;
+            }
+            .topmodal-similarmodal-row {
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 50px;
+                padding-bottom: 100px;
+                background-color: #F4F4F4;
+            }
+            .topmodal-similarmodal-col1 h5 {
+                letter-spacing: 0px;
+                color: #060606;
+                text-transform: uppercase;
+                opacity: 1;
+                font: normal normal bold 35px/33px 'Montserrat-Arabic', sans-serif;
+                padding-bottom: 10px;
+            }
+            .topmodal-similarmodal-col1 p {
+                font: normal normal 300 25px/30px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #1C1E25;
+                opacity: 1;
+                padding-bottom: 43px;
+            }
+            .sm-img-div img {
+                height: 250px;
+            }
+            .sm-img-div i {
+                font-size: 15px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 7px;
+                padding-right: 7px;
+                border-radius: 20px;
+                margin-left: 15px;
+                margin-top: 10px;
+                background-color: #BEBFBD;
+                color: white;
+            }
+            .sm-img-div img 
+            {
+                height: 350px;
+                width: 100%;
+            }
+            .smcard .card-footer h3 {
+                text-align: center;
+                font: normal normal 300 22px/35px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+                padding-bottom: 2px;
+            }
+            .smcard .card-footer p {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal lighter 16px/24px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            .smcard .card-footer h5 {
+                color: var(--ma-262723);
+                text-align: center;
+                font: normal normal bold 18px 'Montserrat-Arabic', sans-serif;
+                letter-spacing: 0px;
+                color: #262723;
+                opacity: 1;
+            }
+            
+        }
+        @media only screen and (min-width:1113px) and (max-width:1499px) {
             header {
                 padding-left: 80px;
                 padding-right: 80px;
@@ -1322,6 +2106,11 @@
                 color: black;
                 padding-top: 13px;
             }
+            .topmodals-ipad-row
+            {
+                opacity: 0;
+                position: absolute;
+            }
             .topmodal-content-row {
                 padding-left: 80px;
                 padding-right: 80px;
@@ -1379,6 +2168,12 @@
                 color: #262723;
                 opacity: 1;
                 font: normal normal lighter 15px/25px 'Montserrat-Arabic', sans-serif;
+            }
+            .topmodal-data-row
+            {
+                opacity: 0;
+                position: absolute;
+                height:0px;
             }
             .card {
                 border: none;
@@ -1640,11 +2435,22 @@
                 color: black;
                 padding-top: 13px;
             }
+            .topmodals-ipad-row
+            {
+                opacity: 0;
+                position: absolute;
+            }
             .topmodal-content-row {
                 padding-left: 160px;
                 padding-right: 160px;
                 padding-top: 70px;
                 background-color: #F4F4F4;
+            }
+            .topmodal-data-row
+            {
+                opacity: 0;
+                position: absolute;
+                height:0px;
             }
             .topmodal-content-col1-p1 p {
                 font: normal normal 20px/20px Montserrat-Arabic, Light;
@@ -1910,11 +2716,21 @@
                 color: black;
                 padding-top: 13px;
             }
+            .topmodals-ipad-row
+            {
+                opacity: 0;
+                position: absolute;
+            }
             .topmodal-content-row {
                 padding-left: 160px;
                 padding-right: 160px;
                 padding-top: 70px;
                 background-color: #F4F4F4;
+            }
+            .topmodal-data-row
+            {
+                opacity: 0;
+                position: absolute;
             }
             .topmodal-content-col1-p1 p {
                 font: normal normal 20px/34px Montserrat-Arabic, Light;
@@ -2203,7 +3019,7 @@
 
     <div class="conatiner topmodals-container">
         <div class="row topmodals-header-image-row">
-            <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 topmodals-header-image-col1">
+            <div class="col-xxl-2 col-xl-3 col-lg-0 col-md-12 col-sm-12 col-12 topmodals-header-image-col1">
                 <div class="topmodals-header-image-col1-div1">
                     <img src="./static/images/Cabin_Desert_2k  01 Small.jpg" alt="" class="img-fluid img-responsive">
                 </div>
@@ -2217,7 +3033,7 @@
                     <img src="./static/images/BEDROOM_01 Small.jpg" alt="img-fluid img-responsive">
                 </div>
             </div>
-            <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 topmodals-header-image-col2">
+            <div class="col-xxl-10 col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12 topmodals-header-image-col2">
                 <div id="Design" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-touch="false" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -2254,8 +3070,22 @@
                 </div>
             </div>
         </div>
+        <div class="row topmodals-ipad-row">
+            <div class="col-4 img-col1 col-sm-4 col-lg-3 col-md-3">
+                    <img src="./static/images/Cabin_Desert_2k  01 Small.jpg" alt="" class="img-fluid img1">
+            </div>
+            <div class="col-4 img-col2 col-sm-4 col-lg-3 col-md-3">
+                    <img src="./static/images/LIVING 01 Small.jpg" alt="" class="img-fluid img2">
+            </div>
+            <div class="col-4 img-col3 col-sm-4 col-lg-3 col-md-3">
+                    <img src="./static/images/TERRACE 01 Small.jpg" alt="" class="img-fluid img3">
+            </div>
+            <div class="col-0 img-col4 col-sm-0 col-lg-3 col-md-3">
+                    <img src="./static/images/BEDROOM_01 Small.jpg" alt="" class="img-fluid img4">
+            </div>
+        </div>
         <div class="row topmodal-content-row">
-            <div class="col-xxl-9 col-xl-8 col-lg-9 col-md-12 col-sm-12 col-12 pe-xxl-5 pe-xl-4 pb-md-5 topmodal-content-col1">
+            <div class="col-xxl-9 col-xl-8 col-lg-8 col-md-7 col-sm-12 col-12 pe-xxl-5 pe-xl-4 pb-md-5 topmodal-content-col1">
                 <div class="topmodal-content-col1-p1">
                     <p>Cabin Modals - Suites</p>
                 </div>
@@ -2278,7 +3108,7 @@
                     with concealed AC system.</p>
             </div>
 
-            <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-12 col-sm-12 col-12 topmodal-content-col2 ">
+            <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12 topmodal-content-col2 ">
                 <div class="card">
                     <div class="card-body">
                         <p class="card-body-p1">
@@ -2371,12 +3201,17 @@
                 </div>
             </div>
         </div>
+        <div class="row topmodal-data-row">
+            <p>This model is 44 sqm with living area, open kitchen, bathroom, bedroom, and terrace. The living area is connected to the kitchen with full height windows to maximize the view. The external basin serves both living and bedroom, while toilet
+                and shower are enclose with sliding door. The 3.5 by 3.5 bedroom visually connected to the terrace and the landscape with full height sliding window. In addition to the passive ventilation across the unit, all cabins are ventilated
+                with concealed AC system.</p>
+        </div>
         <div class="row topmodal-similarmodal-row">
             <div class="col-12  topmodal-similarmodal-col1">
                 <h5>SIMILAR MODALS</h5>
                 <p>Buying a prefab house online is the new reality of modern living.</p>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-sm-5 topmodal-similarmodal-col2">
+            <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-sm-5 topmodal-similarmodal-col2">
                 <div class="card smcard">
                     <div class="sm-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
@@ -2389,7 +3224,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-sm-5 topmodal-similarmodal-col3">
+            <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-sm-5 topmodal-similarmodal-col3">
                 <div class="card smcard">
                     <div class="sm-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
@@ -2402,7 +3237,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-sm-5 topmodal-similarmodal-col4">
+            <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-sm-5 topmodal-similarmodal-col4">
                 <div class="card smcard">
                     <div class="sm-img-div">
                         <i class="fa fa-share-alt" aria-hidden="true"></i>
