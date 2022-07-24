@@ -627,7 +627,7 @@ body {
 .model-closup-detail {
     width: 50%;
     height: auto;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.01);
     /* opacity: 0.43; */
     color: #FFFFFF;
     padding: 35px 80px 40px 45px;
@@ -901,7 +901,7 @@ body {
 
 .been-there-container {
     background-color: #262723;
-    height: 400px;
+    height: 500px;
     width: 100%;
     padding-right: 100px;
     padding-bottom: 100px;
@@ -925,7 +925,7 @@ body {
 .been-there-bg-2 {
     width: 50%;
     height: 100%;
-    background: url('./static/images/Desert_Wide_4to3.jpg');
+    background: url('./static/images/Desert_03.jpg');
     /* background-size: cover; */
     background-size: 100% 100%;
     position: absolute;
@@ -1868,10 +1868,10 @@ body {
         font-size: 18px;
     }
     .model-closup-detail {
-        height: 344px;
+        height: 300px;
         /* width: 770px; */
-        width: 840px;
-        padding: 65px 80px 65px 60.162px;
+        width: 800px;
+        padding: 55px 80px 55px 60.162px;
     }
     .model-closup-detail-logo {
         font-size: 40px;
@@ -1994,13 +1994,14 @@ body {
     .been-there-container {
         height: 651px !important;
         padding-right: 160px;
+       
     }
     .been-there-bg-2 {
         width: 54.574%;
         height: 100%;
     }
     .been-there-content {
-        padding: 80px 60px 40px 160px;
+        padding: 130px 60px 40px 180px;
     }
     .been-there-content h3 {
         font-size: 39px;
@@ -2069,7 +2070,11 @@ body {
     }
 
     .been-there-container {
-        height: 470px;
+        height: 651px !important;
+       
+    }
+    .been-there-content {
+        padding: 130px 60px 40px 180px;
     }
 }
 
@@ -2107,6 +2112,7 @@ body {
     }
     .designed-experience-container .back-imgs .bedroom {
         width: 300px;
+      
     }
     .designed-experience-container-2 .back-imgs .bedroom {
         width: 460px;

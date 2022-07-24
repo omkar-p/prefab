@@ -21,7 +21,7 @@
     width: 150px;
     height: auto;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin-bottom: 44.85px;
 }
 
 .footer-left-top {
@@ -43,14 +43,15 @@
     color: #7A7C83;
     margin-bottom: 15px;
     width: 75%;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-left-top-contianer button {
     border: none;
     background: none;
     cursor: pointer;
-    width: 110px;
-    height: 35px;
+    width: 162px;
+    height: 47px;
     /* UI Properties */
     background: var(--wh-ffffff) 0% 0% no-repeat padding-box;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -58,12 +59,14 @@
     opacity: 1;
     font-size: 11px;
     color: #000;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-left-top-contianer .head {
     color: #FFFFFF;
     margin-bottom: 30px;
     font-size: 12px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-contact-container {
@@ -73,21 +76,26 @@
 .footer-contact-container .content {
     font-size: 11px;
     margin-bottom: 25px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-contact-container .content .head {
     font-size: 11px;
     margin-bottom: 5px;
     color: #7A7C83;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-contact-container .content .value {
     color: #FFFFFF;
+    font-size: 11px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-left-top-contianer .link {
     font-size: 11px;
     color: #FFFFFF;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-left-bottom {
@@ -97,6 +105,7 @@
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .back-to-top-btn {
@@ -126,11 +135,13 @@
 .footer-right .head {
     font-size: 12px;
     margin-bottom: 30px;
+    margin-bottom: 55px;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-right .social-handle {
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border: 1px solid var(--wh-ffffff);
     background: #CC9B5500 0% 0% no-repeat padding-box;
     border: 1px solid #FFFFFF;
@@ -141,6 +152,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    font-family: 'Montserrat-Arabic', sans-serif;
 }
 
 .footer-right .social-handle .fa {
@@ -168,7 +180,7 @@
 .news-letter-input input[type="text"] {
     /* width: 66%; */
     width: 161px;
-    height: 40px;
+       height: 40px;
     background: #E9E9E90D;
     border: none;
     outline: none;
@@ -206,6 +218,8 @@
         width: 321px;
         width: 93%;
         margin-bottom: 22.42px;
+        font-size: 17px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-left-top-contianer button {
         width: 162px;
@@ -213,22 +227,36 @@
     }
     .footer-left-top-contianer .head {
         margin-bottom: 30px;
+        font-size: 17px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-contact-container .content .head {
         margin-bottom: 5px;
         letter-spacing: 4.8px;
+        font-size: 12px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-contact-container .content .value {
         width: 163px;
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-left-top-contianer .link {
+        font-size: 14px;
+        font-weight: 300;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .footer-left-bottom {
+        font: normal normal 15px/14px 'Montserrat-Arabic',sans-serif;
     }
     .footer-copyright {
         font-size: 15px;
     }
     .footer-right .head {
+        margin-bottom: 55px;
+        font-size: 17px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .social-handle-container {
         width: 228px;
@@ -239,12 +267,15 @@
         /* margin-right: 12px; */
     }
     .news-letter-input-label {
+        font-size: 15px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .news-letter-input input[type="text"] {
         /* width: 66%; */
         width: 228px;
         height: 54px;
         font-size: 14px;
+        font-family: 'Montserrat-Arabic',sans-serif;
     }
     .page-foot-part .footer-left {
         width: 75%;

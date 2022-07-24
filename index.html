@@ -333,7 +333,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at semper massa, id fermentum urna. Cras quis tempus nisi, vel viverra odio.
                 </div>
                 <div class="contactus">
-                    <a href="contact.html"><button type="button" class="contactusbtn">contact us</button></a>
+                    <a href="#contact-us-form"><button type="button" class="contactusbtn">contact us</button></a>
                 </div>
             </div>
             <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 col2 modal-categories">
@@ -460,7 +460,7 @@
                 <img class="bitmap-pattern" src="./static/images/Pattern-01.png" alt="">
                 <div class="gray-bitmap"></div>
                 <img class="bathroom" src="./static/images/BATHROOM.jpg" alt="">
-                <img class="bedroom" src="./static/images/BEDROOM.jpg" alt="">
+                <img class="bedroom" src="./static/images/BEDROOM_01.jpg" alt="">
             </div>
         </div>
     </div>
@@ -540,6 +540,34 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="contact-us-form" class="page-contact-us-part">
+        <div class="contact-us-container">
+            <p class="contact-us-title">Contact us</p>
+            <p class="write-us-title">You Can Write Us</p>
+            <form method="POST" action="contact-us.php">
+                <div class="form-container">
+                    <div class="form-fields">
+                        <select class="form-input" style="width:100%;" name="issue" id="">
+                                <option value="" hidden>Please choose your issue below</option>
+                                <option value="1">Issue 1</option>
+                                <option value="2">Issue 2</option>
+                            </select>
+                        <div class="form-fields-row">
+                            <input class="form-input" style="margin-right: 10px;" type="text" name="name" id="" placeholder="Name">
+                            <input class="form-input" type="text" name="email" id="" placeholder="Email">
+                        </div>
+                        <textarea class="form-input form-input-textarea" name="description" id="" placeholder="Description"></textarea>
+                    </div>
+                    <div class="location-map-container">
+                        <!-- <div id="googleMap" style="width:100%;height:100%;"></div> -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d927755.0518381862!2d46.26204078024357!3d24.725398108760096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03890d489399%3A0xba974d1c98e79fd5!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1653410078325!5m2!1sen!2sin"
+                            width="330" height="300" style="width:100%;height:100%;border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <button type="submit" name="sendMessage">SEND MESSAGE</button>
+            </form>
         </div>
     </div>
     <div class="page-foot-part">
