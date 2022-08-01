@@ -4,11 +4,9 @@
         $name = $_POST['name'];
         $email = $_POST['email'];
         $description = $_POST['description'];
-
         $from = 'omkarpatil843@gmail.com';
         $to = 'omkarpatil843@gmail.com';
         $subject = "Enquiry Recieved";
-        
         $message = "<html><body>";
         $message .= "<h3 style='color:#30312d;'>Hi! New Enquiry Recieved!!!</h3>";
         $message .= "<br><br>";
