@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>home</title>
+    <title>Contact-Us</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,25 +33,69 @@
     <link rel="stylesheet" type="text/css" href="static/stylesheets/footer.css">
 
     <style>
-        @media (min-width:1600px) {
-            .model-closup-detail {
-                height: auto;
+        .slogan-with-order-btn h1 {
+            font-family: 'Montserrat-Arabic', sans-serif !important;
+            font-weight: 700;
+        }
+
+        .designed-experience-container .back-imgs .bitmap-pattern {
+            position: absolute;
+            left: -100px;
+        }
+
+        .designed-experience-container .back-imgs .gray-bitmap {
+            position: absolute;
+            right: 335px;
+        }
+
+        .designed-experience-container-2 .back-imgs .bitmap-pattern {
+            position: absolute;
+            right: -40px;
+        }
+        
+        @media only screen and (min-width:1500px) and (max-width:2500px) {
+            .designed-experience-container .back-imgs .bedroom {
+                width: 550px !important;
+                height: 600px;
+                right: 420px;
+            }
+        }
+        
+        @media only screen and (min-width:1500px) and (max-width:2500px) {
+            .designed-experience-container-2 .back-imgs .bedroom {
+                width: 800px !important;
+                height: 439px;
+                left: 340px;
+            }
+        }
+
+        @media (min-width: 1600px) {
+            .designed-experience-container .back-imgs .gray-bitmap {
+                position: absolute;
+                right: 50px;
             }
 
-            .model-closup-detail h3 {
-                margin-bottom: 0px;
+            .designed-experience-container .back-imgs .bitmap-pattern {
+                position: absolute;
+                left: -215px;
+                top: 15px;
             }
 
-            .model-closup-detail p {
-                margin-bottom: 0px;
-                opacity: 0.5;
+            .designed-experience-container-2 .back-imgs .bitmap-pattern {
+                position: absolute;
+                right: -75px;
             }
         }
     </style>
+    <script>
+        function Redirect() {
+            window.location.href = "index.html";
+        }
+    </script>
 </head>
 
 <body>
-    <!-- <?php 
+    <?php 
             if(!empty($_REQUEST['alert']) && $_REQUEST['alert']==1){
         ?>
         <div id="alerts" class="alerts">
@@ -98,7 +142,7 @@
         </div>
         <?php
             }
-        ?> -->
+        ?>
     <div id="sidebar-container" class="sidebar-container" onClick="toggleSidebar()">
         <div class="sidebar">
             <div class="close-btn-container">
@@ -173,10 +217,11 @@
 
         <div class="slogan-with-order-btn">
             <p>
-                PREFAB<sup>&#169;</sup>
-                <font class="font-weight-bolder">PORTACABINS</font>
+                CUSTOMIZED CONTAINERS
             </p>
-            <h1>WANDERING LUXURY</h1>
+            <h1>WE CREATE <br>
+                <font>DREAM PREFAB CABINS</font>
+            </h1>
             <a href="modals.html"><button class="slide-button slide_right">ORDER NOW</button></a>
         </div>
 
@@ -209,11 +254,11 @@
     </div>
     <div class="models-carosul-container">
         <div class="models-carosul-content">
-            <h3>TO UNTAPPED
-                <font>DESTINATIONS</font>
+            <h3>Choose your <br>
+                <font>FUTURE SPACE</font>
             </h3>
-            <p class="content-line-2">Stay wherever you go</p>
-            <p>Lorem ipsum 3% dolor sit amet, consectetur adipiscing elit. Praesent tempus, ante vitae aliquet laoreet, nibh lectus blandit sem.</p>
+            <p class="content-line-2">With future modern design that fits your</p>
+            <p>Just 3% of Prefab Cabins in each destination win the Plum Award, the new global quality standard.</p>
             <div class="next-prev-button-container">
                 <div class="next-prev-button prev-button" onclick="slidePrevModelCarosulItem()">
                     <div class="next-prev-button-prefix prev-button-prefix"></div>
@@ -241,9 +286,9 @@
                                 <div id="model-carosul-item-slider-4"></div>
                                 <div id="model-carosul-item-slider-5"></div> -->
                             </div>
-                            <p>AlAmmareyyah Edition</p>
+                            <p>Hadeed NozolPods</p>
                             <p class="price-start-from-label">Start from</p>
-                            <p class="price-start-from">XXX,XXX SR</p>
+                            <p class="price-start-from">75,452 SR</p>
                         </div>
                         <div class="model-carosul-nxt-prev-btn model-carosul-nxt-btn">
                             <div class="next-prev-button-prefix next-button-prefix" onclick="slideNextModelCarosulItem()"></div>
@@ -272,9 +317,9 @@
                                 <div id="model-carosul-item-slider-4"></div>
                                 <div id="model-carosul-item-slider-5"></div>
                             </div>
-                            <p>AlAmmareyyah Edition</p>
+                            <p>Hadeed NozolPods</p>
                             <p class="price-start-from-label">Start from</p>
-                            <p class="price-start-from">XXX,XXX SR</p>
+                            <p class="price-start-from">75,452 SR</p>
                         </div>
                         <div class="model-carosul-nxt-prev-btn model-carosul-nxt-btn">
                             <div class="next-prev-button-prefix next-button-prefix" onclick="slideNextModelCarosulItem()"></div>
@@ -303,9 +348,9 @@
                                 <div id="model-carosul-item-slider-4"></div>
                                 <div id="model-carosul-item-slider-5"></div> -->
                             </div>
-                            <p>AlAmmareyyah Edition</p>
+                            <p>Hadeed NozolPods</p>
                             <p class="price-start-from-label">Start from</p>
-                            <p class="price-start-from">XXX,XXX SR</p>
+                            <p class="price-start-from">75,452 SR</p>
                         </div>
                         <div class="model-carosul-nxt-prev-btn model-carosul-nxt-btn">
                             <div class="next-prev-button-prefix next-button-prefix" onclick="slideNextModelCarosulItem()"></div>
@@ -327,40 +372,24 @@
         <div class="row row1">
             <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 col1 modal-categories-detail">
                 <div class="headrow">
-                    FIT TO PURPOSE
+                    MODAL CATEGORIES
                 </div>
                 <div class="datarow">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at semper massa, id fermentum urna. Cras quis tempus nisi, vel viverra odio.
+                    check the best type of our modal which prefer your business.and If you have question about this container, please feel free to ask by our engineers.
                 </div>
                 <div class="contactus">
-                    <a href="#contact-us-form"><button type="button" class="contactusbtn">contact us</button></a>
+                    <a href="contact.html#contact-us-form"><button type="button" class="contactusbtn">contact us</button></a>
                 </div>
             </div>
             <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 col2 modal-categories">
                 <div class="row col2row1">
                     <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 modal-category facility">
                         <!-- <i class="fa fa-cog" aria-hidden="true"></i> -->
-                        <!-- <svg id="Page-1" xmlns="http://www.w3.org/2000/svg">
-                            <g id="_019---Property-Management" data-name="019---Property-Management" transform="translate(0 0)">
-                              <path id="Shape" d="M2.384,70.135a2.384,2.384,0,0,0,2.384,2.384H42.907a2.384,2.384,0,0,0,2.384-2.384V44.225l.167.512A2.169,2.169,0,0,0,47.364,46.3h3a2.169,2.169,0,0,0,1.907-1.514l1.263-3.957a17.223,17.223,0,0,0,4.136-1.716l3.683,1.907a2.169,2.169,0,0,0,2.384-.286c.369-.322.727-.656,1.1-1.025s.691-.715,1.013-1.085a2.169,2.169,0,0,0,.286-2.384l-1.907-3.683a17.222,17.222,0,0,0,1.716-4.136L69.9,27.157a2.181,2.181,0,0,0,1.609-2.014V22.152A2.169,2.169,0,0,0,70,20.245L66.04,18.982a17.222,17.222,0,0,0-1.716-4.136l1.907-3.683a2.169,2.169,0,0,0-.286-2.384c-.322-.369-.656-.727-1.025-1.1S64.2,6.992,63.835,6.67a2.169,2.169,0,0,0-2.384-.286L57.769,8.291a17.222,17.222,0,0,0-4.136-1.716l-1.359-4a2.169,2.169,0,0,0-1.907-1.561,21.048,21.048,0,0,0-3,0,2.169,2.169,0,0,0-1.907,1.514l-1.263,4a17.222,17.222,0,0,0-4.136,1.716L36.375,6.336a2.169,2.169,0,0,0-2.384.286c-.369.322-.727.656-1.1,1.025s-.691.715-1.013,1.085a2.169,2.169,0,0,0-.286,2.384L33.5,14.8a17.222,17.222,0,0,0-1.716,4.136l-3.492,1.144H2.384A2.384,2.384,0,0,0,0,22.462v2.384a2.384,2.384,0,0,0,2.384,2.384ZM19.07,58.217H28.6V70.135H19.07ZM28.6,22.462l4.446-1.418a1.192,1.192,0,0,0,.8-.87,15.577,15.577,0,0,1,1.943-4.66,1.192,1.192,0,0,0,.06-1.192l-2.121-4.136c.262-.286.524-.584.8-.858s.584-.548.87-.81l4.148,2.157a1.192,1.192,0,0,0,1.192,0A15.578,15.578,0,0,1,45.4,8.732a1.192,1.192,0,0,0,.87-.8l1.406-4.541a19.487,19.487,0,0,1,2.384,0l1.418,4.446a1.192,1.192,0,0,0,.87.8,15.578,15.578,0,0,1,4.66,1.943,1.192,1.192,0,0,0,1.192,0l4.136-2.062c.286.262.584.524.858.8s.548.572.81.87l-2.157,4.148a1.192,1.192,0,0,0,0,1.192,15.577,15.577,0,0,1,1.943,4.66,1.192,1.192,0,0,0,.8.87l4.541,1.406v2.384l-4.446,1.418a1.192,1.192,0,0,0-.8.87,15.577,15.577,0,0,1-1.943,4.66,1.192,1.192,0,0,0,0,1.192L64,37.121c-.262.286-.524.584-.8.858s-.584.548-.87.81l-4.148-2.157a1.192,1.192,0,0,0-1.192.06,15.578,15.578,0,0,1-4.66,1.943,1.192,1.192,0,0,0-.87.8l-1.406,4.481a19.486,19.486,0,0,1-2.384,0l-1.418-4.446a1.192,1.192,0,0,0-.87-.8,15.577,15.577,0,0,1-4.66-1.943,1.192,1.192,0,0,0-1.192-.06L35.4,38.79c-.286-.262-.584-.524-.858-.8s-.548-.572-.81-.87l2.157-4.148a1.192,1.192,0,0,0-.06-1.192,15.577,15.577,0,0,1-1.943-4.66,1.192,1.192,0,0,0-.8-.87L28.6,24.845V22.462Zm-26.221,0H26.221v2.384H2.384Zm25.911,4.767,3.444,1.1a17.222,17.222,0,0,0,1.716,4.136l-1.907,3.683a2.169,2.169,0,0,0,.286,2.384c.322.369.656.727,1.025,1.1s.715.691,1.085,1.013a2.169,2.169,0,0,0,2.384.286l3.683-1.907a16.5,16.5,0,0,0,2.9,1.323v29.8H30.988V58.217H32.18a1.192,1.192,0,1,0,0-2.384H15.494a1.192,1.192,0,1,0,0,2.384h1.192V70.135H4.767V27.229Z" transform="translate(0 -0.955)" fill="#fff"/>
-                              <path id="Shape-2" data-name="Shape" d="M13.151,37H8.384A2.384,2.384,0,0,0,6,39.384v4.767a2.384,2.384,0,0,0,2.384,2.384h4.767a2.384,2.384,0,0,0,2.384-2.384V39.384A2.384,2.384,0,0,0,13.151,37ZM8.384,44.151V39.384h4.767v4.767Z" transform="translate(1.151 5.96)" fill="#fff"/>
-                              <path id="Shape-3" data-name="Shape" d="M23.151,37H18.384A2.384,2.384,0,0,0,16,39.384v4.767a2.384,2.384,0,0,0,2.384,2.384h4.767a2.384,2.384,0,0,0,2.384-2.384V39.384A2.384,2.384,0,0,0,23.151,37Zm-4.767,7.151V39.384h4.767v4.767Z" transform="translate(3.07 5.96)" fill="#fff"/>
-                              <path id="Shape-4" data-name="Shape" d="M26,44.151a2.384,2.384,0,0,0,2.384,2.384h4.767a2.384,2.384,0,0,0,2.384-2.384V39.384A2.384,2.384,0,0,0,33.151,37H28.384A2.384,2.384,0,0,0,26,39.384Zm2.384-4.767h4.767v4.767H28.384Z" transform="translate(4.988 5.96)" fill="#fff"/>
-                              <path id="Shape-5" data-name="Shape" d="M6,33.151a2.384,2.384,0,0,0,2.384,2.384h4.767a2.384,2.384,0,0,0,2.384-2.384V28.384A2.384,2.384,0,0,0,13.151,26H8.384A2.384,2.384,0,0,0,6,28.384Zm7.151-4.767v4.767H8.384V28.384Z" transform="translate(1.151 3.85)" fill="#fff"/>
-                              <path id="Shape-6" data-name="Shape" d="M16,33.151a2.384,2.384,0,0,0,2.384,2.384h4.767a2.384,2.384,0,0,0,2.384-2.384V28.384A2.384,2.384,0,0,0,23.151,26H18.384A2.384,2.384,0,0,0,16,28.384Zm7.151-4.767v4.767H18.384V28.384Z" transform="translate(3.07 3.85)" fill="#fff"/>
-                              <path id="Shape-7" data-name="Shape" d="M43.11,35.22A13.11,13.11,0,1,0,30,22.11,13.11,13.11,0,0,0,43.11,35.22Zm-2.384-2.658V28.3a1.192,1.192,0,0,0-.6-1.037,5.959,5.959,0,0,1-.6-9.916v3.576a2.467,2.467,0,0,0,.691,1.692L41.418,23.8a2.467,2.467,0,0,0,3.385,0l1.192-1.192a2.443,2.443,0,0,0,.691-1.692V17.343a5.959,5.959,0,0,1-.56,9.928,1.192,1.192,0,0,0-.6,1.037v4.267a10.5,10.5,0,0,1-4.767,0ZM43.11,11.384A10.727,10.727,0,0,1,47.878,31.7V28.951A8.343,8.343,0,0,0,48.056,15.4,2.4,2.4,0,0,0,44.3,17.343v3.576L43.11,22.11l-1.192-1.192V17.343A2.344,2.344,0,0,0,38.212,15.4a8.343,8.343,0,0,0,.131,13.551V31.7A10.727,10.727,0,0,1,43.11,11.443Z" transform="translate(5.755 0.588)" fill="#fff"/>
-                            </g>
-                        </svg>                           -->
                         <img src="static/images/facilities.png" alt="">
                         <p>Facilities</p>
                     </div>
                     <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 modal-category office">
                         <!-- <i class="fa fa-building" aria-hidden="true"></i> -->
-                        <!-- <svg id="workspace" xmlns="http://www.w3.org/2000/svg">
-                            <g id="Group_11930" data-name="Group 11930" transform="translate(0 0)">
-                              <path id="Path_65254" data-name="Path 65254" d="M80.858,68.83H62.13q-.231-.3-.479-.591v-6H71.878a1.932,1.932,0,0,0,1.93-1.93V42.734a1.932,1.932,0,0,0-1.93-1.93H61.652V39.1a1.932,1.932,0,0,0-1.93-1.93H52.7a1.932,1.932,0,0,0-1.93,1.93V40.8H40.546a1.932,1.932,0,0,0-1.93,1.93v3.641a1.226,1.226,0,0,0,2.453,0V43.257H71.355V55.424H41.069V52.163a1.226,1.226,0,0,0-2.453,0v8.143a1.932,1.932,0,0,0,1.93,1.93H50.772V63.87a12.7,12.7,0,0,0-8.819,4.959h-13.7a9.816,9.816,0,1,0-13.483,0H2.861A2.865,2.865,0,0,0,0,71.691v2.914a2.865,2.865,0,0,0,2.862,2.861H3.919V106.5a2.046,2.046,0,0,0,2.044,2.044H26.847a2.046,2.046,0,0,0,2.044-2.044V77.467H39.272l-.642,9.549a6.37,6.37,0,0,0,3.435,6.1l-3.195,11.8A3.023,3.023,0,0,0,41,108.623a3.067,3.067,0,0,0,.8.108,3,3,0,0,0,2.819-1.968l4.829-12.93h5.175l4.829,12.931a3.009,3.009,0,0,0,2.821,1.968,3.057,3.057,0,0,0,.8-.108,3.023,3.023,0,0,0,2.13-3.71l-3.194-11.8a6.371,6.371,0,0,0,3.436-6.1l-.642-9.549h8.111V91.531a1.226,1.226,0,0,0,2.453,0V77.467h2.81v28.626h-2.81V97.318a1.226,1.226,0,0,0-2.453,0V106.5a2.046,2.046,0,0,0,2.044,2.044h3.627a2.046,2.046,0,0,0,2.044-2.044V77.467h.221a2.865,2.865,0,0,0,2.862-2.861V71.691A2.864,2.864,0,0,0,80.858,68.83ZM53.225,39.621H59.2V40.8H53.225ZM41.069,57.877H71.355v1.905H41.069ZM59.2,62.235v3.8a12.609,12.609,0,0,0-5.974-2.174V62.235ZM19.349,68.83a7.46,7.46,0,0,1-5.2-7.149,7.363,7.363,0,0,1,14.726,0,7.46,7.46,0,0,1-5.2,7.149ZM26.438,86.6v7.9h-5.19l-.6-2.531a1.226,1.226,0,0,0-1.194-.946H13.351a1.227,1.227,0,0,0-1.194.946l-.6,2.531H6.372V86.6ZM14.081,84.151l.241-1.024h4.165l.241,1.024ZM18.728,94.5H14.081l.241-1.024h4.165ZM6.372,106.093V96.955H26.438v9.138ZM26.438,84.151h-5.19l-.6-2.531a1.226,1.226,0,0,0-1.194-.946H13.351a1.227,1.227,0,0,0-1.194.946l-.6,2.531H6.372V77.467H16.5a1.226,1.226,0,1,0,0-2.453H2.861a.409.409,0,0,1-.409-.409V71.691a.409.409,0,0,1,.409-.409H40.489a12.555,12.555,0,0,0-1.037,3.732H22.286a1.226,1.226,0,1,0,0,2.453h4.152Zm15.888,21.756a.572.572,0,0,1-1.088-.352L44.419,93.8c.194.018.389.029.586.029h1.831Zm20.518-.352a.572.572,0,0,1-1.088.351L57.247,93.833h1.831c.2,0,.391-.011.585-.029Zm-.891-15.422a3.9,3.9,0,0,1-2.875,1.248H45a3.936,3.936,0,0,1-3.927-4.2l.765-11.386a10.222,10.222,0,0,1,20.4,0l.765,11.386A3.9,3.9,0,0,1,61.953,90.133ZM81.267,74.605a.409.409,0,0,1-.409.409H64.631a12.556,12.556,0,0,0-1.037-3.732H80.858a.409.409,0,0,1,.409.409Z" transform="translate(0 -37.168)" fill="#fff"/>
-                            </g>
-                        </svg>                           -->
                         <img src="static/images/workspace.png" alt="">
                         <p>offices</p>
                     </div>
@@ -368,38 +397,13 @@
                 <div class="row col2row2">
                     <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 modal-category commercial">
                         <!-- <i class="fa fa-building" aria-hidden="true"></i> -->
-                        <!-- <svg id="commercial" xmlns="http://www.w3.org/2000/svg">
-                            <path id="Path_65245" data-name="Path 65245" d="M68.825,34.464a1.147,1.147,0,0,0,1.147-1.147v-2.2h2.187a2.261,2.261,0,0,0,2.259-2.258V25.087a2.261,2.261,0,0,0-2.259-2.258H60.58a1.147,1.147,0,1,0,0,2.294l11.543-.036.036,3.732-3.325,0-.008,0-.009,0-12.458.006V10.445h1.909a2.261,2.261,0,0,0,2.258-2.258V4.066a2.261,2.261,0,0,0-2.258-2.258H26.332a1.147,1.147,0,1,0,0,2.294l31.9-.036.036,4.085-41.082.036L17.15,4.1h4.116a1.147,1.147,0,1,0,0-2.294H17.15a2.261,2.261,0,0,0-2.259,2.258V8.187a2.261,2.261,0,0,0,2.259,2.258h1.909v3.849a1.147,1.147,0,0,0,2.294,0V10.445H54.064V71.077H44.918V67.254a1.147,1.147,0,0,0-2.294,0v3.823h-9.83V59.2h9.83v3.463a1.147,1.147,0,0,0,2.294,0V59.2h.709a1.147,1.147,0,1,0,0-2.294H29.791a1.147,1.147,0,1,0,0,2.294H30.5V71.077H21.353v-50a1.147,1.147,0,0,0-2.294,0v1.747H3.259A2.261,2.261,0,0,0,1,25.087v3.767a2.261,2.261,0,0,0,2.259,2.258H5.445v15.84H3.259A2.261,2.261,0,0,0,1,49.212v3.767a2.261,2.261,0,0,0,2.259,2.258H5.445v15.84h-3.3a1.147,1.147,0,1,0,0,2.294H73.27a1.147,1.147,0,1,0,0-2.294h-3.3V55.237h2.187a2.261,2.261,0,0,0,2.258-2.258V49.212a2.261,2.261,0,0,0-2.258-2.258H69.972V40.391a1.147,1.147,0,0,0-2.294,0v6.562H56.359V31.113H67.678v2.2a1.147,1.147,0,0,0,1.147,1.147ZM19.059,71.077H7.739V55.237H19.059Zm0-18.107-15.764.008-.036-3.731,15.8-.008V52.97Zm0-6.017H7.739V31.113H19.059Zm0-18.107-15.764.008-.036-3.732h15.8v3.723ZM67.678,71.077H56.359V55.237H67.678Zm4.445-21.866v3.731l-15.764.008V49.22Z" transform="translate(-1 -1.807)" fill="#fff"/>
-                            <path id="Path_65246" data-name="Path 65246" d="M22.876,19.063H46.768A2.261,2.261,0,0,0,49.027,16.8V13.47a2.261,2.261,0,0,0-2.258-2.258H22.876a2.261,2.261,0,0,0-2.258,2.258V16.8a2.261,2.261,0,0,0,2.258,2.258Zm23.857-5.592v3.3L22.912,16.8l-.036-3.3Z" transform="translate(1.887 -0.424)" fill="#fff"/>
-                            <path id="Path_65247" data-name="Path 65247" d="M20.617,25.914a2.261,2.261,0,0,0,2.259,2.258H46.769a2.261,2.261,0,0,0,2.258-2.258V22.58a2.261,2.261,0,0,0-2.258-2.258H33.389a1.147,1.147,0,1,0,0,2.294l13.344-.036.036,3.3-23.857.036-.036-3.3h5.206a1.147,1.147,0,1,0,0-2.294H22.876a2.261,2.261,0,0,0-2.258,2.258v3.334Z" transform="translate(1.887 0.917)" fill="#fff"/>
-                            <path id="Path_65248" data-name="Path 65248" d="M20.617,35.023a2.261,2.261,0,0,0,2.259,2.258H46.769a2.261,2.261,0,0,0,2.258-2.258V31.689a2.261,2.261,0,0,0-2.258-2.258H22.876a2.261,2.261,0,0,0-2.258,2.258v3.334Zm26.115-3.334v3.3l-23.821.036-.036-3.3Z" transform="translate(1.887 2.257)" fill="#fff"/>
-                            <path id="Path_65249" data-name="Path 65249" d="M20.617,44.133a2.261,2.261,0,0,0,2.259,2.258H46.769a2.261,2.261,0,0,0,2.258-2.258V40.8a2.261,2.261,0,0,0-2.258-2.258H44.43a1.147,1.147,0,1,0,0,2.294l2.3-.036.036,3.3-23.857.036-.036-3.3h15.89a1.147,1.147,0,1,0,0-2.294H22.876A2.261,2.261,0,0,0,20.617,40.8v3.334Z" transform="translate(1.887 3.597)" fill="#fff"/>
-                            <path id="Path_65250" data-name="Path 65250" d="M11.956,40.6A1.147,1.147,0,0,0,13.1,39.452V30.578a1.147,1.147,0,0,0-2.294,0v8.874A1.147,1.147,0,0,0,11.956,40.6Z" transform="translate(0.443 2.257)" fill="#fff"/>
-                            <path id="Path_65251" data-name="Path 65251" d="M11.956,61.75A1.147,1.147,0,0,0,13.1,60.6V51.729a1.147,1.147,0,0,0-2.294,0V60.6A1.147,1.147,0,0,0,11.956,61.75Z" transform="translate(0.443 5.369)" fill="#fff"/>
-                            <path id="Path_65252" data-name="Path 65252" d="M52.465,30.578v8.874a1.147,1.147,0,0,0,2.294,0V30.578a1.147,1.147,0,0,0-2.294,0Z" transform="translate(6.573 2.257)" fill="#fff"/>
-                            <path id="Path_65253" data-name="Path 65253" d="M53.612,61.75A1.147,1.147,0,0,0,54.759,60.6V51.729a1.147,1.147,0,0,0-2.294,0V60.6A1.147,1.147,0,0,0,53.612,61.75Z" transform="translate(6.573 5.369)" fill="#fff"/>
-                        </svg>                           -->
                         <img src="static/images/commercial.png" alt="">
-                        <p>retail</p>
+                        <p>COMMERCIALS</p>
                     </div>
                     <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 modal-category residence">
                         <!-- <i class="fa fa-home" aria-hidden="true"></i> -->
-                        <!-- <svg id="apartment" xmlns="http://www.w3.org/2000/svg">
-                            <path id="Path_65233" data-name="Path 65233" d="M139.7,285.7H126.45a2.046,2.046,0,0,0-2.044,2.044v11.331a2.046,2.046,0,0,0,2.044,2.044h5.984a1.226,1.226,0,1,0,0-2.453h-5.575v-1.733H139.3v1.733h-1.057a1.226,1.226,0,1,0,0,2.453H139.7a2.046,2.046,0,0,0,2.044-2.044V287.747A2.047,2.047,0,0,0,139.7,285.7Zm-10.238,8.78h-2.608v-6.327h2.608Zm4.768,0H131.92v-6.327h2.314Zm5.061,0h-2.609v-6.327H139.3Zm0,0" transform="translate(-104.064 -238.987)" fill="#fff"/>
-                            <path id="Path_65234" data-name="Path 65234" d="M139.7,63.715H126.45a2.046,2.046,0,0,0-2.044,2.044V77.09a2.046,2.046,0,0,0,2.044,2.044H139.7a2.046,2.046,0,0,0,2.044-2.044V65.759a2.047,2.047,0,0,0-2.044-2.044Zm-7.785,2.453h2.315v6.327H131.92Zm-5.061,0h2.608v6.327h-2.608ZM139.3,76.681H126.859V74.947H139.3Zm0-4.187h-2.609V66.167H139.3Zm0,0" transform="translate(-104.064 -53.297)" fill="#fff"/>
-                            <path id="Path_65235" data-name="Path 65235" d="M139.7,174.711H126.45a2.046,2.046,0,0,0-2.044,2.044v11.331a2.046,2.046,0,0,0,2.044,2.044H139.7a2.047,2.047,0,0,0,2.044-2.044V176.755A2.046,2.046,0,0,0,139.7,174.711Zm-7.785,2.453h2.315v6.327H131.92Zm-5.061,0h2.608v6.327h-2.608ZM139.3,187.677H126.859v-1.734H139.3Zm0-4.187h-2.609v-6.327H139.3Zm0,0" transform="translate(-104.064 -146.144)" fill="#fff"/>
-                            <path id="Path_65236" data-name="Path 65236" d="M297.868,128.043h-3.6a2.046,2.046,0,0,0-2.044,2.044V135.8a2.046,2.046,0,0,0,2.044,2.044h3.6a2.046,2.046,0,0,0,2.044-2.044v-5.716A2.046,2.046,0,0,0,297.868,128.043Zm-.409,7.351h-2.78v-4.9h2.78Zm0,0" transform="translate(-244.444 -107.106)" fill="#fff"/>
-                            <path id="Path_65237" data-name="Path 65237" d="M358.868,128.043h-3.6a2.046,2.046,0,0,0-2.044,2.044V135.8a2.046,2.046,0,0,0,2.044,2.044h3.6a2.046,2.046,0,0,0,2.044-2.044v-5.716A2.046,2.046,0,0,0,358.868,128.043Zm-.409,7.351h-2.78v-4.9h2.78Zm0,0" transform="translate(-295.469 -107.106)" fill="#fff"/>
-                            <path id="Path_65238" data-name="Path 65238" d="M297.868,198h-3.6a2.046,2.046,0,0,0-2.044,2.044v5.716a2.046,2.046,0,0,0,2.044,2.044h3.6a2.046,2.046,0,0,0,2.044-2.044v-5.716A2.046,2.046,0,0,0,297.868,198Zm-.409,7.351h-2.78v-4.9h2.78Zm0,0" transform="translate(-244.444 -165.624)" fill="#fff"/>
-                            <path id="Path_65239" data-name="Path 65239" d="M358.868,198h-3.6a2.046,2.046,0,0,0-2.044,2.044v5.716a2.046,2.046,0,0,0,2.044,2.044h3.6a2.046,2.046,0,0,0,2.044-2.044v-5.716A2.046,2.046,0,0,0,358.868,198Zm-.409,7.351h-2.78v-4.9h2.78Zm0,0" transform="translate(-295.469 -165.624)" fill="#fff"/>
-                            <path id="Path_65240" data-name="Path 65240" d="M297.868,267.957h-3.6A2.046,2.046,0,0,0,292.227,270v5.716a2.046,2.046,0,0,0,2.044,2.044h3.6a2.046,2.046,0,0,0,2.044-2.044V270A2.047,2.047,0,0,0,297.868,267.957Zm-.409,7.351h-2.78v-4.9h2.78Zm0,0" transform="translate(-244.444 -224.143)" fill="#fff"/>
-                            <path id="Path_65241" data-name="Path 65241" d="M358.868,267.957h-3.6A2.046,2.046,0,0,0,353.227,270v5.716a2.046,2.046,0,0,0,2.044,2.044h3.6a2.046,2.046,0,0,0,2.044-2.044V270A2.047,2.047,0,0,0,358.868,267.957Zm-.409,7.351h-2.78v-4.9h2.78Zm0,0" transform="translate(-295.469 -224.143)" fill="#fff"/>
-                            <path id="Path_65242" data-name="Path 65242" d="M297.868,337.914h-3.6a2.046,2.046,0,0,0-2.044,2.044v5.717a2.046,2.046,0,0,0,2.044,2.044h3.6a2.047,2.047,0,0,0,2.044-2.044v-5.717A2.047,2.047,0,0,0,297.868,337.914Zm-.409,7.352h-2.78v-4.9h2.78Zm0,0" transform="translate(-244.444 -282.661)" fill="#fff"/>
-                            <path id="Path_65243" data-name="Path 65243" d="M358.868,337.914h-3.6a2.046,2.046,0,0,0-2.044,2.044v5.717a2.046,2.046,0,0,0,2.044,2.044h3.6a2.047,2.047,0,0,0,2.044-2.044v-5.717A2.047,2.047,0,0,0,358.868,337.914Zm-.409,7.352h-2.78v-4.9h2.78Zm0,0" transform="translate(-295.469 -282.661)" fill="#fff"/>
-                            <path id="Path_65244" data-name="Path 65244" d="M82.494,69H75.3V64.479A7.112,7.112,0,1,0,71.33,50.912V46.846a1.226,1.226,0,0,0-2.453,0v5.778a7.094,7.094,0,0,0,0,9.7v6.659H45.02V30.331a1.226,1.226,0,0,0-2.453,0V68.984H15.46V62a7.1,7.1,0,0,0,0-9.047V7.684H42.567V24.527a1.226,1.226,0,0,0,2.453,0V18.8H68.877V40.96a1.226,1.226,0,0,0,2.453,0V18.8h.409a2.046,2.046,0,0,0,2.044-2.044v-3.6a2.046,2.046,0,0,0-2.044-2.044H45.02V7.684h1.025A2.046,2.046,0,0,0,48.089,5.64v-3.6A2.046,2.046,0,0,0,46.045,0H11.982A2.046,2.046,0,0,0,9.938,2.044v3.6a2.046,2.046,0,0,0,2.044,2.044h1.026V51.042A7.112,7.112,0,1,0,8.749,64.479V69H1.227a1.226,1.226,0,1,0,0,2.453H82.494a1.226,1.226,0,0,0,0-2.453ZM71.33,13.571v2.779H45.02V13.571ZM12.391,5.232V2.453H45.636V5.232ZM13.008,69H11.2V64.479a7.088,7.088,0,0,0,1.806-.572ZM11.2,61.97V60.418a1.226,1.226,0,0,0-2.453,0V61.97a4.66,4.66,0,1,1,2.453,0ZM72.846,69H71.33V64.037a7.039,7.039,0,0,0,1.516.443Zm1.226-9.811a1.227,1.227,0,0,0-1.226,1.226V61.97a4.66,4.66,0,1,1,2.453,0V60.418A1.227,1.227,0,0,0,74.073,59.192Zm0,0" transform="translate(-0.001 0)" fill="#fff"/>
-                        </svg> -->
                         <img src="static/images/Residence.png" alt="">
-                        <p>ACCOMMODATION</p>
+                        <p>RESIDENTIAL</p>
                     </div>
                 </div>
             </div>
@@ -407,12 +411,12 @@
     </div>
     <div class="modal-closup-container">
         <div class="modal-closup-head">
-            <h3>ALAMMARIYAH EDITION</h3>
+            <h3>MODEL CLOSE-UP</h3>
         </div>
         <div class="modal-closup-box">
             <div class="modal-closup-box-bg-1"></div>
             <div class="modal-closup-box-bg-2"></div>
-            <div class="modal-closup" style="background: url('./static/images/LIVING.jpg');background-size: cover;">
+            <div class="modal-closup" style="background: url('./static/images/LIVING.jpg');background-size: cover; background-repeat: no-repeat;">
                 <div class="model-closup-tabs">
                     <div id="model-closup-preview" class="model-closup-tab" onclick="changeModelClosup(0)">
                         MODAL PREVIEW
@@ -428,18 +432,8 @@
                     </div>
                 </div>
                 <div class="model-closup-detail">
-                    <div class="model-closup-detail-title">
-                        <div class="model-closup-detail-logo">
-                            <div>P</div>
-                            <div>R</div>
-                            <div>E</div>
-                            <div class="font-weight-bold">F</div>
-                            <div class="font-weight-bold">A</div>
-                            <div class="font-weight-bold">B<sup>&#169;</sup></div>
-                        </div>
-                        <h3>One-Bedroom Suite</h3>
-                    </div>
-                    <p>48 sqm unit with one bedroom, balcony, bathroom, kitchenette, and livingroom.</p>
+                    <h3>Omnia Hotel Nozol 1 Bed</h3>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
                     <a href="modals.html"><button class="slide-button slide_right">ORDER NOW</button></a>
                 </div>
             </div>
@@ -448,19 +442,23 @@
     <div class="designed-experience-external-container">
         <div class="designed-experience-container">
             <div class="designed-exerinence-content">
-                <p class="top-head">Welcome To
-                    <font>PREFAB<sup>&#169;</sup></font>
+                <p class="top-head" style="color: #CC9B55;padding-bottom: 10px;margin-bottom: 0;">Welcome To Nozol</font>
                 </p>
-                <h3>A DESIGNED EXPERIENCE</h3>
-                <P class="designed-exerinence-content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula nulla ac leo pretium sollicitudin. Mauris at porta nulla, nec tristique sem. Nam molestie auctor lectus ac congue. In et tristique urna. Duis eget elit scelerisque,
-                    vehicula quam non, posuere.</P>
+                <h3>We Can Creat More Than You Expect</h3>
+                <P class="designed-exerinence-content-body">The founders of Nozol are dedicated to producing quality products that meet and exceed client expectations. Each Pod has been designed with passion and to the highest international standards. It is understood that every project is unique
+                    and requires that special extra touch.</P>
+
+
                 <hr>
+
+
+
             </div>
             <div class="back-imgs">
                 <img class="bitmap-pattern" src="./static/images/Pattern-01.png" alt="">
                 <div class="gray-bitmap"></div>
-                <img class="bathroom" src="./static/images/BATHROOM.jpg" alt="">
-                <img class="bedroom" src="./static/images/BEDROOM_01.jpg" alt="">
+                <img class="bathroom" src="./static/images/Desert_Wide_croped_vertical.jpg" alt="">
+                <img class="bedroom" style="width: 250px;" src="./static/images/Shore_CB_croped_vertical.jpg" alt="">
             </div>
         </div>
     </div>
@@ -484,61 +482,17 @@
             <div class="back-imgs">
                 <img class="bitmap-pattern" src="./static/images/Pattern-01.png" alt="">
                 <!-- <div class="gray-bitmap"></div> -->
-                <img class="bedroom" src="./static/images/Shore_CB_croped.jpg" alt="">
-                <img class="bathroom" src="./static/images/Forest_croped.jpg" alt="">
+                <img class="bathroom" src="./static/images/Desert_Wide_croped_vertical.jpg" alt="">
+                <img class="bedroom" style="width: 400px;" src="./static/images/Cabin_Desert_2k.jpg" alt="">
             </div>
             <div class="designed-exerinence-content">
                 <p class="top-head">Welcome To
-                    <font>PREFAB<sup>&#169;</sup></font>
+                    <font>Nozol</font>
                 </p>
-                <h3>Lorem ipsum dolor sit amet, <br> consectetur</h3>
-                <P class="designed-exerinence-content-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor pellentesque neque, a ullamcorper nibh semper ac. Phasellus nec ipsum orci. Cras consectetur pellentesque sem scelerisque imperdiet.</P>
+                <h3>We Can Creat More Than You <br> Expect</h3>
+                <P class="designed-exerinence-content-body">The founders of Nozol are dedicated to producing quality products that meet and exceed client expectations. Each Pod has been designed with passion and to the highest international standards. It is understood that every project is unique
+                    and require.</P>
                 <a href="modals.html"><button class="slide-button slide_right">ORDER NOW</button></a>
-            </div>
-        </div>
-    </div>
-    <div class="been-there-container">
-        <div class="been-there-box">
-            <div class="been-there-bg-1"></div>
-            <div class="been-there-bg-2">
-                <div class="been-there-bg-2-gradient"></div>
-            </div>
-            <div class="been-there-content">
-                <h3>BEEN THERE..</h3>
-                <div class="been-there-quote">
-                    <div class="quote-signs">
-                        <svg class="Path" viewBox="224.15 6999 47.85 79.75">
-                            <path id="Path" d="M 272 7030.89990234375 L 248.07470703125 7030.89990234375 L 264.0249938964844 6998.99951171875 L 240.0997924804688 6998.99951171875 L 224.1495056152344 7030.89990234375 L 224.1495056152344 7078.75 L 272 7078.75 L 272 7030.89990234375 Z">
-                            </path>
-                        </svg>
-                        <svg class="Path" viewBox="224.15 6999 47.85 79.75">
-                            <path id="Path" d="M 272 7030.89990234375 L 248.07470703125 7030.89990234375 L 264.0249938964844 6998.99951171875 L 240.0997924804688 6998.99951171875 L 224.1495056152344 7030.89990234375 L 224.1495056152344 7078.75 L 272 7078.75 L 272 7030.89990234375 Z">
-                            </path>
-                        </svg>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor lobortis turpis sed maximus. Suspendisse sagittis porttitor molestie.</p>
-                </div>
-                <div class="been-there-team-members">
-                    <div class="been-there-team-member">
-                        <div id="been-there-team-member-img-1" class="been-there-team-member-img" onclick="changeHeadBg(0)">
-                            <img src="./static/images/Mask_ss.png" alt="">
-                        </div>
-                    </div>
-                    <div class="been-there-team-member">
-                        <div id="been-there-team-member-img-2" class="been-there-team-member-img" onclick="changeHeadBg(1)">
-                            <img src="./static/images/Mask_sw.png" alt="">
-                        </div>
-                    </div>
-                    <div class="been-there-team-member">
-                        <div id="been-there-team-member-img-3" class="been-there-team-member-img active" onclick="changeHeadBg(2)">
-                            <img src="./static/images/Mask_sz.png" alt="">
-                        </div>
-                        <div class="been-there-team-member-detail">
-                            <div>Mohammed Riyati</div>
-                            <div class="team-member-post">CEO at Nazco</div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -779,7 +733,6 @@
         changeHeadBg(1); //initializing from index 1 to show 2nd image first after page load
         // slideNextModelCarosulItem();
         doCarosulSlideShow();
-        
 
         function Redirect() {
             window.location.href = "index.html";
@@ -810,7 +763,7 @@
             var modelClosupImages = [
                 {
                     "id": "model-closup-preview",
-                    "imgPath": "./static/images/LIVING.jpg"
+                    "imgPath": "./static/images/omino_hotel_nozal.jpg"
                 },
                 {
                     "id": "model-closup-plan",
@@ -828,32 +781,6 @@
             var changeHeadBgTimeout;
             var images=new Array('','','','');
 
-
-            var currentModelCarosulItem=-1;
-            var modelCarosulItems = [
-                {
-                    "id": "model-carosul-item-1",
-                    "imgPath": "./static/images/Cabin_Desert_4to3.jpg"
-                },
-                {
-                    "id": "model-carosul-item-2",
-                    "imgPath": "./static/images/Shore_CB_4to3.jpg"
-                },
-                {
-                    "id": "model-carosul-item-3",
-                    "imgPath": "./static/images/Desert_cliff_4to3.jpg"
-                },
-                {
-                    "id": "model-carosul-item-4",
-                    "imgPath": "./static/images/Forest_2k_4to3.jpg"
-                },
-                {
-                    "id": "model-carosul-item-5",
-                    "imgPath": "./static/images/Forest_4to3.jpg"
-                }
-            ];
-
-
             $(document).click(function (e) {
                 if ($(e.target).parents(".alerts").length === 0 && document.getElementById('alerts')!=null) {
                     // $("#alerts").fadeOut();
@@ -862,8 +789,7 @@
                 }
             });
 
-            // doSlideshow();
-            changeHeadBg(0);
+            doSlideshow();
 
             function doSlideshow(){
                 if(nextimage>=pageHeadBgImages.length){nextimage=0;}
@@ -875,7 +801,7 @@
                     changeHeadBgTimeout = setTimeout(doSlideshow,3000);
                 });
 
-                $('.bg-slider-img-container').removeClass("active");
+                $('.bg-slider-img').removeClass("active");
                 $('#'+nextBgImageObj.id).addClass("active");
             }
 
@@ -885,11 +811,11 @@
                 $('.page-head-part')
                 .css('background-image','url("'+nextBgImageObj.imgPath+'")')
                 .fadeIn(500,function(){
-                    // clearTimeout(changeHeadBgTimeout);
-                    // changeHeadBgTimeout = setTimeout(doSlideshow,3000);
+                    clearTimeout(changeHeadBgTimeout);
+                    changeHeadBgTimeout = setTimeout(doSlideshow,3000);
                 });
 
-                $('.bg-slider-img-container').removeClass("active");
+                $('.bg-slider-img').removeClass("active");
                 $('#'+nextBgImageObj.id).addClass("active");
             }
 
@@ -903,69 +829,6 @@
                 $('.model-closup-tab').removeClass("active");
                 $('#'+nextBgImageObj.id).addClass("active");
             }
-
-            slideNextModelCarosulItem();
-
-            function slideNextModelCarosulItem(){
-                if(currentModelCarosulItem<modelCarosulItems.length-1){
-                    console.log(currentModelCarosulItem);
-                    var nextItemObj = modelCarosulItems[++currentModelCarosulItem];
-                    $("#model-carosul-item-active img")
-                    .attr("src", nextItemObj.imgPath)
-                    .fadeIn(500);
-
-                    $('.carosul-slider div').removeClass("active");
-                    $('#model-carosul-item-slider-'+(currentModelCarosulItem+1)).addClass("active");
-
-                    console.log(currentModelCarosulItem);
-                    if(currentModelCarosulItem<modelCarosulItems.length-1) {
-                        $("#model-carosul-item-hidden").css("display", "block");
-
-                        var hiddenCarosulItemIdx = currentModelCarosulItem+1;
-                        console.log(hiddenCarosulItemIdx);
-                        var hiddenItemObj = modelCarosulItems[hiddenCarosulItemIdx];
-                        console.log(hiddenItemObj);
-                        $("#model-carosul-item-hidden img")
-                        .attr("src", hiddenItemObj.imgPath)
-                        .fadeIn(500);
-                    }
-                    else {
-                        $("#model-carosul-item-hidden img")
-                        .attr("src", "");
-                        $("#model-carosul-item-hidden").css("display", "none");
-                    }
-                }
-            }
-
-
-            function slidePrevModelCarosulItem(){
-                if(currentModelCarosulItem>0){
-                    var nextItemObj = modelCarosulItems[--currentModelCarosulItem];
-                    $("#model-carosul-item-active img")
-                    .attr("src", nextItemObj.imgPath)
-                    .fadeIn(500);
-
-                    $('.carosul-slider div').removeClass("active");
-                    $('#model-carosul-item-slider-'+(currentModelCarosulItem+1)).addClass("active");
-
-                    if(currentModelCarosulItem<modelCarosulItems.length-1) {
-                        $("#model-carosul-item-hidden").css("display", "block");
-
-                        var hiddenCarosulItemIdx = currentModelCarosulItem+1;
-                        var hiddenItemObj = modelCarosulItems[hiddenCarosulItemIdx];
-                        $("#model-carosul-item-hidden img")
-                        .attr("src", hiddenItemObj.imgPath)
-                        .fadeIn(500);
-                    }
-                    else {
-                        $("#model-carosul-item-hidden img")
-                        .attr("src", "");
-                        $("#model-carosul-item-hidden").css("display", "none");
-                    }
-                }
-            }
-
-
 
             function myMap() {
                 var mapProp = {
@@ -1010,7 +873,7 @@
 
             
         </script> -->
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </body>
 
 </html>
