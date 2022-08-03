@@ -48,57 +48,62 @@
             }
         }
     </style>
+     <script>
+        function Home() {
+            window.location.href = "index.php";
+        }
+    </script>
 </head>
 
 <body>
     <?php 
-            if(!empty($_REQUEST['alert']) && $_REQUEST['alert']==1){
-        ?>
-        <div id="alerts" class="alerts">
-            <?php 
-                if(!empty($_REQUEST['mail_success']) && $_REQUEST['mail_success']==1){
-            ?>
-            <div id="success-alert-model" class="model-box success-alert">
-                <div class="model-icon">
-                    <i class="fa fa-check" aria-hidden="true"></i>
-                </div>
-                <div class="model-header">
-                    <h3> Thank you for your response </h3>
-                </div>
-                <div class="model-content">
-                    <p>Message sent successfully! We will be in touch with you soon!!</p>    
-                </div>
-                <div class="model-footer">
-                    <button class="btn btn-success" onclick="hideModel()">Okay</button>
-                </div>
-            </div>
-            <?php
-                }
-            ?>
-            <?php 
-                if(!empty($_REQUEST['mail_failure']) && $_REQUEST['mail_failure']==1){
-            ?>
-            <div id="error-alert-model" class="model-box error-alert">
-                <div class="model-icon">
-                    <i class="fa fa-times" aria-hidden="true"></i>
-                </div>
-                <div class="model-header">
-                    <h3> Failed </h3>
-                </div>
-                <div class="model-content">
-                    <p>Failed to send message! Please reach us on support@prefab.com for any query</p>    
-                </div>
-                <div class="model-footer">
-                    <button class="btn btn-danger" onclick="hideModel()">Okay</button>
-                </div>
-            </div>
-            <?php
-                }
-            ?>
+    if(!empty($_REQUEST['alert']) && $_REQUEST['alert']==1){
+?>
+<div id="alerts" class="alerts">
+    <?php 
+        if(!empty($_REQUEST['mail_success']) && $_REQUEST['mail_success']==1){
+    ?>
+    <div id="success-alert-model" class="model-box success-alert">
+        <div class="model-icon">
+            <i class="fa fa-check" aria-hidden="true"></i>
         </div>
-        <?php
-            }
-        ?>
+        <div class="model-header">
+            <h3> Thank you for your response </h3>
+        </div>
+        <div class="model-content">
+            <p>Message sent successfully! We will be in touch with you soon!!</p>    
+        </div>
+        <div class="model-footer">
+            <button class="btn btn-success" onclick="hideModel()">Okay</button>
+        </div>
+    </div>
+    <?php
+        }
+    ?>
+    <?php 
+        if(!empty($_REQUEST['mail_failure']) && $_REQUEST['mail_failure']==1){
+    ?>
+    <div id="error-alert-model" class="model-box error-alert">
+        <div class="model-icon">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <div class="model-header">
+            <h3> Failed </h3>
+        </div>
+        <div class="model-content">
+            <p>Failed to send message! Please reach us on support@prefab.com for any query</p>    
+        </div>
+        <div class="model-footer">
+            <button class="btn btn-danger" onclick="hideModel()">Okay</button>
+        </div>
+    </div>
+    <?php
+        }
+    ?>
+</div>
+<?php
+    }
+?>
     <div id="sidebar-container" class="sidebar-container" onClick="toggleSidebar()">
         <div class="sidebar">
             <div class="close-btn-container">
@@ -108,7 +113,7 @@
             </div>
             <div class="menu-bars">
                 <div id="left-menu-bar" class="left-menu-bar">
-                    <a href="index.html" class="menu">
+                    <a href="index.php" class="menu">
                             HOME
                         </a>
                     <a href="modals.html" class="menu">
@@ -120,7 +125,7 @@
                     <a href="#" class="menu">
                             BLOGS
                         </a>
-                    <a href="contact.html" class="menu">
+                    <a href="contact.php" class="menu">
                             CONTACTS
                         </a>
                 </div>
@@ -158,7 +163,7 @@
                     <div class="font-weight-bold">B</div>
                 </div> -->
             <div class="logo">
-                <img src="./static/images/logo.png" alt="" class="logoimg" onclick="Redirect()">
+                <img src="./static/images/logo.png" alt="" class="logoimg" onclick="Home()">
             </div>
             <div class="header-right">
                 <div class="lang-bx">AR</div>

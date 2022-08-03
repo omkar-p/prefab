@@ -1521,7 +1521,7 @@
         }
 
         function Redirect() {
-            window.location.href = "index.html";
+            window.location.href = "index.php";
         }
 
         function Topmodal() {
@@ -1543,7 +1543,7 @@
             </div>
             <div class="menu-bars">
                 <div id="left-menu-bar" class="left-menu-bar">
-                    <a href="index.html" class="menu">
+                    <a href="index.php" class="menu">
                         HOME
                     </a>
                     <a href="modals.html" class="menu">
@@ -1555,7 +1555,7 @@
                     <a href="#" class="menu">
                         BLOGS
                     </a>
-                    <a href="contact.html" class="menu">
+                    <a href="contact.php" class="menu">
                         CONTACTS
                     </a>
                 </div>
@@ -1611,18 +1611,18 @@
                                 <p class="card-text text1">Personal Information</p>
                                 <p class="card-text text2">Type your personal information to contact with you</p>
 
-                                <form action="" class="row" autocomplete="off">
+                                <form action="checkout-us.php" class="row" autocomplete="off" method="POST">
                                     <div class="col-12 mb-3">
-                                        <input type="text" class="form-control form-control2" name="name" id="Name" placeholder="Full Name" autofocus required>
+                                        <input type="text" class="form-control form-control2" name="name" id="" placeholder="Full Name" autofocus required>
                                     </div>
                                     <div class="col-12 mb-3">
-                                        <input type="email" class="form-control form-control2" name="email" id="Email" placeholder="Email" required>
+                                        <input type="email" class="form-control form-control2" name="email" id="" placeholder="Email" required>
                                     </div>
                                     <div class="col-12 mb-3">
-                                        <input type="text" class="form-control form-control2" name="number" id="Number" placeholder="Mobile No" required>
+                                        <input type="text" class="form-control form-control2" name="number" id="" placeholder="Mobile No" required>
                                     </div>
                                     <div class="col-12 mb-3">
-                                        <select class="form-select form-select2" aria-label="Default select example" required>
+                                        <select class="form-select form-select2" aria-label="Default select example" name="city" required>
                                             <option selected disabled>City</option>
                                             <option value="Abha">Abha</option>
                                                         <option value="Abqaiq">Abqaiq</option>
@@ -1657,7 +1657,7 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="d-grid gap-2">
-                                            <button class="Orderbtn" type="submit" value="submit" data-bs-toggle="modal" data-bs-target="#staticBackdrop" name="submit">Order Now</button>
+                                            <button class="Orderbtn" type="submit" value="submit" name="submit">Order Now</button>
                                             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                                                 <div class="modal-dialog modal-dialog-centered">
                                                     <div class="modal-content">
@@ -1678,7 +1678,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </form>
+                                <!-- </form> -->
 
                                 <p class="card-text text3">After verifying the validity of the data, we will contact you directly as soon as possible to follow up on the order process</p>
                             </div>
@@ -1696,13 +1696,13 @@
                                             <p class="pt-1">*Price based on selections bellow.</p>
                                         </div>
                                         <div class="clear"></div>
-                                        <form>
+                                        <!-- <form method="POST"> -->
                                             <div class="row mb-3">
                                                 <div class="col-12">
                                                     <label for="exampleInputEmail1" class="form-label card2label">Dates</label>
                                                 </div>
                                                 <div class="col-12 input-group">
-                                                    <input type="date" class="form-control form-control1" id="Date" aria-describedby="emailHelp">
+                                                    <input type="date" class="form-control form-control1" id="Date" name="date" aria-describedby="emailHelp">
                                                 </div>
 
                                             </div>
@@ -1711,7 +1711,7 @@
                                                     <label for="exampleInputEmail1" class="form-label card2label">Quantity</label>
                                                 </div>
                                                 <div class="col-12 input-group">
-                                                    <input type="text" class="form-control form-control1" id="Quantity" aria-describedby="emailHelp" value="0" onkeyup="Change()">
+                                                    <input type="text" class="form-control form-control1" id="Quantity" name="quantity" aria-describedby="emailHelp" value="0" onkeyup="Change()">
                                                     <span class="input-group-text" id="basic-addon1">
                                                         <div class="sapndiv1 pe-2"><i class="fa fa-minus minus" aria-hidden="true" id="minus" onclick="minus()"></i></div>
                                                         <div class="sapndiv2" id="Values">0</div>
@@ -1724,7 +1724,7 @@
                                                     <label for="exampleInputEmail1" class="form-label card2label">Location</label>
                                                 </div>
                                                 <div class="col-12 input-group">
-                                                    <select class="form-select form-select1" id="Location">
+                                                    <select class="form-select form-select1" id="Location" name="location">
                                                         <option selected hidden>City</option>
                                                         <option value="Abha">Abha</option>
                                                         <option value="Abqaiq">Abqaiq</option>

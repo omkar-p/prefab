@@ -88,14 +88,15 @@
         }
     </style>
     <script>
-        function Redirect() {
-            window.location.href = "index.html";
+        function Home() {
+            window.location.href = "index.php";
         }
     </script>
 </head>
 
 <body>
-    <?php 
+   
+<?php 
             if(!empty($_REQUEST['alert']) && $_REQUEST['alert']==1){
         ?>
         <div id="alerts" class="alerts">
@@ -152,7 +153,7 @@
             </div>
             <div class="menu-bars">
                 <div id="left-menu-bar" class="left-menu-bar">
-                    <a href="index.html" class="menu">
+                    <a href="index.php" class="menu">
                             HOME
                         </a>
                     <a href="modals.html" class="menu">
@@ -164,7 +165,7 @@
                     <a href="#" class="menu">
                             BLOGS
                         </a>
-                    <a href="contact.html" class="menu">
+                    <a href="contact.php" class="menu">
                             CONTACTS
                         </a>
                 </div>
@@ -202,7 +203,7 @@
                     <div class="font-weight-bold">B</div>
                 </div> -->
             <div class="logo">
-                <img src="./static/images/logo.png" alt="" class="logoimg" onclick="Redirect()">
+                <img src="./static/images/logo.png" alt="" class="logoimg" onclick="Home()">
             </div>
             <div class="header-right">
                 <div class="lang-bx">AR</div>

@@ -1,40 +1,46 @@
 <?php
-    if(isset($_POST['sendMessage'])){
-        $issue = $_POST['issue'];
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $description = $_POST['description'];
-        $from = 'omkarpatil843@gmail.com';
-        $to = 'omkarpatil843@gmail.com';
-        $subject = "Enquiry Recieved";
-        $message = "<html><body>";
-        $message .= "<h3 style='color:#30312d;'>Hi! New Enquiry Recieved!!!</h3>";
-        $message .= "<br><br>";
-        $message .= "<p style='color:#000;'><b>From:</b> $name</p>";
-        $message .= "<p style='color:#000;'><b>Email:</b> $email</p>";
-        $message .= "<p style='color:#000;'><b>Issue:</b> $issue</p>";
-        $message .= "<p style='color:#000;'><b>Description:</b> $description</p>";
-        $message .= "</body></html>";
+    extract($_POST);
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
 
-        // To send HTML mail, the Content-type header must be set
-        $headers  = 'MIME-Version: 1.0' . "\r\n";
-        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    require './PHPMailer-master/src/Exception.php';
+    require './PHPMailer-master/src/PHPMailer.php';
+    require './PHPMailer-master/src/SMTP.php';
 
-        // Create email headers
-        $headers .= 'From: '.$from."\r\n".
-        'Reply-To: '.$email."\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+    $mail = new PHPMailer(true);
 
-        // echo strval($issue)." ".strval($name)." ".strval($email)." ".strval($description);
+try {
+    //Server settings
+   // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
+    $mail->isSMTP();                                            //Send using SMTP
+    $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+    $mail->Username   = 'sagirk900@gmail.com';                     //SMTP username
+    $mail->Password   = 'zuhzsokiiburehes';                               //SMTP password
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-        // ini_set('SMTP', 'smtp.gmail.com');
-        // ini_set('smtp_port', '587');
-        // ini_set('sendmail_path', 'C:\xampp\sendmail\sendmail.exe');
-        if(mail($to, $subject, $message, $headers)){
-            header("Location: index.php?alert=1&mail_success=1");
-        }
-        else {
-            header("Location: index.php?alert=1&mail_failure=1");
-        }
-    }
+    //Recipients
+    $mail->setFrom('sagirk900@gmail.com', 'Mailer');
+    $mail->addAddress('admin@prefab.sa', 'Admin');     //Add a recipient
+
+
+    //Attachments
+    //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
+    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    //Optional name
+
+    //Content
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = 'Enquirey';
+    $mail->Body    = 'Name :'.$name.', Email :'.$email.', Description :'.$description;
+    
+
+    $mail->send();
+    echo ("<script LANGUAGE='JavaScript'>
+    window.alert('Message sent successfully! We will be in touch with you soon!!');
+    window.location.href='index.php';
+    </script>");
+} catch (Exception $e) {
+    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}
 ?>
