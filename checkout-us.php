@@ -22,7 +22,7 @@ try {
 
     //Recipients
     $mail->setFrom('sagirk900@gmail.com', 'Mailer');
-    $mail->addAddress('sagirk900@gmail.com', 'Joe User');     //Add a recipient
+    $mail->addAddress('admin@prefab.sa', 'Joe User');     //Add a recipient
 
 
     //Attachments
