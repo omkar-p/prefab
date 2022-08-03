@@ -22,7 +22,7 @@ try {
 
     //Recipients
     $mail->setFrom('sagirk900@gmail.com', 'Mailer');
-    $mail->addAddress('admin@prefab.sa', 'Admin');     //Add a recipient
+    $mail->addAddress('sagirk900@gmail.com', 'Joe User');     //Add a recipient
 
 
     //Attachments
@@ -32,7 +32,7 @@ try {
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'Enquirey';
-    $mail->Body    = 'Name :'.$name.', Email :'.$email.', Description :'.$description;
+    $mail->Body    = 'Name :'.$name.', Email :'.$email.', Number :'.$number.', City :'.$city.', Dates :'.$date.', Quantity :'.$quantity.', Location :'.$location;
     
 
     $mail->send();
